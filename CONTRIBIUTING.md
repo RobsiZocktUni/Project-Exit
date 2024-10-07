@@ -1,13 +1,10 @@
 ## **DO NEVER EVER COMMIT TO THE MAIN BRANCH, ALWAYS JUSE PULL REQUESTS**
 
 ## Branch naming scemes
-	
+TAGs:
 wip 		Works in progress; stuff I know won't be finished soon
-
 feat		Feature I'm adding or expanding
-
 bug		    Bug fix or experiment
-
 junk		Throwaway branch created to experiment
 
 ```
