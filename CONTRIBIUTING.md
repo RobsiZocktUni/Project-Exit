@@ -1,6 +1,6 @@
 ## **DO NEVER EVER COMMIT TO THE MAIN BRANCH, ALWAYS JUSE PULL REQUESTS**
 
-##Branch naming scemes
+## Branch naming scemes
 	
 wip 		Works in progress; stuff I know won't be finished soon
 feat		Feature I'm adding or expanding
