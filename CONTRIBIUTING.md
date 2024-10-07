@@ -6,10 +6,10 @@ TAG + Name creator + issue Nr.(if available)
 ```
 
 TAGs:\
-wip 		Works in progress; stuff I know won't be finished soon\
-feat		Feature I'm adding or expanding\
-bug		    Bug fix or experiment\
-junk		Throwaway branch created to experiment
+wip         Works in progress; stuff I know won't be finished soon\
+feat        Feature I'm adding or expanding\
+bug         Bug fix or experiment\
+junk        Throwaway branch created to experiment
 
 
 
