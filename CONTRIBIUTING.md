@@ -4,9 +4,12 @@
 	
 wip 		Works in progress; stuff I know won't be finished soon
 feat		Feature I'm adding or expanding
-bug		Bug fix or experiment
+bug		    Bug fix or experiment
 junk		Throwaway branch created to experiment
 
+```
+TAG + Name creator + issue Nr.(if available)
+```
 
 *a detailed guide on how to contribute, push and how to work on this project*
 
