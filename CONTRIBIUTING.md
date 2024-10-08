@@ -1,4 +1,5 @@
 # **DO NEVER EVER COMMIT TO THE MAIN BRANCH, ALWAYS USE PULL REQUESTS**
+## **PLEASE DO NOT PULL YOUR OWN REQUESTS**
 
 
  ### Commits
@@ -11,14 +12,18 @@ when commiting your code, please make sure to ad a detailed but brief descriptio
 ### Branch naming scemes
 to make it clear who is working on wich branch, and to further clarify what they are working on, please use the following naming system:
 ```
-TAG + Name creator + issue Nr.(if available)
+Name of creator(real name)-TAG-issue Nr.(if available) else use a numeric counter
 ```
-
+example:
+creating a branch that adresses something mentioned in issue #3 and is ready to be merged to main branch
+```
+Lennart-Hartmann-patch-#3
+```
 
 |TAG|description|
 |--|--|
 |wip|Works in progress; stuff I know won't be finished soon  |
-|feat|Feature I'm adding or expanding  |
+|patch|Feature/patch I'm adding or expanding  |
 |bug| Bug fix or experiment|
 |junk| Throwaway branch created to experiment|
 
