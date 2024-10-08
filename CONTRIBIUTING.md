@@ -3,7 +3,8 @@
 
 
  ### Commits
-when commiting your code, please make sure to ad a detailed but brief description of what you did and why you did it.
+When commiting your code, please make sure to ad a detailed but brief description of what you did and why you did it.
+Please only commit one file at once (exeption: files are closely related eg. header and cpp files)
 
 *example will be added in a future commit if nessesary*
 *for further information and ideas check out [cbeams](https://cbea.ms/git-commit/) take*
