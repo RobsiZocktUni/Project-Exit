@@ -1,104 +1,93 @@
-# Unity: 2022.3.49f1
+# Unity version to use: 2022.3.49f1
 
-## Sprache
-english
+## Language
+english as the general language to use while working on this project
 
 
-## Allgemein:
-- Escape room als Grundelement
--> Rätsel
-- 3D first person Ansicht
-- kamera ist bewegbar
-- Psycho Horror 
--> Gefühl, man wird verfolgt/beobachtet
-- Low Poly und/oder Pixel Optik (8 bzw 16bit filter?)
+## General:
+- Escape room as basic element
+-> Puzzles
+- 3D first person view
+- camera is movable
+- Psycho horror 
+-> feeling of being followed/observed
+- Low poly and/or pixel optics (8 or 16bit filter?)
 
 ## Gameplay
-- Bewegung durch 3D Umgebung
--> einfache Steuerung und Verständnis der Grundmechaniken
-- Steuerung mit Maus und Tastatur (kein Controller support geplant)
-- Interaktion mit Gegenständen/Objekten durch Mausklick
-- Zusammenfügen von Objekten
-- Rätselmechaniken auch durch Maus und Tastatur (WASD und Zahlen)
-
-## Location & Szenerie:
-- Altes "verlassenens" Haus/Wohnung mitten im Nirgendwo (grundriss bzw ersteindruck existent)
-- An sich alte/gruselige Szenerie mit modernen Aspekten
- -> z.B. random PC mit Dokumenten über das Anwesen
-- gruselige Aspekte können durch die Umgebung sowie nicht erklärbaren Gegebenheiten entstehen
-- verwinkelte räume, enge, labyrinth artige gänge (kontrasst großer raum)
--  viewloading / pos detect um räume zu verändern
-- raum auf dem kopf
-### Räume
-- küche mit verfaultem essen
-- raum in dem evtl noch jmd lebt, kontrasst zu rest von map
-- natur mit räumen verbingen (eis, sumpf, wald)
-### Atmos
--**sound**
--lighting->helle und dunkle stellen, day night cycle, farbtheorie
--raum hell, raum dahinter dunkel, mit leuchtenden details
--oillampe, kerze
-- puppen
-
-### Artstyle
--low poly
--16 bin filter
-
-## Fragen:
-- Weitere Ideen für Szenerie/Lovation?
-- Ideen fürs Spielprinzip?
-- Aufbau/Beschreibung des Gameloops?
-
-# TOCATEGORIZE
--keine story bis jz
--"laborelemtene"
--erwetierung wihung auf haus
--scrums
--pot. freitags bei tim für unity
-- wenn storry idee, jeder trägt bei -> durch ausschluss dann was im game bleibt
--nicht zwingend alles erklären
--shared online mindmap
-
-## Grobe Rollenverteilung 
-
-jasi: art modellieren\
-jonas: programmieren, inventar, 2d movement, gegnercoding\
-franziska: modellieren, \
-lena: programmieren; maybe storry,event scripting, lighting\
-henni: programmieren; PJM; mybe story, char movement/interaktion
-
-### zu verteilende Rollen
-- mod
-- art
-- movement
-- rätsel
-- inv
-- day night cylce event triger or time coded
-
-# gameloop
-## sprint ideas
--ohne fighting
--gefühl verfolgt zu werden
--keine existenten gegner
--sachen können umfliegen
--wenig jumpscares
+- Movement through 3D environment
+-> simple controls and understanding of the basic mechanics
+- Control with mouse and keyboard (no controller support planned)
+- Interaction with items/objects by mouse click
+- Joining objects together
+- Puzzle mechanics controllable by mouse and keyboard (WASD and numbers)
+- inside system, things / objects etc change by finding items
+- turn on tv, static picture -> other part of the level changes
+## gameloop
+### stormed ideas
+- without fighting
+- feeling of being chased
+- no existing opponents
+- things can fly around
+- few jumpscares
 ### jumpscares
-- raum betreten -> auftreten von zb kratzspuren, blut, ohne grund
-
-
+- enter room -> appearance of e.g. scratch marks, blood, for no reason
 ## story
-- mensch entwickelt virus, will menschheit auslöschen
-- komische puppe die redet (einzelteile finden)(pot puzzle)
-- inside system, sachen / objecte etc verändern sich, indem man items findet
-- flucht nur side story
-- betreten haus bei tag, wird phmmächtig, haus komplett verranz, etc
-- fernser anmachen, statisches bild -> anderer teil im level verändert sich
+- human develops virus, wants to wipe out humanity
+- strange doll that talks (find individual parts)(pot puzzle)
+- escape is only a side story
+- enter house by day, becomes phmmighty, house completely wreathed, etc
+- no story telling planed as of now
+- if story idea, everyone contributes -> by exclusion then what remains in the game
 
-## mittwochs treffen
+## Location & scenery:
+- potential upgrading to an entire house house
+- Old “abandoned” house/apartment in the middle of nowhere (floor plan or first impression exists)
+- Actually old/creepy scenery with modern aspects
+ -> e.g. random PC with documents about the property
+- creepy aspects can be created by the surroundings and inexplicable circumstances
+- winding rooms, narrow, labyrinth-like corridors (contrasts large room)
+- viewloading / pos detect to change rooms
+- room upside down
+- “laborelemtene”
+- not necessarily explain everything
+### rooms
+- kitchen with rotten food
+- room where someone may still live, contrasts with the rest of the map
+- connect nature with rooms (ice, swamp, forest)
+### Atmos
+- **sound**
+- lighting->bright and dark places, day night cycle, color theory
+- room bright, room behind dark, with glowing details
+- oil lamp, candle
+### Artstyle
+- low poly
+- 16 bin filter
 
 
+
+## meetings
+- scrums on wednesdays
+- pot. fridays with tim for unity
+- shared online mindmap(to be created)
 
 #### sounds
-- atemgeräusche
-- kinderweinen
-- objekte können atmen
+- breathing sounds
+- children crying
+- objects can breathe
+
+# Internal organisation
+
+## Rough distribution of roles 
+jasi: art modeling\
+jonas: programming, inventory, 2d movement, enemy coding\
+franziska: modeling, \
+lena: programming; maybe storry,event scripting, lighting\
+henni: programming; PJM; mybe story, char movement/interaction
+
+### Roles to be assigned
+- modeling
+- art
+- movement
+- puzzle
+- inventory
+- day night cylce event triger or time coded
