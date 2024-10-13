@@ -11,8 +11,8 @@ for notes on deploying the project on a live system.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- Unity (version following)
-- Wwise(for all audio work, version following)
+- Unity 2022.3.49f1
+- Wwise (for all audio work, version following)
 
 ### Installing
 
