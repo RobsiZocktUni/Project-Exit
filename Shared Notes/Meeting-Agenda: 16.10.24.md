@@ -1,2 +1,7 @@
-- Important:
-  -> 
+# Important talkpoints:
+
+- Distribution of roles
+- 
+
+
+
