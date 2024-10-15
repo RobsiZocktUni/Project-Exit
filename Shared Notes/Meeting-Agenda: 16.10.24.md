@@ -4,7 +4,7 @@
 - Distribution of roles (who works on puzzles)  
 => planned:  
 Jasi: Art and modelling   
-Franciska: modelling  
+Franziska: modelling  
 Jonas: programming; inventory, 2D movement, (enemy coding)  
 Lena: programming; event scripting, lightning; maybe story  
 Henni: project management; programming; character movement, character interaction; maybe story  
