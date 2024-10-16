@@ -1,8 +1,9 @@
 # **DO NEVER EVER COMMIT TO THE MAIN BRANCH, ALWAYS USE PULL REQUESTS**
 ## **PLEASE DO NOT PULL YOUR OWN REQUESTS**
 
-
- ### Commits
+### File names
+Please do not include ':' in your file names, it will trigger the NTFS filesystem protection of Github. Why i do not know.
+### Commits
 When commiting your code, please make sure to ad a detailed but brief description of what you did and why you did it.
 Please only commit one file at once (exeption: files are closely related eg. header and cpp files)
 
