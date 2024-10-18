@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\assets\\items\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\items\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|e:\\unni\\semester 3\\gameengineering\\project exit\\assets\\items\\keyitemexample\\cube\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\items\\keyitemexample\\cube\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|e:\\unni\\semester 3\\gameengineering\\project exit\\assets\\inventory\\ui\\toggleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\inventory\\ui\\toggleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\assets\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\assets\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|e:\\unni\\semester 3\\gameengineering\\project exit\\assets\\pickuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F211BEA-A313-6483-3423-01D0F63CEFE9}|Assembly-CSharp.csproj|solutionrelative:assets\\pickuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PickupTest.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\PickupTest.cs",
+              "RelativeDocumentMoniker": "Assets\\PickupTest.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\PickupTest.cs",
+              "RelativeToolTip": "Assets\\PickupTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:21:06.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToggleInventory.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Inventory\\Ui\\ToggleInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Inventory\\Ui\\ToggleInventory.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Inventory\\Ui\\ToggleInventory.cs",
+              "RelativeToolTip": "Assets\\Inventory\\Ui\\ToggleInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:25:57.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Items\\Item.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\Item.cs",
+              "RelativeToolTip": "Assets\\Items\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:42:10.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\KeyItemExample\\Cube\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\Items\\KeyItemExample\\Cube\\Cube.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\KeyItemExample\\Cube\\Cube.cs",
+              "RelativeToolTip": "Assets\\Items\\KeyItemExample\\Cube\\Cube.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:37:18.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Items\\KeyItem.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Items\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Items\\KeyItem.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:34:38.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Inventory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Inventory\\InventoryManager.cs",
+              "ToolTip": "E:\\Unni\\Semester 3\\GameEngineering\\Project Exit\\Assets\\Inventory\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Inventory\\InventoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:33:59.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
