@@ -1,0 +1,17 @@
+# Timestamp
+
+19.10.2024:  
+- first person player: implementation of character and camera movement
+
+26.10.2024:
+- first person player: adding a slider for mouse movement
+
+
+
+
+
+
+## Source references
+- First Person Player Movement: https://www.youtube.com/watch?v=_QajrabyTJc
+- Slider for mouse sensitivity: https://www.youtube.com/watch?v=h9beyqPe3jY
+- GDD references: lecture documents for Game Design by Rene Bühling
