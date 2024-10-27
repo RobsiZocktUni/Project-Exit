@@ -57,7 +57,7 @@ public abstract class KeyItem : MonoBehaviour
 
     public virtual void EnableComponents(Transform parent)
     {
-        foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Disables all components exept the Script "KeyItem" on the current Object
+        foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Enables all components exept the Script "KeyItem" on the current Object
         {
             if (item == this)
             {
