@@ -19,9 +19,10 @@ public abstract class KeyItem : MonoBehaviour
     {
         InventoryManager = GameObject.Find("GameManager").GetComponent<InventoryManager>();
     }
-    public virtual void Pickup() // Do not use this function directly. Use InventoryManager.AddItem instead.
+    public virtual void Pickup(Transform parent) // Do not use this function directly. Use InventoryManager.AddItem instead.
     {
-        foreach (var item in this.transform.GetComponents<UnityEngine.Component>()) // Enables all components of the object
+
+        foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Disables all components of the object
         {
             if (item is Rigidbody)
             {
@@ -40,12 +41,23 @@ public abstract class KeyItem : MonoBehaviour
                 ((Renderer)item).enabled = false;
             }
         }
+
+        foreach (Transform child in parent)     // Disables all components of the objects children
+        {
+            Pickup(child);
+        }
+
     }
 
     public virtual void Drop(Vector3 dropCoordinates) // Do not use this function directly. Use InventoryManager.DropItem instead.
     {
         this.transform.position = dropCoordinates;
-        foreach (var item in this.transform.GetComponents<UnityEngine.Component>()) // Disables all components exept the Script "KeyItem" on the current Object
+        EnableComponents(this.transform);
+    }
+
+    public virtual void EnableComponents(Transform parent)
+    {
+        foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Disables all components exept the Script "KeyItem" on the current Object
         {
             if (item == this)
             {
@@ -67,7 +79,12 @@ public abstract class KeyItem : MonoBehaviour
             {
                 ((Renderer)item).enabled = true;
             }
-            
+
+        }
+
+        foreach (Transform child in parent) //Enables them for all childreen too
+        {
+            EnableComponents(child);
         }
     }
 
