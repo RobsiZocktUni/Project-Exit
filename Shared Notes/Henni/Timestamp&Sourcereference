@@ -1,16 +1,20 @@
 # Timestamp
-~ Week 13-20.10:
+~ Week 13-20.10.2024:
 19.10.2024:  
 - first person player: implementation of character and camera movement
 
-~ Week 21-27: 
+~ Week 21-27.10.2024: 
 22.10.2034:
 - GDD: started working on GDD; Adding: "Essenz, Winning Condition and Alleinstellungsmerkmale"
 24.10.2024:
 - GDD: Adding: "Kurzfassung and Zielgruppe
 26.10.2024:
 - first person player: adding a slider for mouse movement
-- character interaction: open a door with a key; DevRoom
+
+~ Week 28.10-03.11.2024:
+29.10.2024:
+- first person player: adding sprint button to movement
+- first person player: adding crouch movement
 
 
 
