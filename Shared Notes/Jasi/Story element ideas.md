@@ -1,6 +1,6 @@
 # Story Elements
 
-Have a Villan who wants to destroy humankind (by Virus)
+### Have a Villan who wants to destroy humankind (by Virus)
 
 - A nemesis of the Main Character
 - Lab aspects with a HI-Tech room
@@ -21,7 +21,7 @@ Have a Villan who wants to destroy humankind (by Virus)
 - Destroying the virus could be what sets it free in the first place (possibility for sequel)
 
 
-Porcelain Doll
+### Porcelain Doll
 
 - MC visits lost Places
 - Druing the Game the Player can find a Dollhead which belongs to a ball jointed porcekain Doll
