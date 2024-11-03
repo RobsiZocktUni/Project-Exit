@@ -25,8 +25,8 @@
 
 #### work planning
 - Henni: GDD; programming character Movement (adding sensitivity slider and control scheme) and first puzzle
-- Jasmin: Story; modelling and texturing furniture; modelling matches
+- Jasmin: Story; modelling and texturing furniture; modelling
 - Jonas: programming character interaction (picking up the object and combining the items); searching for 16-Bit Filter
-- Franziska: texturing room and furniture; modelling candle
+- Franziska: texturing room and furniture; modelling 
 - Lena: adding light to the Location
 - Lennart: sounddesign and vibin (footsteps, keysound, burning candle)
