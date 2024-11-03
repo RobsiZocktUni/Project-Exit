@@ -16,6 +16,11 @@ public class PickupTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (MainCamera == null)
+        {
+            MainCamera = Camera.main;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
@@ -25,6 +30,11 @@ public class PickupTest : MonoBehaviour
                 {
                     InventoryManager.Instance.AddItem(hit.collider.gameObject.GetComponent<KeyItem>());
                 }
+                if (hit.collider.gameObject.GetComponent<InteractableObject>())
+                {
+                    hit.collider.gameObject.GetComponent<InteractableObject>().Interact();
+                }
+
             }
         }
     }

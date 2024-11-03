@@ -1,0 +1,29 @@
+# Timestamp
+~ Week 13-20.10.2024:
+19.10.2024:  
+- first person player: implementation of character and camera movement
+
+~ Week 21-27.10.2024: 
+22.10.2034:
+- GDD: started working on GDD; Adding: "Essenz, Winning Condition and Alleinstellungsmerkmale"
+24.10.2024:
+- GDD: Adding: "Kurzfassung and Zielgruppe
+26.10.2024:
+- first person player: adding a slider for mouse movement
+
+~ Week 28.10-03.11.2024:
+29.10.2024:
+- first person player: adding sprint button to movement
+- reworking first person player: character and camera movement
+01.11.2024:
+- reworking first person player: adding sprint button and crouch button
+
+
+
+
+## Source references
+- First Person Player Movement: https://www.youtube.com/watch?v=_QajrabyTJc
+  https://www.youtube.com/watch?v=2FTDa14nryI&t=1058s
+  
+- Slider for mouse sensitivity: https://www.youtube.com/watch?v=h9beyqPe3jY
+- GDD references: lecture documents for Game Design by Rene Bühling
