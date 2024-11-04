@@ -4,9 +4,10 @@ Name nicht final, **alle** Dateien sind aktuell nur Platzhalter und Templates.
 
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+all project work will be done in 
+
+    Project Exit/Assets/MainScene.unity
+
 
 ### Prerequisites
 
