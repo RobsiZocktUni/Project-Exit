@@ -19,6 +19,6 @@ public class ToggleInventory : MonoBehaviour
     }
     private void Start()
     {
-        Inventory = GameObject.Find("Inventory");
+        Inventory = GameObject.Find("Ui").transform.Find("Inventory").gameObject;
     }
 }
