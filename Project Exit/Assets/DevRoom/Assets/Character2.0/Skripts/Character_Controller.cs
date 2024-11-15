@@ -53,6 +53,10 @@ public class Character_Controller : MonoBehaviour
 
     private float rotationX = 0.0f;  //tracks vertical rotation for clamping look angle
 
+    //PickUp --------------
+    InventoryManager InvManager;
+    public Camera MainCamera;
+    //---------------------------
 
     //Start is called before the first frame update
     //called once at the start to initialize components and lock cursor
@@ -62,6 +66,12 @@ public class Character_Controller : MonoBehaviour
         characterController = GetComponent<CharacterController>();  //get the CharacterController component
         Cursor.lockState = CursorLockMode.Locked;  //locks cursor to the center of the screen
         Cursor.visible = false;  //hides cursor
+
+        //PickUp -------------------------
+        MainCamera = Camera.main;
+        InvManager = this.GetComponent<InventoryManager>();
+        //--------------------------------------
+
     }
 
     //Update is called once per frame
@@ -77,11 +87,30 @@ public class Character_Controller : MonoBehaviour
                 HandleCrouch();  
 
             ApplyFinalMovement();  //applies movement and gravity to the character
-
-
         }
 
 
+        //PickUp-----------------------
+        if (Input.GetMouseButtonDown(0))
+        {
+            //calculate the center of the screen
+            Vector3 screenCenter = new Vector3(Screen.width / 2.0f, Screen.height / 2.0f, 0);
+            
+            Ray ray = MainCamera.ScreenPointToRay(screenCenter);
+            if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity))
+            {
+                if (hit.collider.gameObject.GetComponent<KeyItem>())
+                {
+                    InventoryManager.Instance.AddItem(hit.collider.gameObject.GetComponent<KeyItem>());
+                }
+                if (hit.collider.gameObject.GetComponent<InteractableObject>())
+                {
+                    hit.collider.gameObject.GetComponent<InteractableObject>().Interact();
+                }
+
+            }
+        }
+        //--------------------------------------
     }
 
     //handles input for character movement based on walk speed and input axes
