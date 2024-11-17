@@ -53,6 +53,9 @@ public class Character_Controller : MonoBehaviour
 
     private float rotationX = 0.0f;  //tracks vertical rotation for clamping look angle
 
+    private bool controlsEnabled = true; //status of the controller
+
+
     //PickUp --------------
     InventoryManager InvManager;
     public Camera MainCamera;
@@ -78,7 +81,7 @@ public class Character_Controller : MonoBehaviour
     //called every frame to update movement and look based on player input
     void Update()
     {
-        if (CanMove)
+        if (CanMove && controlsEnabled)
         {
             HandleMovementInput();  //handles WASD or arrow key movement
             HandleMouseLook();  //handles mouse look functionality
@@ -221,6 +224,21 @@ public class Character_Controller : MonoBehaviour
         isCrouching = !isCrouching;  //toggle crouch state
 
         duringCrouchAnimation = false;  //mark animation as complete
+    }
+
+    public void DisableControls()
+    {
+        CanMove = false;
+        controlsEnabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;   
+    }
+    public void EnableControls()
+    {
+        CanMove = true;
+        controlsEnabled = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
 }
