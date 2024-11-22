@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3627808006911391031}
   - component: {fileID: 4200005957140648419}
   - component: {fileID: 1704199191023734942}
-  - component: {fileID: 8221571758005225512}
   m_Layer: 0
   m_Name: Number 8
   m_TagString: Untagged
@@ -107,22 +106,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9879693, y: 1.9879689, z: 1.9879689}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8221571758005225512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158709190453166862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed548a215ec90e49830cdc15b1c6864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: 0, y: 0, z: 0}
-  correctPosition: {x: 0, y: 0, z: 0}
-  number: 6
-  inRightPlace: 0
 --- !u!1 &645547677994479135
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +285,6 @@ GameObject:
   - component: {fileID: 1706927475649334586}
   - component: {fileID: 178475833663731793}
   - component: {fileID: 2833402766409444483}
-  - component: {fileID: 7036860684794623067}
   m_Layer: 0
   m_Name: Number 9
   m_TagString: Untagged
@@ -397,22 +379,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9879693, y: 1.9879689, z: 1.9879689}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7036860684794623067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141772611889300203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed548a215ec90e49830cdc15b1c6864, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: 0, y: 0, z: 0}
-  correctPosition: {x: 0, y: 0, z: 0}
-  number: 11
-  inRightPlace: 0
 --- !u!1 &1155138998192511454
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +501,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 9
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &1249120657663527578
 GameObject:
@@ -984,20 +951,20 @@ MonoBehaviour:
   - {fileID: 6261945736863744894}
   - {fileID: 2232817018173987100}
   - {fileID: 4563641806577200909}
-  - {fileID: 8221571758005225512}
+  - {fileID: 0}
   - {fileID: 611679910508166011}
   - {fileID: 2683158250222039686}
   - {fileID: 4700467913879435493}
   - {fileID: 3771845015653815676}
-  - {fileID: 7036860684794623067}
+  - {fileID: 0}
   - {fileID: 5730713726823931361}
   - {fileID: 8227639137853744318}
   - {fileID: 7970470821748565300}
   - {fileID: 8513888821169206330}
   - {fileID: 0}
+  puzzleSolved: 0
   tileMoveThreshold: 0.1
-  boxMin: {x: 0, y: 0, z: 0}
-  boxMax: {x: 0, y: 0, z: 0}
+  boxFrame: {fileID: 0}
   boxAnimation: {fileID: 0}
 --- !u!1 &3090852768020862688
 GameObject:
@@ -1121,6 +1088,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 3
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &3120510455755708306
 GameObject:
@@ -1244,6 +1212,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 12
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &3214410023106617600
 GameObject:
@@ -1367,6 +1336,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 1
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &3504737820775804436
 GameObject:
@@ -1490,6 +1460,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 7
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &3746952833907906395
 GameObject:
@@ -1734,6 +1705,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 2
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &4692794821869091478
 GameObject:
@@ -2193,6 +2165,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 10
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &5487433298126655939
 GameObject:
@@ -2316,6 +2289,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 5
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &5666774830108880859
 GameObject:
@@ -2523,6 +2497,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 8
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &6527909860336568656
 GameObject:
@@ -2814,6 +2789,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 13
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &7531749832889383797
 GameObject:
@@ -3086,6 +3062,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 15
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &8616857456425475722
 GameObject:
@@ -3293,6 +3270,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 4
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &8948825535127788324
 GameObject:
@@ -3416,6 +3394,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   correctPosition: {x: 0, y: 0, z: 0}
   number: 14
+  game: {fileID: 0}
   inRightPlace: 0
 --- !u!1 &9026818577036254411
 GameObject:
