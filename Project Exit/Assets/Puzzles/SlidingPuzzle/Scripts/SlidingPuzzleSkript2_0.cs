@@ -86,7 +86,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     /// <returns></returns>
     private IEnumerator MoveTo(GameObject moveObject, Vector3 moveto, float secondsUntilArrival)
     {
-
+        secondsUntilArrival = 0.75f;
         float elapsed = 0.0f;
 
         // Gradually move the object using a smooth interpolation (Slerp)
@@ -96,7 +96,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
            elapsed += Time.deltaTime / secondsUntilArrival;  // Increment the elapsed time
 
             yield return null;  // Wait for the next frame
-        } while (Vector3.Distance(moveObject.transform.position, moveto) >= 0.001);  // Continue until the object reaches the target position
+        } while (Vector3.Distance(moveObject.transform.position, moveto) >= 0.00001);  // Continue until the object reaches the target position
     }
 
     /// <summary>

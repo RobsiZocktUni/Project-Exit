@@ -6,6 +6,7 @@ TagManager:
   tags:
   - emptySpace
   - Tiles
+  - SlidingPuzzle_Camera
   layers:
   - Default
   - TransparentFX

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BoxAnimationSkript : MonoBehaviour
 {
-    private Vector3 from = new Vector3(0, 0.671f, 0);  // The initial position of the box before animation starts
-    private Vector3 to = new Vector3(0, 0.671f, 0.35f);  // The target position of the box after the animation finishes
+    private Vector3 from = new Vector3(-68.0f, 2.03f, 29.2f);  // The initial position of the box before animation starts
+    private Vector3 to = new Vector3(-67.65f, 2.03f, 29.2f);  // The target position of the box after the animation finishes
 
     private float timeInSec = 2.0f;  // The time duration of the animation in seconds
 
