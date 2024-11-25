@@ -14,12 +14,12 @@ public class SlidingPuzzle_Game : MonoBehaviour
     public TileSkript[] tiles;  //array of tiles that make up the puzzle
     private int emptySpaceIndex = 15;  //the index of the empty space (initially the last tile)
 
-    private bool puzzleSolved = false;
+    public bool puzzleSolved = false;
 
     public float tileMoveThreshold = 0.1f; //neighbor check threshold
 
     //Layer
-    public GameObject boxFrame_Layer;
+    public GameObject boxFrame;
     //Animation
     public BoxAnimationSkript boxAnimation;
 
@@ -27,8 +27,7 @@ public class SlidingPuzzle_Game : MonoBehaviour
     void Start()
     {
         _camera = Camera.main;
-        boxFrame_Layer.layer = 2;
-
+        boxFrame.layer = 2;
         // check the solvability of the initial puzzle configuration
         //CheckSolvability();
     }
@@ -87,7 +86,7 @@ public class SlidingPuzzle_Game : MonoBehaviour
         return -1;
     }
 
-    void CheckPuzzleSolved()
+    private void CheckPuzzleSolved()
     {
         for (int i = 0; i < tiles.Length; i++)
         {
@@ -97,14 +96,13 @@ public class SlidingPuzzle_Game : MonoBehaviour
                 return;
             }
         }
-        puzzleSolved = true;
-        if (puzzleSolved)
-        {
+
+
             Debug.Log("Puzzle gelöst!");
-            boxFrame_Layer.layer = 0;
-            
-            StartCoroutine(WaitForLastTileAnimation());
-        }
+            boxFrame.layer = 0;
+            boxAnimation.BoxOpen();
+            puzzleSolved = true;
+        //StartCoroutine(WaitForLastTileAnimation());
     }
 
     public void LockTilePositions()
@@ -123,17 +121,17 @@ public class SlidingPuzzle_Game : MonoBehaviour
 
     }
 
-    IEnumerator WaitForLastTileAnimation()
+    private IEnumerator WaitForLastTileAnimation()
     {
         while (!IsTileAtTargetPosition())
         {
             yield return null;
         }
         boxAnimation.BoxOpen();
-        LockTilePositions();
+        //LockTilePositions();
     }
 
-    bool IsTileAtTargetPosition()
+    private bool IsTileAtTargetPosition()
     {
         foreach (TileSkript tile in tiles)
         {
