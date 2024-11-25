@@ -8,6 +8,8 @@ public class TileSkript : MonoBehaviour
     public Vector3 correctPosition;  //position where the tile should be in the solved puzzle
     public int number;  //number that identifies the tile (used for checking puzzle state)
 
+    public SlidingPuzzle_Game game;
+
     public bool inRightPlace;  //Boolean to check if the tile is in the correct position
 
     // Awake is called when the script instance is being loaded
@@ -21,19 +23,26 @@ public class TileSkript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //move the tile gradually towards the target position using Lerp for smooth movement
-        transform.position = Vector3.Lerp(transform.position, targetPosition, 0.05f);
 
-        //check if the tile has reached its correct position in the solved puzzle
-        if (Vector3.Distance(targetPosition, correctPosition) < 0.01)//targetPosition == correctPosition)
+        if (!game.puzzleSolved)
         {
-            inRightPlace = true;  // Tile is in the correct place
+            //move the tile gradually towards the target position using Lerp for smooth movement
+            transform.position = Vector3.Lerp(transform.position, targetPosition, 0.05f);
+
+            //check if the tile has reached its correct position in the solved puzzle
+            if (Vector3.Distance(targetPosition, correctPosition) < 0.01) //targetposition == correctposition)
+            {
+                inRightPlace = true;  // tile is in the correct place
+            }
+            else
+            {
+                inRightPlace = false;  //tile is not in the correct place
+            }
         }
-        else
-        {
-            inRightPlace = false;  //Tile is not in the correct place
-        }
+
+
 
 
     }
+
 }

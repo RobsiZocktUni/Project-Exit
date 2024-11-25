@@ -24,9 +24,9 @@ public class Character_Controller : MonoBehaviour
     public KeyCode crouchKey = KeyCode.LeftControl;  //key assigned for crouching
 
     [Header("Parameters: Movement")]
-    public float walkSpeed = 6.0f;  //walking speed for the character
-    public float sprintSpeed = 9.0f;  //sprinting speed for the character
-    public float crouchSpeed = 3.0f;  // crouch speed for the character
+    public float walkSpeed = 4.0f;  //walking speed for the character
+    public float sprintSpeed = 6.0f;  //sprinting speed for the character
+    public float crouchSpeed = 2.0f;  // crouch speed for the character
     public float gravity = 9.81f;  //gravity force applied to the character
 
     [Header("Parameters: Look")]
