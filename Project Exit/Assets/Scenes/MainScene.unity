@@ -298,7 +298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 312019047728845801, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 359159395403391855, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
       propertyPath: myNumber
@@ -589,6 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8adfdea07fd9841a226449d2c6611e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openAngle: -20
   timeTillArrival: 2
 --- !u!1 &320159247 stripped
@@ -809,6 +810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47365633ed9e88c4786274e5a033dc6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openAngle: 200
   timeTillArrival: 2
 --- !u!1001 &462199023
@@ -1271,6 +1273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6475e1a5faebae245b0585366a6a4271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 1
 --- !u!65 &1166049146
@@ -1477,6 +1480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dccce436b206d304c888b04fc5700e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 1
 --- !u!1 &1277405067
@@ -2022,6 +2026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cff9d140780594488aec35336f51fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 1
 --- !u!1 &1880746351 stripped
@@ -2041,6 +2046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df89703605f867488d7db79b0a929f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 1
 --- !u!1001 &1912004182
@@ -2149,6 +2155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a540170b6676649b541a67908731d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectName: 
   openAngle: 20
   timeTillArrival: 2
 --- !u!4 &2085412770 stripped
