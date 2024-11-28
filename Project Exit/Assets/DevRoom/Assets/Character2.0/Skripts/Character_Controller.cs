@@ -58,8 +58,13 @@ public class Character_Controller : MonoBehaviour
 
     //PickUp --------------
     InventoryManager InvManager;
-    public Camera MainCamera;
+    private Camera MainCamera;
     //---------------------------
+
+    //Inventory --------------
+    [Header("Parameters: InventoryUi")]
+    public GameObject InventoryUi;  //Ui Inventory Gameobject
+    //-------------------------
 
     //Start is called before the first frame update
     //called once at the start to initialize components and lock cursor
@@ -113,7 +118,21 @@ public class Character_Controller : MonoBehaviour
 
             }
         }
-        //--------------------------------------
+
+        //ToggleInventory-----------------------
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (InventoryUi.activeSelf)
+            {
+                EnableControls();
+                InventoryUi.SetActive(false);
+            }
+            else
+            {
+                DisableControls();
+                InventoryUi.SetActive(true);
+            }
+        }
     }
 
     //handles input for character movement based on walk speed and input axes
