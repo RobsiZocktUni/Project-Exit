@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NightstandL_AnimationScript : MonoBehaviour
+public class NightstandL_AnimationScript : InteractableObject
 {
     public Vector3 openPositionOffset;  // Offset to apply to the closed position to determine the open position
 
@@ -27,9 +27,13 @@ public class NightstandL_AnimationScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Called when the user clicks on the object with the mouse
+    /// Handles the interaction logic for the drawer.
     /// </summary>
-    private void OnMouseDown()
+    /// <remarks>
+    /// - If the drawer is currently animating, no new action will be performed.
+    /// - Otherwise, toggles the drawer's state (open/close) and starts the appropriate animation.
+    /// </remarks>
+    public override void Interact()
     {
         // If an animation is already running, do nothing
         if (!isAnimating)
@@ -39,7 +43,15 @@ public class NightstandL_AnimationScript : MonoBehaviour
 
             // Toggle the isOpen flag to reflect the new state
             isOpen = !isOpen;
+
+            // Provide feedback for the interaction
+            Debug.Log($"The drawer is now {(isOpen ? "open" : "closed")}.");
         }
+        else
+        {
+            Debug.Log("The drawer is already moving.");
+        }
+
     }
 
     /// <summary>
