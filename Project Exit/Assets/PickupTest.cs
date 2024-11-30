@@ -25,7 +25,6 @@ public class PickupTest : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
-            Debug.DrawRay(ray.origin, ray.direction * Mathf.Infinity, Color.green);
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity))
             {
                 if (hit.collider.gameObject.GetComponent<KeyItem>())
