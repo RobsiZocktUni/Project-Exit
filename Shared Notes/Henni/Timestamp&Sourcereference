@@ -7,7 +7,7 @@
 22.10.2034:
 - GDD: started working on GDD; Adding: "Essenz, Winning Condition and Alleinstellungsmerkmale"
 24.10.2024:
-- GDD: Adding: "Kurzfassung and Zielgruppe
+- GDD: Adding: "Kurzfassung" and "Zielgruppe"
 26.10.2024:
 - first person player: adding a slider for mouse movement
 
@@ -17,6 +17,48 @@
 - reworking first person player: character and camera movement
 01.11.2024:
 - reworking first person player: adding sprint button and crouch button
+
+~ week 04.11-10.11.2024:
+08.11.2024:
+- sliding puzzle: startet working on 2D-Sliding Puzzle
+09.11.2024:
+- sliding puzzle: finished 2D Version of the sliding puzzle with a function to see if the puzzle is solvable
+10.11.2024:
+- GDD: Adding "Basis-Zykus", "Weitere Spielyklen", "Eingabemodelle" and "Spielraum 
+
+~ week 11.11.2024-17.11.2024:
+14.11.2024:
+- sliding puzzle: implementing 2D-Sliding Puzzle on a 3D Object (riddle box)
+16.11.2024:
+- sliding puzzle: working on tile animation for sliding puzzle and animation of opening the box
+17.11.2024:
+- sliding puzzle: working on animation after the puzzle is solved (bad animation and problem with tiles not moving the correct way)
+
+~ week 18.11.2024-24.11.2024:
+18.11.2024:
+- sliding puzzle: adding new and smooth box opening animation (problem with tiles not moving the correct way)
+22.11.2024:
+- sliding puzzle: reworking the complete code of the puzzle; better code and easier to work with
+23.11.2024:
+- sliding puzzle: fixing bug of tiles moving inside each other
+24.11.2024:
+- sliding puzzle: finishing the puzzle and adding good open box animation
+- animation: implementing code to animate the objects; linear movement and rotation
+-> animated objects in the main scene (close and open animation): nightstand left and right (drawer), bedroom table (left and right drawer), wardrobe doors (left and right) and main door 
+
+~ week 25.11.2024-01.12.2024:
+26.11.2024:
+- Working on GDD:
+-> improved "Essenz", "Kurzfassung", "Alleinstellungsmerkmale", "Zielgruppe", "Kernmechaniken"
+-> added "Motivationsprofil", "Fokus und Ziel", "Nebenhandlung" and "Charaktere"
+
+
+
+
+
+
+
+
 
 
 
