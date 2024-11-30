@@ -613,7 +613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
-  openPositionOffset: {x: 0, y: 0, z: 0}
+  openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 1
 --- !u!65 &230658735
 BoxCollider:
