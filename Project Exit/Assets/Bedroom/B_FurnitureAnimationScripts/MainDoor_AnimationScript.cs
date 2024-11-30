@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainDoor_AnimationScript : MonoBehaviour
+public class MainDoor_AnimationScript : InteractableObject
 {
     public float openAngle = 60.0f;  // Angle to rotate the door to (in degrees)
 
@@ -27,19 +27,31 @@ public class MainDoor_AnimationScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Called when the user clicks on the object with the mouse
+    /// Handles the interaction logic for the door.
     /// </summary>
-    private void OnMouseDown()
+    /// <remarks>
+    /// - If the door is currently animating, no new action will be performed.
+    /// - Otherwise, toggles the door's state (open/close) and starts the appropriate animation.
+    /// </remarks>
+    public override void Interact()
     {
         // If an animation is already running, do nothing
         if (!isAnimating)
         {
-            // Start the animation to rotate the door
+            // Start the animation to move the drawer to the open or closed position
             StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
             // Toggle the isOpen flag to reflect the new state
             isOpen = !isOpen;
+
+            // Provide feedback for the interaction
+            Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
         }
+        else
+        {
+            Debug.Log("The door is already moving.");
+        }
+
     }
 
     /// <summary>
