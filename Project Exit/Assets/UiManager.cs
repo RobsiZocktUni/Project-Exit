@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class UiManager : MonoBehaviour
@@ -7,6 +8,7 @@ public class UiManager : MonoBehaviour
     public float RayLength = 3f;
     public GameObject KeyItemPng;
     public GameObject InteractableItemPng;
+    public GameObject TileInteractPng;
     private Camera MainCamera;
 
     private void Start()
@@ -20,6 +22,7 @@ public class UiManager : MonoBehaviour
         
         KeyItemPng.SetActive(false);
         InteractableItemPng.SetActive(false);
+        TileInteractPng.SetActive(false);
         if (Physics.Raycast(ray, out RaycastHit hit, RayLength))
         {
             if (hit.collider.gameObject.GetComponent<KeyItem>())
@@ -29,6 +32,10 @@ public class UiManager : MonoBehaviour
             else if (hit.collider.gameObject.GetComponent<InteractableObject>())
             {
                 InteractableItemPng.SetActive(true);
+            }
+            else if (hit.collider.gameObject.GetComponent<TileSkript2_0>())
+            {
+                TileInteractPng.SetActive(true);
             }
 
         }
