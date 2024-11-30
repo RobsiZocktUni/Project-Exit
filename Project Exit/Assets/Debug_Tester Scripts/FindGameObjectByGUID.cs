@@ -56,6 +56,12 @@ public class GUIDFinder : EditorWindow
     {
         foundObjects.Clear(); // Reset the result list
 
+
+        if(guid=="0000000000000000e000000000000000"){
+            Debug.LogWarning("Provided string is a Mesh GUID");
+            return;
+        }
+
         if (isMaterialSearch)
         {
             FindGameObjectsByMaterialGUID();
