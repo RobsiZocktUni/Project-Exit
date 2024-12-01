@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class BoxAnimationSkript : MonoBehaviour
 {
-    private Vector3 from = new Vector3(-68.0f, 2.03f, 29.2f);  // The initial position of the box before animation starts
-    private Vector3 to = new Vector3(-67.65f, 2.03f, 29.2f);  // The target position of the box after the animation finishes
+    private Vector3 from = new Vector3(-68.0f, 2.105f, 29.363f);  // The initial position of the box before animation starts
+    private Vector3 to = new Vector3(-67.45f, 2.105f, 29.363f);  // The target position of the box after the animation finishes
 
-    private float timeInSec = 2.0f;  // The time duration of the animation in seconds
+    private float timeInSec = 1.5f;  // The time duration of the animation in seconds
 
     public bool isAnimating = false;  // A flag indicating whether the animation is currently playing
 
