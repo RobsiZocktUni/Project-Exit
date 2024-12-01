@@ -9,7 +9,7 @@ public class InventoryManager : MonoBehaviour
     public List<KeyItem> InventoryItems = new List<KeyItem>();    // List with all the items that are currently in the inventory.
     public Transform inventoryListContainer;    //Transform of the Container in the ui that holds all the InventoryTiles of the items.
 
-    private void Awake()
+    void Start()
     {
         Instance = this;
     }

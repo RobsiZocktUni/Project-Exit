@@ -131,6 +131,7 @@ Die Eingabe erfolgt über Maus und Tastatur
 
 4. Narrativ  
 4.1 Grundhandlung  
+   -> provisorisch  
 Du, ein neugieriger Lost-Place-Entdecker, betrittst das verlassene Anwesen der Moore-Familie – ein verlassenes viktorianisches Gebäude, das seit Jahrzehnten leersteht und von urbanen Entdeckern nur in Gerüchten und mysteriösen Berichten erwähnt wird. Dein Ziel ist es, das Gebäude zu erkunden und die Geheimnisse zu lüften, die es über die Jahre angesammelt hat.  
   
 Doch kaum hast du das Anwesen betreten, wirst du plötzlich von einer unheimlichen Welle der Benommenheit übermannt und fällst in die Ohnmacht. Als du wieder zu dir kommst, findest du dich in einem dunklen, düsteren Raum wieder, der mit keinem der bisherigen Räume im Anwesen zu vergleichen ist. Der Raum ist kalt und leer, die Wände sind von vergilbten Tapeten bedeckt, und ein merkwürdiger Geruch hängt in der Luft.  
@@ -156,70 +157,17 @@ The News began to spread and soon everyone knew about the Murder of Cecelia Moor
 ~ written by Jasmin Smyzcek  
   
 4.3 Charaktere  
+-> provisorisch  
 - Charaktere aus der Haupthandlung:  
-1. John Jones (Hauptcharakter):  
+1. Der Spieler (Protagonist):  
 - Rolle: Ein neugieriger Lost-Place Entdecker, der das verlassene Moree-Anwesen betritt. Unmittelbar nach seiner Ankunft wird er ohnmächtig und findet sich in einem dunklen Raum wieder.  
 - Motivation: Auf der Suche nach den Geheimnissen des verlassenen Anwesens, die in der Geschichte der Moore-Familie verborgen sind. Sein Ziel ist es, das Anwesen zu erkunden und zu entkommen, während er die Rätsel des Hauses löst  
 - Persönlichkeit: Neugierig, abenteuerlustig, aber auch vorsichtig, da die Atmosphäre zunehmend bedrohlicher wird. Der Spieler wird durch die Entdeckungen und Geheimnisse gezwungen, sich seinen Ängsten und der dunklen Vergangenheit des Ortes zu stellen
 
-" John Jones is a curious dude in his late twenties who loves to explore lost/abandoned 
-places. He loves to preserve them as they are not changing anything but documenting 
-things he finds. Tho sometimes he does take things like Fotos, Newspapers, Documents 
-(depending) and diaries in order to have them preserved. Sometimes he returns copies 
-of what he took so others can experience it too "
-~ written by Jasmin Smyczek
-
 2. Übernatürliches Wesen (dunkle Präsenz):  
 - Rolle: Eine dunkle Präsenz, die das Anwesen heimsucht. Es scheint eine Verbindung zur Geschichte von Cecelia Moore und ihrer Familie zu haben und verfolgt den Spieler während seiner Erkundungen
 - Motivation: Dieses Wesen scheint das Anwesen und seine Geheimnisse zu bewahren, möglicherweise sogar das Erbe von Cecelia und ihrer Familie zu schützen – oder sie zu zerstören.
-- Persönlichkeit: Geheimnisvoll, bedrohlich und rätselhaft. Das Wesen wird oft in Form von Schatten oder unverständlichen Geräuschen dargestellt und stellt den Spieler vor immer größere Herausforderungen
-
-- Charaktere aus der Nebenhandlung:
-1. Cecelia Moore:
-- Rolle: Die tragische Hauptfigur der Nebengeschichte. Sie ist die Tochter des berühmten Puppenmachers und die letzte, die in dem Anwesen lebte, bevor es verlassen wurde.
-- Motivation: Zunächst lebte sie ein erfülltes Leben, doch nach dem Tod ihres ersten Sohnes verfiel sie in eine tiefe Trauer. Ihre Geschichte ist von Verlust und dem Versuch geprägt, mit ihrer Trauer umzugehen.
-- Persönlichkeit: Sensibel, intelligent und kreativ. Nachdem sie sich von der Welt zurückgezogen hat, wird sie zunehmend von ihrer eigenen Trauer und dem übernatürlichen Wesen des Hauses gequält.
-- Schicksal: Cecelia stirbt unter mysteriösen Umständen, was die Grundlage für die unheimlichen Ereignisse im Anwesen bildet. Ihr Tod ist der Schlüssel zu den Rätseln des Hauses.
-
-2. Ezra Carter:
-- Rolle: Cecelias Ehemann. Er lebt nach dem Tod ihres Sohnes zunehmend entfremdet von ihr und kann nicht mit ihrer Trauer umgehen.
-- Motivation: Als verheirateter Mann fühlt er sich verpflichtet, für Cecelia da zu sein, doch die tiefe Trauer seiner Frau überfordert ihn. Schließlich zieht er sich zurück, und seine Ehe mit Cecelia zerbricht.
-- Persönlichkeit: Praktisch, aber emotional distanziert. Die Trauer um den Verlust ihres Kindes hat ihn innerlich zerrissen, was zu seiner Entfremdung von Cecelia führt.
-- Schicksal: Nachdem Cecelia zu ihren Eltern zurückkehrt, verliert sich auch Ezra weiter aus ihrem Leben, und er taucht nach ihrem Tod nicht mehr auf.
-
-3. Ambrose Moore:
-- Rolle:  Cecelias Großvater und ein Kreativer, aber mysteriöser Mann, der sich für Rätsel und Spiele interessierte.
-- Motivation: Ambrose hat eine tiefe Verbindung zu Cecelia, mit der er viele Rätsel und Spiele erfand. Er war ein entschlossener und verschlossener Mann, der versuchte, Cecelia in schwierigen Zeiten zu unterstützen
-- Persönlichkeit: Weisheit und Kreativität zeichnen ihn aus. Ambrose hatte immer einen gewissen Schalk in sich und genoss es, das Geheimnisvolle zu fördern, was in seiner Enkelin eine ähnliche Faszination weckte.
-- Schicksal: Ambrose starb vor den Ereignissen im Anwesen, doch seine rätselhaften Erfindungen und Hinweise hinterließ er in der Familie, was das Anwesen noch mysteriöser machte.
-
-4. Evelyn Moore:
-- Rolle: Cecilias Mutter, die eine wichtige Rolle in ihrem Leben spielte, insbesondere während ihrer Trauerzeit.  
-- Motivation: Evelyn war stets eine Stütze für ihre Tochter und versuchte, ihr nach dem Tod des Enkelkindes beizustehen. Sie half Cecelia, ihre kreativen Talente zu entwickeln, besonders im Bereich der Puppenherstellung und Kleidungsdesign.
-- Persönlichkeit: Sanft, fürsorglich und verständnisvoll. Sie war eine feste Unterstützung für Cecelia in ihrem Leben.
-- Schicksal: Evelyns Tod ist ein Wendepunkt in der Geschichte. Sie stirbt unter mysteriösen Umständen in dem Anwesen, was eine neue Welle der Trauer und Verwirrung bei Cecelia und ihrer Familie auslöst.
-
-5. Benjamin Moore:
-- Rolle: Cecilias Vater und ein berühmter Puppenmacher.
-- Motivation: Benjamin war ein ehrgeiziger und talentierter Mann, der sich auf seine Arbeit konzentrierte. Trotz seiner Liebe zu Cecelia war er oft zu sehr mit seiner Arbeit beschäftigt, um ihr während ihrer Trauerzeit beizustehen.
-- Persönlichkeit: Diszipliniert, aber auch ein wenig distanziert. Seine Arbeit stand oft im Vordergrund, und er hatte Schwierigkeiten, die emotionalen Bedürfnisse seiner Familie zu erkennen.
-- Schicksal: Benjamin spielt eine indirekte Rolle in der Geschichte. Sein Erbe lebt in den Puppen und den Geheimnissen des Hauses weiter.
-
-
-5. Thematisierung und Wiedererkennung
-
-5.1 Stil und Stimmung  
-5.2 Farbklima  
-5.3 Audio  
-
-
-
-
-
-
-
-
-
+- Persönlichkeit: Geheimnisvoll, bedrohlich und rätselhaft. Das Wesen wird oft in Form von Schatten oder unverständlichen Geräuschen dargestellt und stellt den Spieler vor immer größere Herausforderungen  
 
 
 

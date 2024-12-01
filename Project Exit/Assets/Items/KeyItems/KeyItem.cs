@@ -15,7 +15,7 @@ public abstract class KeyItem : MonoBehaviour
     public GameObject InventoryTile;
     [Header ("Dont Touch")]
     public InventoryManager InventoryManager;
-    public virtual void Start()
+    private void Start()
     {
         InventoryManager = GameObject.Find("GameManager").GetComponent<InventoryManager>();
     }
@@ -24,10 +24,6 @@ public abstract class KeyItem : MonoBehaviour
 
         foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Disables all components of the object
         {
-            if (item == this)
-            {
-                continue;
-            }
             if (item is Rigidbody)
             {
                 ((Rigidbody)item).isKinematic = true;
