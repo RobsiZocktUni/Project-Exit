@@ -90,8 +90,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StarHeight: 200
-    - _StarIntensity: 5
-    - _StarPower: 50
+    - _StarIntensity: 10
+    - _StarPower: 45
     - _UVSec: 0
     - _ZWrite: 1
     - _ZenithBlend: 1
