@@ -51,8 +51,16 @@
 - Working on GDD:
 -> improved "Essenz", "Kurzfassung", "Alleinstellungsmerkmale", "Zielgruppe", "Kernmechaniken"
 -> added "Motivationsprofil", "Fokus und Ziel", "Nebenhandlung" and "Charaktere"
-
-
+01.12.2024:
+- Bookshelf: fixed koordinates
+- Sliding Puzzle: fixed the scale of the sliding puzzle; for better interaction inf first person
+- Animations: 
+-> added animation: bookshelf doors
+-> added animation: dollhouse doors
+- Fixed box colliders: bookshelf, bed, dollhouse
+- Working on GDD:
+-> Adding Characters (backstory)
+-> 
 
 
 
