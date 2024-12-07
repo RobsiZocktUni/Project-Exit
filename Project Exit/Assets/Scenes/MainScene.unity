@@ -2653,7 +2653,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04c82d8c6e0f21142a41f9ed0cc7eedd, type: 2}
+  - {fileID: 2100000, guid: 8a577a04ab0e95a4f9a552482e3b9f88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3901,7 +3901,7 @@ Transform:
   m_GameObject: {fileID: 1888501253}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -23.17, y: 4.52, z: -2.95}
+  m_LocalPosition: {x: -14.02, y: 4.52, z: -2.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4117,7 +4117,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4171,7 +4171,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+      maxColor: {r: 0.36477977, g: 0.34757316, b: 0.34757316, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -4341,7 +4341,7 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4620,7 +4620,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 90, y: 90, z: 0}
-    m_Scale: {x: 1, y: 30, z: 50}
+    m_Scale: {x: 1, y: 50, z: 50}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -5256,9 +5256,9 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.836478, g: 0.8180649, b: 0.8180649, a: 0}
-        key1: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
-        key2: {r: 0.69182384, g: 0.6896483, b: 0.6896483, a: 0}
+        key0: {r: 0.5283019, g: 0.52664053, b: 0.52664053, a: 0}
+        key1: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 0.33333334}
+        key2: {r: 0.5345911, g: 0.52954775, b: 0.52954775, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 1}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
