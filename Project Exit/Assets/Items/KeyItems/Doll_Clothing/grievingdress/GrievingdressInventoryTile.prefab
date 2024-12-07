@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2993270836478197452}
   - component: {fileID: 2800574131579916349}
   m_Layer: 5
-  m_Name: RainOutfitInventoryTile
+  m_Name: GrievingdressInventoryTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rain outfit
+  m_text: Grieving dress
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.55
+  m_fontSize: 11.6
   m_fontSizeBase: 15.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
