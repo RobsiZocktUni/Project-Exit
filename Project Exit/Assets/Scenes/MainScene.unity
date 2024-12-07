@@ -1613,7 +1613,7 @@ MonoBehaviour:
   ObjectName: 
   openAngle: -180
   timeTillArrival: 2
---- !u!1 &600067827 stripped
+--- !u!1 &600067828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5291414054190755845, guid: b0fbc538a5c1eb04fb09f3db555cec56, type: 3}
   m_PrefabInstance: {fileID: 2144756181}
