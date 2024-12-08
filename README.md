@@ -13,7 +13,7 @@ all project work will be done in
 
 Requirements for the software and other tools to build, test and push 
 - Unity 2022.3.49f1
-- Wwise (for all audio work, version following)
+- Wwise 2023.1.8.8601.3208
 
 ### Installing
 
