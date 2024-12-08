@@ -4,27 +4,34 @@ using UnityEngine;
 
 public class Mannequin : InteractableObject
 {
-    public string CorrectOutfit;
+    public Doll_Clothing CorrectOutfit;
     public Doll_Clothing CurrentClothing = null;
-    private Character_Controller Player;
+    public bool Interactable = true;
+    private Character_Controller player;
+    private DollhousePuzzleManager manager;
+    
 
 
     private void Start()
     {
-        Player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        manager = GameObject.Find("GameManager").GetComponent<DollhousePuzzleManager>();
     }
 
     public override void Interact() 
     {
-        if (CurrentClothing == null)    //Open Inventory if the Mannequin doesnt have a clothing item
+        if (Interactable)
         {
-            Player.DisableControls();
-            Player.InventoryUi.SetActive(true);
-        }
-        else
-        {
-            InventoryManager.Instance.AddItem(CurrentClothing);     //Pick up the clothing of the Mannequin if it already has one
-            CurrentClothing = null;
+            if (CurrentClothing == null)    //Open Inventory if the Mannequin doesnt have a clothing item
+            {
+                player.DisableControls();
+                player.InventoryUi.SetActive(true);
+            }
+            else
+            {
+                InventoryManager.Instance.AddItem(CurrentClothing);     //Pick up the clothing of the Mannequin if it already has one
+                CurrentClothing = null;
+            }
         }
     }
 
@@ -33,6 +40,7 @@ public class Mannequin : InteractableObject
         if (CurrentClothing == null)
         {
             CurrentClothing = NewClothing;
+            manager.CheckIfDone();
             return true;
         }
         else

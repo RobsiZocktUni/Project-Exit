@@ -14,19 +14,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.566025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.429
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.686
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.17364809
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9848078
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84c07a28df6f1be448b4cfffbb6beaa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aef18c45b752d245afb0abd2cf558cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemName: RainOutfit
+  ItemName: Rainoutfit
   InventoryTile: {fileID: 349104371243776502, guid: 3af5ee9943d20d141a3c914e0fe04e85, type: 3}
   InventoryManager: {fileID: 0}
   Hitbox: {fileID: 4883162460648670137}

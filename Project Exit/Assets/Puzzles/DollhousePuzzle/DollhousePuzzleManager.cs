@@ -8,6 +8,24 @@ public class DollhousePuzzleManager : MonoBehaviour
     
     public void CheckIfDone()
     {
+        bool done = true;
+        foreach (var mannequin in mannequins)
+        {
+        
+            if (mannequin.CurrentClothing != mannequin.CorrectOutfit )
+            {
+                done = false;
+                break;
+            }
+        }
 
+        if (done == true)
+        {
+            Debug.Log("You solved the Puzzle");
+            foreach (var mannequin in mannequins)
+            {
+                mannequin.Interactable = false;
+            }
+        }
     }
 }
