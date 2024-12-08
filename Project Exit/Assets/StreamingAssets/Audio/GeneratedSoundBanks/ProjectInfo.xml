@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Project Exit" GUID="{3FFF3D17-460A-406F-8000-1A8F37E9930F}" Generator="2023.1.8.8601"/>
+	<CacheRoot>../../../../../../WW/Project Exit/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{2998D111-792A-4034-9222-7DCC2C939641}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../WW/Project Exit/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{D87AC685-9BA5-4ED4-8ACF-35348EEC2D6A}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{665DFB12-2D1A-3682-4DC3-BA87CF8FF17F}</FileHash>
+</ProjectInfo>

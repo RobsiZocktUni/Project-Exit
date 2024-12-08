@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1410952847	Play_SFX_Streichholz_03			\Default Work Unit\Play_SFX_Streichholz_03	
+	2788420171	Play_test_02			\Default Work Unit\Play_test_02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	653364092	test-02	G:\GELAB\WW\Project Exit\.cache\Windows\SFX\test-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
+	826635155	SFX-Streichholz-03	G:\GELAB\WW\Project Exit\.cache\Windows\SFX\SFX-Streichholz-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz-03		1058724
+
