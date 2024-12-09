@@ -12,7 +12,8 @@ public class Doll_Clothing : KeyItem
     {
         base.Start();
         mainCamera = Camera.main;
-        player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        //player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
     }
     public override void UseItem() 
     {
