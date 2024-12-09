@@ -7,8 +7,8 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	126333147	SFX-Streichholzschachtel-offnen	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholzschachtel-offnen_1D21B644.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholzschachtel-offnen		138952
 	653364092	test-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\test-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
-	670808234	SFX-Streichholz-01	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-01		1987776
+	670808234	SFX-Streichholz-01	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-01_6E57338D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-01		518496
 	817071074	SFX-Schublade-auf-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schublade-auf-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Schublade-auf-02		191620
-	826635155	SFX-Streichholz-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-03_8923160F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-03		521336
-	830620211	SFX-Streichholz-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-02		1561628
+	826635155	SFX-Streichholz-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-03_6E57338D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-03		518496
+	830620211	SFX-Streichholz-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-02_6E57338D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-02		518496
 

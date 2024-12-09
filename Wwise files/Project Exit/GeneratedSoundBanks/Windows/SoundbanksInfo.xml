@@ -165,7 +165,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9B936C79-2E2E-1FB5-000E-76296BB070B4}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{05308275-1114-A356-8EB7-59BBC03D469D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -179,7 +179,7 @@
 				</File>
 				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-01.wav</ShortName>
-					<CachePath>SFX/SFX-Streichholz-01_818F3B66.wem</CachePath>
+					<CachePath>SFX/SFX-Streichholz-01_6E57338D.wem</CachePath>
 				</File>
 				<File Id="817071074" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-auf-02.wav</ShortName>
@@ -187,11 +187,11 @@
 				</File>
 				<File Id="826635155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-03.wav</ShortName>
-					<CachePath>SFX/SFX-Streichholz-03_8923160F.wem</CachePath>
+					<CachePath>SFX/SFX-Streichholz-03_6E57338D.wem</CachePath>
 				</File>
 				<File Id="830620211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-02.wav</ShortName>
-					<CachePath>SFX/SFX-Streichholz-02_818F3B66.wem</CachePath>
+					<CachePath>SFX/SFX-Streichholz-02_6E57338D.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -200,7 +200,7 @@
 						<MediaRef Id="817071074"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3417554753" Name="Play_SFX_Streichholz" DurationType="OneShot" DurationMin="2.7148004" DurationMax="10.3525">
+				<Event Id="3417554753" Name="Play_SFX_Streichholz" DurationType="OneShot" DurationMin="2.7" DurationMax="2.7">
 					<MediaRefs>
 						<MediaRef Id="670808234"/>
 						<MediaRef Id="826635155"/>
@@ -220,5 +220,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EBD84EA2-9167-7405-04FD-4195AE79D938}</FileHash>
+	<FileHash>{2311EF4D-C61B-BDA1-4B23-686DE62C9625}</FileHash>
 </SoundBanksInfo>
