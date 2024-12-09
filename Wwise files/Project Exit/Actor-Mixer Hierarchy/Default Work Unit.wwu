@@ -709,6 +709,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX-Streichholz-01" ID="{C04CACC8-EEAE-4911-8055-7775E4C164C3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.7"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.7"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX-Streichholz-01.wav</AudioFile>
 									<MediaIDList>
@@ -738,6 +743,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX-Streichholz-02" ID="{B46479A6-B726-4501-8E86-D06B871DE253}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.7"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.7"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX-Streichholz-02.wav</AudioFile>
 									<MediaIDList>
@@ -768,9 +778,9 @@
 							<ChildrenList>
 								<AudioFileSource Name="SFX-Streichholz-03" ID="{AE093B15-682B-4E78-8640-8DBA0CAC73CC}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.991022263071903"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.7"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="2.71480038126362"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.7"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX-Streichholz-03.wav</AudioFile>
