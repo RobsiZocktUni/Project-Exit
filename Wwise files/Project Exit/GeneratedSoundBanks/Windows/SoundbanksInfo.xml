@@ -165,23 +165,51 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{82C30A22-C6CD-B53D-0D79-B40C13467DEF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9B936C79-2E2E-1FB5-000E-76296BB070B4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="126333147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Streichholzschachtel-offnen.wav</ShortName>
+					<CachePath>SFX/SFX-Streichholzschachtel-offnen_1D21B644.wem</CachePath>
+				</File>
 				<File Id="653364092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>test-02.wav</ShortName>
 					<CachePath>SFX/test-02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Streichholz-01.wav</ShortName>
+					<CachePath>SFX/SFX-Streichholz-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="817071074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Schublade-auf-02.wav</ShortName>
+					<CachePath>SFX/SFX-Schublade-auf-02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="826635155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-03.wav</ShortName>
-					<CachePath>SFX/SFX-Streichholz-03_818F3B66.wem</CachePath>
+					<CachePath>SFX/SFX-Streichholz-03_8923160F.wem</CachePath>
+				</File>
+				<File Id="830620211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Streichholz-02.wav</ShortName>
+					<CachePath>SFX/SFX-Streichholz-02_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1410952847" Name="Play_SFX_Streichholz_03" DurationType="OneShot" DurationMin="5.5136876" DurationMax="5.5136876">
+				<Event Id="1215060680" Name="Play_SFX_Schublade_auf" DurationType="OneShot" DurationMin="0.9975208" DurationMax="0.9975208">
 					<MediaRefs>
+						<MediaRef Id="817071074"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3417554753" Name="Play_SFX_Streichholz" DurationType="OneShot" DurationMin="2.7148004" DurationMax="10.3525">
+					<MediaRefs>
+						<MediaRef Id="670808234"/>
 						<MediaRef Id="826635155"/>
+						<MediaRef Id="830620211"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3591392569" Name="Play_SFX_Streichholzschachtel_aufheben" DurationType="OneShot" DurationMin="0.7232086" DurationMax="0.7232086">
+					<MediaRefs>
+						<MediaRef Id="126333147"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2788420171" Name="Play_test_02" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
@@ -192,5 +220,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5357E561-A77E-B2B5-511F-708586ABE0CC}</FileHash>
+	<FileHash>{EBD84EA2-9167-7405-04FD-4195AE79D938}</FileHash>
 </SoundBanksInfo>
