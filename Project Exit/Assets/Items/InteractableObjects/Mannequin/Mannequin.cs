@@ -14,7 +14,8 @@ public class Mannequin : InteractableObject
 
     private void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        //player = GameObject.Find("Player").GetComponent<Character_Controller>();
+        player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
         manager = GameObject.Find("GameManager").GetComponent<DollhousePuzzleManager>();
     }
 
