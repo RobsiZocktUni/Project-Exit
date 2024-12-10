@@ -178,7 +178,7 @@ PrefabInstance:
     - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (9)
@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -248,14 +248,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -375,14 +387,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -526,6 +550,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66c1565c15c20c148b54874827935322, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_Name
       value: OvalFrame (4)
@@ -758,14 +790,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -824,14 +868,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1325,6 +1381,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_Name
       value: OvalFrame (1)
@@ -1538,14 +1602,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1718,6 +1794,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.x
       value: -58.54603
       objectReference: {fileID: 0}
@@ -1757,6 +1845,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66c1565c15c20c148b54874827935322, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_Name
       value: SquareFrame (1)
@@ -1979,7 +2075,7 @@ PrefabInstance:
     - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1987,7 +2083,7 @@ PrefabInstance:
     - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall
@@ -1995,7 +2091,7 @@ PrefabInstance:
     - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2049,14 +2145,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2655,7 +2763,7 @@ PrefabInstance:
     - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2663,7 +2771,7 @@ PrefabInstance:
     - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (7)
@@ -2671,7 +2779,7 @@ PrefabInstance:
     - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2891,14 +2999,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2918,7 +3038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.81
+      value: 1.64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2952,6 +3072,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_Name
       value: SquareFrame (3)
@@ -3009,14 +3137,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3070,14 +3210,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3317,16 +3469,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2783797
+      value: 1.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.566551
+      value: 28.22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3356,6 +3520,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aebb3a415f735de4c830cdd76fa66f11, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_Name
       value: RoundFrame (2)
@@ -3862,14 +4034,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4043,14 +4227,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4171,14 +4367,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4232,6 +4440,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_Name
       value: OvalFrame (2)
@@ -4456,14 +4672,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4631,14 +4859,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4758,6 +4998,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (3)
@@ -4815,6 +5063,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_Name
       value: RoundFrame (1)
@@ -4838,7 +5094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalScale.z
@@ -4854,7 +5110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.81
+      value: 18.65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4884,6 +5140,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (4)
@@ -4953,16 +5217,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.865
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.98
+      value: 4.87
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.14
+      value: 23.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4992,6 +5268,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_Name
       value: SquareFrame
@@ -5061,6 +5345,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (6)
@@ -5191,14 +5483,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5209,6 +5513,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8155284052678811821, guid: 7474b1a2be1234949a8e0894c8d20e87, type: 3}
   m_PrefabInstance: {fileID: 5873815727395625736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &975835937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e37c2d3ac48040440bdaa9a336605148, type: 3}
+  m_PrefabInstance: {fileID: 1429970760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &975835939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975835937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.6, y: 1, z: 7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &987070051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2239837900369805471, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
@@ -5240,7 +5570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.39
+      value: 4.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5274,6 +5604,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame
@@ -5336,14 +5674,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5587,14 +5937,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5835,7 +6197,7 @@ PrefabInstance:
     - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5843,7 +6205,7 @@ PrefabInstance:
     - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (4)
@@ -5851,7 +6213,7 @@ PrefabInstance:
     - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5905,6 +6267,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_Name
       value: RoundFrame (3)
@@ -6097,14 +6467,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc018c369583ba240a598cd1c4b77356, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6154,7 +6536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.696218
+      value: 15.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6184,6 +6566,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (5)
@@ -6241,14 +6631,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6467,14 +6869,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6528,14 +6942,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6715,14 +7141,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6903,14 +7341,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6930,11 +7380,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.842052
+      value: 3.94
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.51172
+      value: 29.32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6964,6 +7414,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66c1565c15c20c148b54874827935322, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_Name
       value: SquareFrame (2)
@@ -7167,14 +7625,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17210cd31acfaba4795115a259b4e03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7279,7 +7749,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e37c2d3ac48040440bdaa9a336605148, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 975835939}
   m_SourcePrefab: {fileID: 100100000, guid: e37c2d3ac48040440bdaa9a336605148, type: 3}
 --- !u!1001 &1433212557
 PrefabInstance:
@@ -7624,14 +8097,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7984,14 +8469,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8196,6 +8693,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
       propertyPath: m_Name
       value: SquareFrame (4)
@@ -8391,14 +8896,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8464,7 +8981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.37
+      value: 23.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8494,6 +9011,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 451c3f0ed72fe9c498e20758a7570a5e, type: 3}
       propertyPath: m_Name
       value: RoundFrame
@@ -8551,14 +9076,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     - target: {fileID: -2771873690047173276, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     - target: {fileID: 919132149155446097, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
       propertyPath: m_Name
       value: ThiccBookSmall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: daa967d504f6a4145a4f31139b3d31ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c500e705fdb88f45b108ba3d9735bab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8612,14 +9149,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9f5735eabc3024bb99d9237d028ddf, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8965,14 +9514,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
       propertyPath: m_Name
       value: Book (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: d3ab76fca47ff4c4e965801d00b566cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9094,14 +9655,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c2e7a3e4286c494ba60fe9467354ddd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9155,14 +9728,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f9d033d2fb75d0e448c19a1128f21a6a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9277,14 +9862,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: -2771873690047173276, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+    - target: {fileID: 773450965627518655, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     - target: {fileID: 919132149155446097, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
       propertyPath: m_Name
       value: ThinBookSmall (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: 9c82aa2f03ff9b9459a3b3b2d290c1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7a7242540ab78348a7fc68d11107732, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9379,6 +9976,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aebb3a415f735de4c830cdd76fa66f11, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (1)
@@ -9434,16 +10039,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.11
+      value: 4.28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.93
+      value: 19.84
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9473,6 +10086,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88fa49b9314292249a6261a4d8eba913, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_Name
       value: OvalFrame
@@ -14625,16 +15246,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.65
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.5
+      value: 16.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14664,6 +15289,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 736e580cc813d8c489ccaf2d3e4563e5, type: 2}
+    - target: {fileID: -1087238426181453513, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d3067dd43d7c6d44b4a5849460ffb51, type: 3}
       propertyPath: m_Name
       value: OvalFrame (3)
@@ -14909,7 +15542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalScale.z
@@ -14917,11 +15550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.65
+      value: -59.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.04
+      value: 2.9995103
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14955,6 +15588,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460620be642ade142885a675b7459f46, type: 2}
+    - target: {fileID: -1087238426181453513, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea822c4ab3f73b249a7ea0d9e8bda847, type: 2}
     - target: {fileID: 919132149155446097, guid: d768ee75eeba3c746ba68eb79da7de16, type: 3}
       propertyPath: m_Name
       value: RectangleFrame (2)
@@ -15404,6 +16045,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8472838201625917872, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
     - target: {fileID: -2771873690047173276, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15411,11 +16056,15 @@ PrefabInstance:
     - target: {fileID: 773450965627518655, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f001d46fd27cc8747943a36805a95cbb, type: 2}
+      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
     - target: {fileID: 919132149155446097, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
       propertyPath: m_Name
       value: ThinBook (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7054144470096349240, guid: f200f3b6aa324ea4782c6e077fdcb6da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a99c62dd3383db45876733a8ae26962, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
