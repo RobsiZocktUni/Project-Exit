@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_SFX_STREICHHOLZ_03 = 1410952847U;
+        static const AkUniqueID PLAY_SFX_SCHUBLADE_AUF = 1215060680U;
+        static const AkUniqueID PLAY_SFX_STREICHHOLZ = 3417554753U;
+        static const AkUniqueID PLAY_SFX_STREICHHOLZSCHACHTEL_AUFHEBEN = 3591392569U;
         static const AkUniqueID PLAY_TEST_02 = 2788420171U;
     } // namespace EVENTS
 

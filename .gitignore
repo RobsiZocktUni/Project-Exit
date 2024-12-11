@@ -1,3 +1,12 @@
 #ignores all blender backup files
 
 *.blend1
+
+# Wwise
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+IncrementalSoundBankData.xml

@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3845A559-14BE-4FA1-A826-09B2F635720D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_SFX_Streichholz_03" ID="{541F273D-FCDB-49CD-A6CD-5BBFD8AFFF59}">
+				<Event Name="Play_SFX_Streichholz" ID="{541F273D-FCDB-49CD-A6CD-5BBFD8AFFF59}">
 					<ChildrenList>
 						<Action Name="" ID="{12D40AD7-034E-42BA-9FAE-9CB88104BC4D}" ShortID="760885776">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX-Streichholz-03" ID="{4CB69151-FBA8-4F5E-A728-006915D011AF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+									<ObjectRef Name="SFX-Streichholz" ID="{BBFEB672-F446-4EBB-A955-632DE8B9750A}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -20,6 +20,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="test-02" ID="{50AECA61-CF70-48AB-94F4-43351FE87258}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Streichholzschachtel_aufheben" ID="{6C52355B-BE5D-4283-87C6-1CB34AB032E7}">
+					<ChildrenList>
+						<Action Name="" ID="{99842201-2B07-4093-8600-45A3E251FF8F}" ShortID="4679250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Streichholzschachtel-offnen" ID="{48C32EBE-2981-470F-9E94-03C7CB8217BF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Schublade_auf" ID="{B1AC8982-4F8C-476F-AEC1-D9F94FFA40FB}">
+					<ChildrenList>
+						<Action Name="" ID="{6E0013D3-7352-4B8B-8ACF-20BD15FED3B6}" ShortID="484936099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Schublade-auf-02" ID="{8221F633-4E6A-4160-8D53-0F9E0B7DF38F}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

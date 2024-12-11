@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DollhouseDoorR_AnimationScript : InteractableObject
 {
-    public float openAngle = 60.0f;  // Angle to rotate the door to (in degrees)
+    public float openAngle = -40.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
 
