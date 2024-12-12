@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -52,6 +52,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MoonTexture:
+        m_Texture: {fileID: 2800000, guid: daf249f7933f4df4a89079030da22dc5, type: 3}
+        m_Scale: {x: 3, y: 4.3}
+        m_Offset: {x: 0.4, y: -0.1}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,9 +84,11 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GlowPower: 0.1
     - _HorizonBlend: 30
     - _Metallic: 0
     - _Mode: 0
+    - _MoonSize: 0.1
     - _NadirBlend: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -100,6 +106,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.15723255, g: 0.04004979, b: 0.052071117, a: 0}
     - _HorizonColor: {r: 0.059135217, g: 0.059135217, b: 0.06289297, a: 0}
+    - _MainLightDirection: {r: -0.9555659, g: -0.29265404, b: 0.035319176, a: 0}
+    - _MoonColor: {r: 2, g: 2, b: 2, a: 0}
     - _SkyColor: {r: 0.03987181, g: 0.050630845, b: 0.20125777, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5673007294736665285
