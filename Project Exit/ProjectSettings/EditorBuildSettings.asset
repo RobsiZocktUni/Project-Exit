@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jonas Test Scenes/Inventory/Cube Test Scene.unity
     guid: 6c0af9ca9056dd947bb4814e754aacf4
+  - enabled: 1
+    path: Assets/Scenes/Homescreen.unity
+    guid: 235fe0fb269ad824e9eba65367f8ca48
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: cb47e268f47fccf4581af0b63fc0624b
   m_configObjects: {}
