@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu_Script : MonoBehaviour
 {
     public FadeToBlack_Script fade;
-
-
+    
     /// <summary>
     /// Starts the game by transitioning to the next scene in the buld index
     /// </summary>

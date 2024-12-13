@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FadeToBlack_Script : MonoBehaviour
+public class Fade_Script : MonoBehaviour
 {
     public Image fadeImage;
-    public float fadeDuration = 3.0f;
+    public float fadeDuration = 1.0f;
 
 
     public IEnumerator Fade(float startAlpha, float endAlpha)
