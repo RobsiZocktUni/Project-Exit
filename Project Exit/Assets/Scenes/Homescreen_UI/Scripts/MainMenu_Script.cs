@@ -6,11 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_Script : MonoBehaviour
 {
+    public FadeToBlack_Script fade;
+
+
     /// <summary>
     /// Starts the game by transitioning to the next scene in the buld index
     /// </summary>
     public void PlayGame()
     {
+        StartCoroutine(PlayGameWithFade());
+    }
+
+
+    private IEnumerator PlayGameWithFade() 
+    {
+        yield return StartCoroutine(fade.Fade(0.0f, 1.0f)); // Wait until the fade finishes
+        
+
         // Log index for debugging purposes
         Debug.Log("Game Started");
 
