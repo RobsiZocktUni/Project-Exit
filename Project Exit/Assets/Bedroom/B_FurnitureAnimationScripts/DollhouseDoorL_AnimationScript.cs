@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DollhouseDoorL_AnimationScript : InteractableObject
 {
+    #region CodeFrom____Henni
     public float openAngle = 180.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -35,25 +36,49 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
     /// </remarks>
     public override void Interact()
     {
-        // If an animation is already running, do nothing
-        if (!isAnimating)
+        #endregion
+
+        #region CodeFromBeckJonas
+        bool itemInInventory = false;
+        foreach (var item in InventoryManager.Instance.InventoryItems)
         {
-            // Start the animation to move the drawer to the open or closed position
-            StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+            if (item.ItemName == "DollhouseKey")
+            {
+                Debug.Log("You used the DollhouseKey Key to open the door");
+                itemInInventory = true;
+                #endregion
 
-            // Toggle the isOpen flag to reflect the new state
-            isOpen = !isOpen;
+                #region CodeFrom____Henni
+                // If an animation is already running, do nothing
+                if (!isAnimating)
+                {
+                    // Start the animation to move the drawer to the open or closed position
+                    StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
-            // Provide feedback for the interaction
-            Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
+                    // Toggle the isOpen flag to reflect the new state
+                    isOpen = !isOpen;
+
+                    // Provide feedback for the interaction
+                    Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
+                }
+                else
+                {
+                    Debug.Log("The door is already moving.");
+                }
+                #endregion
+
+                #region CodeFromBeckJonas
+                break;
+            }
         }
-        else
+        if (itemInInventory == false)
         {
-            Debug.Log("The door is already moving.");
+            Debug.Log("You need to find a Key");
         }
-
+        #endregion
     }
 
+    #region CodeFrom____Henni
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
     /// </summary>
@@ -89,4 +114,5 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         // Mark the animation as finished
         isAnimating = false;
     }
+    #endregion
 }

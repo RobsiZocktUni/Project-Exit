@@ -35,22 +35,44 @@ public class MainDoor_AnimationScript : InteractableObject
     /// </remarks>
     public override void Interact()
     {
-        // If an animation is already running, do nothing
-        if (!isAnimating)
+        #region CodeFromBeckJonas
+        bool itemInInventory = false;
+        foreach (var item in InventoryManager.Instance.InventoryItems)
         {
-            // Start the animation to move the drawer to the open or closed position
-            StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+            if (item.ItemName == "BedroomDoorKey")
+            {
+                Debug.Log("You used the BedroomDoorKey Key to open the door");
+                itemInInventory = true;
+                #endregion
 
-            // Toggle the isOpen flag to reflect the new state
-            isOpen = !isOpen;
+                #region CodeFrom____Henni
+                // If an animation is already running, do nothing
+                if (!isAnimating)
+                {
+                    // Start the animation to move the drawer to the open or closed position
+                    StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
-            // Provide feedback for the interaction
-            Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
+                    // Toggle the isOpen flag to reflect the new state
+                    isOpen = !isOpen;
+
+                    // Provide feedback for the interaction
+                    Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
+                }
+                else
+                {
+                    Debug.Log("The door is already moving.");
+                }
+                #endregion
+
+                #region CodeFromBeckJonas
+                break;
+            }
         }
-        else
+        if (itemInInventory == false)
         {
-            Debug.Log("The door is already moving.");
+            Debug.Log("You need to find a Key");
         }
+        #endregion
 
     }
 

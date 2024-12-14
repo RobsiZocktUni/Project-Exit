@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region CodeFromBeckJonas
 public class InteractableObject : MonoBehaviour
 {
     public string ObjectName;
@@ -10,3 +11,4 @@ public class InteractableObject : MonoBehaviour
         Debug.Log("Das ist ein " + ObjectName);
     }
 }
+#endregion
