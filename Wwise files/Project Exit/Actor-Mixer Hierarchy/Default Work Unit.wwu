@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="test-02" ID="{50AECA61-CF70-48AB-94F4-43351FE87258}" ShortID="197662909">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
@@ -795,6 +802,1012 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Steps" ID="{0D89063C-73C2-4791-B93F-DB1B52B89242}" ShortID="282361184">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX-Step-17" ID="{48B7F93F-0301-49A8-B0E5-507E2AA64A8F}" ShortID="128571828">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-17" ID="{D4ADAF71-3721-4B80-896A-D55891908B42}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-17.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="408970512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-17" ID="{D4ADAF71-3721-4B80-896A-D55891908B42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-13" ID="{7052D538-BFA9-4CCC-8801-A86DAAFA5539}" ShortID="1062287166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-13" ID="{B4895D3B-8C97-4BC8-ACA2-6D7D4C993A7A}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="108637881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-13" ID="{B4895D3B-8C97-4BC8-ACA2-6D7D4C993A7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-15" ID="{FE6B1797-A1DE-453B-AAD0-312888DA46BD}" ShortID="21865029">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-15" ID="{6BF10320-1AC5-4FEB-A006-AD00F48F29C7}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-15.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280295012"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-15" ID="{6BF10320-1AC5-4FEB-A006-AD00F48F29C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-12" ID="{509467A0-1EFD-44DE-A9EE-B947B2144472}" ShortID="1014061337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-12" ID="{46AF318B-B855-4B78-90E6-87A4C261078E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="852783236"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-12" ID="{46AF318B-B855-4B78-90E6-87A4C261078E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-09" ID="{ABBBFEB4-96E8-4C75-AB3B-4D7E06E91515}" ShortID="680281893">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-09" ID="{E463B2FA-CED8-4AE2-8FD0-03F1341F244B}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="936281707"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-09" ID="{E463B2FA-CED8-4AE2-8FD0-03F1341F244B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-16" ID="{E21B6801-9FC1-434E-A664-A629549F0789}" ShortID="855544527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-16" ID="{0F33DCBF-9FAF-474C-BE54-F27FE9A47CA6}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="988756244"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-16" ID="{0F33DCBF-9FAF-474C-BE54-F27FE9A47CA6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-11" ID="{D27CD273-B0C4-408B-83EF-83505B496DD2}" ShortID="731858706">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-11" ID="{99958B85-C6CC-4DBF-B136-D92394A601C0}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="788701648"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-11" ID="{99958B85-C6CC-4DBF-B136-D92394A601C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-18" ID="{18393610-A562-4CF5-B948-53CADBCEF5F6}" ShortID="582916802">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-18" ID="{6BA7C8C5-FE16-4C7D-A208-D7DCE20D5F7A}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-18.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="706726449"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-18" ID="{6BA7C8C5-FE16-4C7D-A208-D7DCE20D5F7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-14" ID="{9E0F924E-A6F2-4B1D-9B22-FF1FDEFDCABF}" ShortID="259166756">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-14" ID="{816E8A46-1CE1-4154-9599-B9299182E8CA}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104246434"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-14" ID="{816E8A46-1CE1-4154-9599-B9299182E8CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-10" ID="{515A4F2F-638B-45E6-B652-C1A94B83028C}" ShortID="144325323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-10" ID="{37C58A78-036F-4A2D-86CD-A436F4D46902}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="72590103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-10" ID="{37C58A78-036F-4A2D-86CD-A436F4D46902}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-07" ID="{D8983250-926C-46E7-9200-158983D2110D}" ShortID="890281622">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-07" ID="{99F56E1E-2F80-44A6-93F3-D7C0E83903BE}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="76998002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-07" ID="{99F56E1E-2F80-44A6-93F3-D7C0E83903BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-05" ID="{61DFD396-71CA-401D-A4D5-B9EF71E79442}" ShortID="671761202">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-05" ID="{36FB8BAA-5E4C-49B9-817E-20B873AD34F2}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="562955119"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-05" ID="{36FB8BAA-5E4C-49B9-817E-20B873AD34F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-03" ID="{371403A7-8037-4EDD-8BB5-4B9355C24B90}" ShortID="813578633">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-03" ID="{29ABE7D5-D98D-45A7-81D5-04B827DA8295}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="533940874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-03" ID="{29ABE7D5-D98D-45A7-81D5-04B827DA8295}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-02" ID="{99C9556A-9CF7-4F84-B369-D6E1139A67E5}" ShortID="188552428">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-02" ID="{7DCFC44C-2AB4-4F46-A7E2-CBE755AD5FFD}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="356211607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-02" ID="{7DCFC44C-2AB4-4F46-A7E2-CBE755AD5FFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-01" ID="{FD29492C-48E8-4626-8D24-6E789B7640C5}" ShortID="182091703">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-01" ID="{1B1B4764-A7F0-4DC9-9272-F83B69E2C47E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="977262407"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-01" ID="{1B1B4764-A7F0-4DC9-9272-F83B69E2C47E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-06" ID="{7B41996A-D60B-4B06-BFAC-88452A9D6F98}" ShortID="421446153">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-06" ID="{CD237377-5526-410F-998A-DFC22BACB864}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11586564"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-06" ID="{CD237377-5526-410F-998A-DFC22BACB864}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-04" ID="{FE9A038D-A923-49A4-BD12-E3B1F5A0DA6A}" ShortID="210321390">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-04" ID="{9467EBA0-831F-4447-9C4E-32ADBBEA01B4}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="611095017"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-04" ID="{9467EBA0-831F-4447-9C4E-32ADBBEA01B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-08" ID="{EF10ACFC-E840-4413-8E99-101F6042D223}" ShortID="478809579">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-08" ID="{6A122730-837A-4F73-B281-678999D413E3}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="941702688"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-08" ID="{6A122730-837A-4F73-B281-678999D413E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-19" ID="{11F745AB-3CEF-4F3A-9C70-52AC38DCDF82}" ShortID="799659786">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-19" ID="{D01485C7-98F5-4662-B6FE-E9365F8602D6}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-19.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="319123657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-19" ID="{D01485C7-98F5-4662-B6FE-E9365F8602D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SFX-Wasser-tropfen-02" ID="{C18878B1-F1BA-4EFD-BA86-366AD5E9FD6A}" ShortID="485161166">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Wasser-tropfen-02" ID="{F07FA500-C2FA-413C-8EFA-E61CD39A3D09}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Wasser-tropfen-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900510275"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Wasser-tropfen-02" ID="{F07FA500-C2FA-413C-8EFA-E61CD39A3D09}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Wasser-tropfen" ID="{E3AB8F76-5750-4770-A73E-38951813804A}" ShortID="831241029">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Wasser-tropfen" ID="{BF8EED10-08CD-4095-8857-B2FDA00672D8}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Wasser-tropfen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1041481775"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Wasser-tropfen" ID="{BF8EED10-08CD-4095-8857-B2FDA00672D8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMBIENT-outside-02" ID="{01B29153-9D00-4F2A-A3C1-3E2E7D1CE63D}" ShortID="263130890">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMBIENT-outside-02" ID="{B1AF459E-7961-40C5-911D-AD2A4E2FE851}">
+							<Language>SFX</Language>
+							<AudioFile>AMBIENT-outside-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="310043262"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMBIENT-outside-02" ID="{B1AF459E-7961-40C5-911D-AD2A4E2FE851}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Step-quietschen-03" ID="{20E648CC-4C9F-4465-9A38-40C694C598CA}" ShortID="502308312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Step-quietschen-03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="145725912"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Step-quietschen-02" ID="{5839273F-F095-479E-94E5-753E73DE4E13}" ShortID="982861982">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Step-quietschen-02" ID="{96B6AF78-465F-4C76-8001-83FDB1C8F995}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Step-quietschen-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="590733615"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Step-quietschen-02" ID="{96B6AF78-465F-4C76-8001-83FDB1C8F995}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Step-quietschen-01" ID="{F16C9559-832C-49C6-AE24-9C7178CB362D}" ShortID="950868652">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Step-quietschen-01" ID="{E51CE0DC-0D8C-4F49-BFA5-A012223F5C27}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Step-quietschen-01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="157844805"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Step-quietschen-01" ID="{E51CE0DC-0D8C-4F49-BFA5-A012223F5C27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMBIENT-outside" ID="{00F28462-0D05-4822-8F2A-D9E7AA2F4A5E}" ShortID="285581116">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMBIENT-outside" ID="{28443598-F1CE-46A1-809F-86E34AD59370}">
+							<Language>SFX</Language>
+							<AudioFile>AMBIENT-outside.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="644572"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMBIENT-outside" ID="{28443598-F1CE-46A1-809F-86E34AD59370}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-schloss-auf-02" ID="{F5DB45E8-BED1-44B7-9A8A-799FAFBB8EC8}" ShortID="81309357">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-schloss-auf-02" ID="{2280610E-FA80-4211-9B2A-25EA27AF42A1}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-schloss-auf-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="482374556"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-schloss-auf-02" ID="{2280610E-FA80-4211-9B2A-25EA27AF42A1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-schloss-auf" ID="{F9F578F0-96BB-4B48-A568-BDF46DFFB8E8}" ShortID="866125833">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-schloss-auf" ID="{0ACEFB14-0C37-4061-A51C-EF3ABF7C0732}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-schloss-auf.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="191634209"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-schloss-auf" ID="{0ACEFB14-0C37-4061-A51C-EF3ABF7C0732}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Tür-schloss" ID="{B60B431C-A6BF-4254-BDA5-E2AD036B24B4}" ShortID="339010238">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Tür-schloss" ID="{94B73D5F-4D6D-4A7E-A57E-273969EB6834}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Tür-schloss.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="966514084"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Tür-schloss" ID="{94B73D5F-4D6D-4A7E-A57E-273969EB6834}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Tür-zu-leise" ID="{D967C865-31C8-421D-8914-C69438B0B30E}" ShortID="138165392">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Tür-zu-leise" ID="{C8903EFC-B7D3-4150-9B40-1A82B16EEB12}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Tür-zu-leise.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="958710085"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Tür-zu-leise" ID="{C8903EFC-B7D3-4150-9B40-1A82B16EEB12}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Türklinke" ID="{A17466C8-0833-409F-890A-50D64C303EDF}" ShortID="237219717">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Türklinke.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="316300769"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-zu-103" ID="{0055E450-B269-458C-B399-A849BEBC6175}" ShortID="332686393">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-zu-103.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="155474234"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-zu-102" ID="{DAA7D690-EE2B-4255-B730-73804C97403C}" ShortID="267020561">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-zu-102.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="234765194"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-zu-101" ID="{5D5D9F0F-E193-499C-81F0-3E1B86505A2E}" ShortID="843096150">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-zu-101.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="824818412"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-auf-103" ID="{4E7FE9A9-FCA3-4F47-9C10-4DD494D4544D}" ShortID="600356991">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-auf-103.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1064966872"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-auf-102" ID="{14DC3354-1922-4C72-823B-809CABD36A41}" ShortID="261611077">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-auf-102" ID="{373A2C7A-3EEC-452D-B265-13A2D80E4572}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-auf-102.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="255623222"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-auf-102" ID="{373A2C7A-3EEC-452D-B265-13A2D80E4572}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Schublade-auf-101" ID="{265BAF2D-FF17-4930-8A21-1DB1D1E726D2}" ShortID="654961599">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Schublade-auf-101" ID="{D85DEDC8-EE1A-48E6-A863-1BD10E6B873E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Schublade-auf-101.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="42283422"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Schublade-auf-101" ID="{D85DEDC8-EE1A-48E6-A863-1BD10E6B873E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Metall-auf-Metall-03" ID="{90B116BC-4F90-4A0A-8E18-F5722848414C}" ShortID="780460226">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Metall-auf-Metall-03" ID="{05684CA5-CC8D-444A-BE3A-DE44B0FE3FEA}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Metall-auf-Metall-03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1052827414"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Metall-auf-Metall-03" ID="{05684CA5-CC8D-444A-BE3A-DE44B0FE3FEA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Metall-auf-Metall-02" ID="{FCD916CB-7AF1-4687-8393-915CD7814D56}" ShortID="464775711">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Metall-auf-Metall-02" ID="{82ADF5DD-514E-42F2-896D-01DB7DF5ECC3}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Metall-auf-Metall-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="67546481"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Metall-auf-Metall-02" ID="{82ADF5DD-514E-42F2-896D-01DB7DF5ECC3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Metall-auf-Metall" ID="{02092B05-7AFA-4734-93E6-DB9AA027AC0A}" ShortID="231792039">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Metall-auf-Metall" ID="{10062EF0-6B60-4426-8BE3-58ABC8D33389}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Metall-auf-Metall.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="836571076"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Metall-auf-Metall" ID="{10062EF0-6B60-4426-8BE3-58ABC8D33389}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Kleine-Tür" ID="{BF499029-D5F1-45DF-8366-BE4D15E179DB}" ShortID="625079558">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Kleine-Tür" ID="{E181EB27-3092-4AFB-892E-9F4C37EE3540}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Kleine-Tür.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="736421046"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Kleine-Tür" ID="{E181EB27-3092-4AFB-892E-9F4C37EE3540}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Neonröhre" ID="{C1398A7E-53AB-474C-A480-DF790FB0C5E3}" ShortID="261489691">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Neonröhre" ID="{F78D735F-04DD-4B98-BF40-D8225C00089C}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Neonröhre.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="351706473"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Neonröhre" ID="{F78D735F-04DD-4B98-BF40-D8225C00089C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Zug-anfahren" ID="{6FF18549-12F6-41D3-BF50-9F2C2898BC5A}" ShortID="468461411">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Zug-anfahren" ID="{94498774-7CE6-48FD-B2D1-D56246903095}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Zug-anfahren.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="362690599"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Zug-anfahren" ID="{94498774-7CE6-48FD-B2D1-D56246903095}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Background-Wind-Train" ID="{1DBEEB66-805F-4978-9F74-A64D8D64C86A}" ShortID="249817080">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Background-Wind-Train" ID="{CF1FDC76-2CBE-41C7-968F-327554627274}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Background-Wind-Train.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="123061979"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Background-Wind-Train" ID="{CF1FDC76-2CBE-41C7-968F-327554627274}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX-Zug-einfahren" ID="{C19280FD-1B2B-4DB0-9A32-24AFCC82B315}" ShortID="454171854">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX-Zug-einfahren" ID="{A79E66E1-7344-4251-9509-E4269F77FEB7}">
+							<Language>SFX</Language>
+							<AudioFile>SFX-Zug-einfahren.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="71064897"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX-Zug-einfahren" ID="{A79E66E1-7344-4251-9509-E4269F77FEB7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

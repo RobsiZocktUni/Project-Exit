@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_test_02" ID="{76996A88-DBA0-4CC1-A487-8FBA9CF95582}">
+				<Event Name="Play_menu_theme" ID="{76996A88-DBA0-4CC1-A487-8FBA9CF95582}">
 					<ChildrenList>
 						<Action Name="" ID="{9CD263DF-FD6F-4113-B76B-3BDA77D7D18E}" ShortID="20309773">
 							<ReferenceList>
@@ -42,6 +42,33 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX-Schublade-auf-02" ID="{8221F633-4E6A-4160-8D53-0F9E0B7DF38F}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Steps" ID="{CF411D9A-A404-4C1D-9B44-B63183A1F2C1}">
+					<ChildrenList>
+						<Action Name="" ID="{5A497454-EF41-4955-B041-F317A4A939E9}" ShortID="695493030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{0D89063C-73C2-4791-B93F-DB1B52B89242}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_menu_theme" ID="{CBDA41F3-7107-4AA5-953B-700895BFA17B}">
+					<ChildrenList>
+						<Action Name="" ID="{C6E51136-9404-4916-AE1A-8E503046C4C2}" ShortID="104637520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="test-02" ID="{50AECA61-CF70-48AB-94F4-43351FE87258}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

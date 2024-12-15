@@ -165,13 +165,61 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{05308275-1114-A356-8EB7-59BBC03D469D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E59822A-B92A-8A89-C53A-AB6597E4A2F5}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="11586564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-06.wav</ShortName>
+					<CachePath>SFX/SFX-Step-06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="72590103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-10.wav</ShortName>
+					<CachePath>SFX/SFX-Step-10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="76998002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-07.wav</ShortName>
+					<CachePath>SFX/SFX-Step-07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="104246434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-14.wav</ShortName>
+					<CachePath>SFX/SFX-Step-14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="108637881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-13.wav</ShortName>
+					<CachePath>SFX/SFX-Step-13_818F3B66.wem</CachePath>
+				</File>
 				<File Id="126333147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholzschachtel-offnen.wav</ShortName>
 					<CachePath>SFX/SFX-Streichholzschachtel-offnen_1D21B644.wem</CachePath>
+				</File>
+				<File Id="280295012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-15.wav</ShortName>
+					<CachePath>SFX/SFX-Step-15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="319123657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-19.wav</ShortName>
+					<CachePath>SFX/SFX-Step-19_818F3B66.wem</CachePath>
+				</File>
+				<File Id="356211607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-02.wav</ShortName>
+					<CachePath>SFX/SFX-Step-02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="408970512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-17.wav</ShortName>
+					<CachePath>SFX/SFX-Step-17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="533940874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-03.wav</ShortName>
+					<CachePath>SFX/SFX-Step-03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="562955119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-05.wav</ShortName>
+					<CachePath>SFX/SFX-Step-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="611095017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-04.wav</ShortName>
+					<CachePath>SFX/SFX-Step-04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="653364092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>test-02.wav</ShortName>
@@ -180,6 +228,14 @@
 				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-01.wav</ShortName>
 					<CachePath>SFX/SFX-Streichholz-01_6E57338D.wem</CachePath>
+				</File>
+				<File Id="706726449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-18.wav</ShortName>
+					<CachePath>SFX/SFX-Step-18_818F3B66.wem</CachePath>
+				</File>
+				<File Id="788701648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-11.wav</ShortName>
+					<CachePath>SFX/SFX-Step-11_818F3B66.wem</CachePath>
 				</File>
 				<File Id="817071074" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-auf-02.wav</ShortName>
@@ -193,8 +249,33 @@
 					<ShortName>SFX-Streichholz-02.wav</ShortName>
 					<CachePath>SFX/SFX-Streichholz-02_6E57338D.wem</CachePath>
 				</File>
+				<File Id="852783236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-12.wav</ShortName>
+					<CachePath>SFX/SFX-Step-12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="936281707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-09.wav</ShortName>
+					<CachePath>SFX/SFX-Step-09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="941702688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-08.wav</ShortName>
+					<CachePath>SFX/SFX-Step-08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="977262407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-01.wav</ShortName>
+					<CachePath>SFX/SFX-Step-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="988756244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-16.wav</ShortName>
+					<CachePath>SFX/SFX-Step-16_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2181630209" Name="Play_menu_theme" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
+					<MediaRefs>
+						<MediaRef Id="653364092"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1215060680" Name="Play_SFX_Schublade_auf" DurationType="OneShot" DurationMin="0.9975208" DurationMax="0.9975208">
 					<MediaRefs>
 						<MediaRef Id="817071074"/>
@@ -212,13 +293,32 @@
 						<MediaRef Id="126333147"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2788420171" Name="Play_test_02" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
+				<Event Id="1718617278" Name="Steps" DurationType="OneShot" DurationMin="0.27658334" DurationMax="0.47829166">
 					<MediaRefs>
-						<MediaRef Id="653364092"/>
+						<MediaRef Id="11586564"/>
+						<MediaRef Id="72590103"/>
+						<MediaRef Id="76998002"/>
+						<MediaRef Id="104246434"/>
+						<MediaRef Id="108637881"/>
+						<MediaRef Id="280295012"/>
+						<MediaRef Id="319123657"/>
+						<MediaRef Id="356211607"/>
+						<MediaRef Id="408970512"/>
+						<MediaRef Id="533940874"/>
+						<MediaRef Id="562955119"/>
+						<MediaRef Id="611095017"/>
+						<MediaRef Id="706726449"/>
+						<MediaRef Id="788701648"/>
+						<MediaRef Id="852783236"/>
+						<MediaRef Id="936281707"/>
+						<MediaRef Id="941702688"/>
+						<MediaRef Id="977262407"/>
+						<MediaRef Id="988756244"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="810056023" Name="Stop_menu_theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2311EF4D-C61B-BDA1-4B23-686DE62C9625}</FileHash>
+	<FileHash>{28CEF2E0-5A53-7657-C227-0B3B9AB32F61}</FileHash>
 </SoundBanksInfo>
