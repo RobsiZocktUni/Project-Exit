@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DollhouseHD_AnimationScript : InteractableObject
+public class DollhouseHD_AnimationScript : MonoBehaviour
 {
     public float openAngleX = -27.0f;  // Angle to rotate the door to (in degrees; X axe)
 
@@ -30,7 +30,7 @@ public class DollhouseHD_AnimationScript : InteractableObject
         openRotation = Quaternion.Euler(openAngleX, openAngleY, openAngleZ);
     }
 
-    /*
+    
     /// <summary>
     /// Handles the interaction logic for the door.
     /// </summary>
@@ -38,18 +38,18 @@ public class DollhouseHD_AnimationScript : InteractableObject
     /// - If the door is currently animating, no new action will be performed.
     /// - Otherwise, toggles the door's state (open/close) and starts the appropriate animation.
     /// </remarks>
-    public override void Interact()
+    public void Open()
     {
-        // If an animation is already running, do nothing
+         //If an animation is already running, do nothing
         if (!isAnimating)
         {
-            // Start the animation to move the drawer to the open or closed position
+             //Start the animation to move the drawer to the open or closed position
             StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
-            // Toggle the isOpen flag to reflect the new state
+             //Toggle the isOpen flag to reflect the new state
             isOpen = !isOpen;
 
-            // Provide feedback for the interaction
+             //Provide feedback for the interaction
             Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
         }
         else
@@ -58,32 +58,7 @@ public class DollhouseHD_AnimationScript : InteractableObject
         }
 
     }
-    */
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            // If an animation is already running, do nothing
-            if (!isAnimating)
-            {
-                // Start the animation to move the drawer to the open or closed position
-                StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
-
-                // Toggle the isOpen flag to reflect the new state
-                isOpen = !isOpen;
-
-                // Provide feedback for the interaction
-                Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
-            }
-            else
-            {
-                Debug.Log("The door is already moving.");
-            }
-
-        }
-
-    }
+    
 
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
