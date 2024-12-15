@@ -9,6 +9,10 @@ public class StartAnimation_Script : MonoBehaviour
     public MoveCamera_Script MoveCamera;  // Reference to the MoveCamera script for moving the camera
     public Character_Controller characterController;  // Reference to the Character_Controller script for enabling/disabling character controls
 
+    [Header("Fade")]
+    public Fade_Script fade;
+    public GameObject FadeManager;
+
     /*
     [Header("Animation Timing")]
     public float firstAnimationDelay = 1.0f;  // Delay before starting the first animation (in seconds)
@@ -44,10 +48,14 @@ public class StartAnimation_Script : MonoBehaviour
     private IEnumerator DelayBeforeStart()
     {
         // Wait for the specified delay time
-        yield return new WaitForSeconds(1.0f);
+        //yield return new WaitForSeconds(1.0f);
+
+        yield return StartCoroutine(fade.Fade(1.0f, 0.0f));
 
         // Trigger the camera rotation animation
         RotateCamera.CameraRotation();
+
+        FadeManager.gameObject.SetActive(false);
     }
 
     /// <summary>
@@ -58,7 +66,7 @@ public class StartAnimation_Script : MonoBehaviour
     private IEnumerator DelayBeforeSecondAnimation()
     {
         // Wait for the specified delay time
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(6.0f);
 
         // Trigger the camera movement animation
         MoveCamera.CameraMovement();
