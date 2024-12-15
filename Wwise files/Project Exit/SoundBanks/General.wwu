@@ -8,6 +8,7 @@
 						<ObjectRef Name="Play_SFX_Streichholzschachtel_aufheben" ID="{6C52355B-BE5D-4283-87C6-1CB34AB032E7}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Schublade_auf" ID="{B1AC8982-4F8C-476F-AEC1-D9F94FFA40FB}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Streichholz" ID="{541F273D-FCDB-49CD-A6CD-5BBFD8AFFF59}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Steps" ID="{CF411D9A-A404-4C1D-9B44-B63183A1F2C1}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_test_02" ID="{76996A88-DBA0-4CC1-A487-8FBA9CF95582}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

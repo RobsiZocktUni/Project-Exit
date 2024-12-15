@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_STREICHHOLZ = 3417554753U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZSCHACHTEL_AUFHEBEN = 3591392569U;
         static const AkUniqueID PLAY_TEST_02 = 2788420171U;
+        static const AkUniqueID STEPS = 1718617278U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
