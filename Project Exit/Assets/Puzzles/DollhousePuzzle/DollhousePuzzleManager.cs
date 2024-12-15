@@ -5,7 +5,7 @@ using UnityEngine;
 public class DollhousePuzzleManager : MonoBehaviour
 {
     public List<Mannequin> mannequins = new List<Mannequin>();
-    
+    public DollhouseHD_AnimationScript DoorToUnlock;
     public void CheckIfDone()
     {
         bool done = true;
@@ -24,6 +24,7 @@ public class DollhousePuzzleManager : MonoBehaviour
             Debug.Log("You solved the Puzzle");
             foreach (var mannequin in mannequins)
             {
+                DoorToUnlock.Open();
                 mannequin.Interactable = false;
             }
         }

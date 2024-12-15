@@ -28,6 +28,7 @@ public class Doll_Clothing : KeyItem
                 if (mannequin.AddClothingPossible(this))    //Calls the function in Mannequin.cs to add the clothing to it if possible
                 {
                     InventoryManager.DropItem(this, mannequin.transform.position);  // "Drops" the item ontop of the Mannequin
+                    this.transform.eulerAngles = new Vector3(0, -13.244f, 0);        
                     Hitbox.enabled = false;                                         // Disables the clothings hitbox so it cant block the hitbox of the Mannequin
                     player.InventoryUi.SetActive(false);                      // Closes the inventory  
                     player.EnableControls();
