@@ -165,7 +165,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{22419FD4-122D-7487-BFA0-D2B751904738}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E59822A-B92A-8A89-C53A-AB6597E4A2F5}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -271,6 +271,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2181630209" Name="Play_menu_theme" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
+					<MediaRefs>
+						<MediaRef Id="653364092"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1215060680" Name="Play_SFX_Schublade_auf" DurationType="OneShot" DurationMin="0.9975208" DurationMax="0.9975208">
 					<MediaRefs>
 						<MediaRef Id="817071074"/>
@@ -286,11 +291,6 @@
 				<Event Id="3591392569" Name="Play_SFX_Streichholzschachtel_aufheben" DurationType="OneShot" DurationMin="0.7232086" DurationMax="0.7232086">
 					<MediaRefs>
 						<MediaRef Id="126333147"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2788420171" Name="Play_test_02" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
-					<MediaRefs>
-						<MediaRef Id="653364092"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1718617278" Name="Steps" DurationType="OneShot" DurationMin="0.27658334" DurationMax="0.47829166">
@@ -316,8 +316,9 @@
 						<MediaRef Id="988756244"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="810056023" Name="Stop_menu_theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{00951E21-9AE2-9655-F5F0-A7EBD5C3955C}</FileHash>
+	<FileHash>{28CEF2E0-5A53-7657-C227-0B3B9AB32F61}</FileHash>
 </SoundBanksInfo>
