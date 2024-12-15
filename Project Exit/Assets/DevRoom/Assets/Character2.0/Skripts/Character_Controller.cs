@@ -1,9 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Diagnostics;
+
 
 public class Character_Controller : MonoBehaviour
 {
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerSteps;
+    //variables that track and time the playback speed of a single step
+    public float stepsInterval = 0.5f;
+    //using System.Diagnostics stopwatch to time the intervall between steps
+    private Stopwatch stopwatch = new Stopwatch();
+
     //proberty to control if the player can move; can be set externally if needed
     public bool CanMove { get; private set; } = true;
 
@@ -79,6 +88,8 @@ public class Character_Controller : MonoBehaviour
         MainCamera = Camera.main;
         InvManager = this.GetComponent<InventoryManager>();
         //--------------------------------------
+
+        stopwatch.Start(); //start Stopwatch
 
     }
 
@@ -210,6 +221,27 @@ public class Character_Controller : MonoBehaviour
 
         //move the character based on the calculated direction
         characterController.Move(moveDirection * Time.deltaTime);
+        PLayStepsAudio();
+    }
+    //
+    private void PLayStepsAudio(){
+        //checks if the character is not on the ground, and wont play audio if so
+        if (!characterController.isGrounded)
+            return;
+
+        
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(horizontal, 0, vertical);
+        //checks if the character has moved enough to play a step sound
+        if (movement.magnitude > 0.1f)
+        {
+            if (stopwatch.Elapsed.TotalSeconds >= stepsInterval)
+            {
+                stopwatch.Restart();    //resets stopwatch
+                triggerSteps.Post(gameObject);  //triggers a Wwise post event
+            }
+        }
     }
 
     //smoothly transitions between crouching and standing over time, adjusting height and center point of the character collider
