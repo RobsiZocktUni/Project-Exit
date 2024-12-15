@@ -36,10 +36,10 @@ public class Character_Controller : MonoBehaviour
     public float lowLookLimit = 70.0f;  //maximal downward look angle
 
     [Header("Parameters: Crouch")]
-    public float crouchHeight = 1.2f;  //height of character while crouching
-    public float standingHeight = 1.8f;  //height of character while standing
+    public float crouchHeight = 1.3f;  //height of character while crouching
+    public float standingHeight = 2.0f;  //height of character while standing
     public float timeToCrouch = 0.25f;  //time taken for crouch transition animation
-    public Vector3 crouchingCenter = new Vector3(0.0f, 0.5f, 0.0f);  //center point of character collider when crouching
+    public Vector3 crouchingCenter = new Vector3(0.0f, 0.6f, 0.0f);  //center point of character collider when crouching
     public Vector3 standingCenter = new Vector3(0.0f, 0.0f, 0.0f);  //center point of character collider when standing
     private bool isCrouching;  //tracks if the character is currently crouching
     private bool duringCrouchAnimation;  //tracks if a crouch/stand animation is in progress
