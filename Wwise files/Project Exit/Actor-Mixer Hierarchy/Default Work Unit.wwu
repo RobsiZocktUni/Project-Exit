@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Sound Name="test-02" ID="{50AECA61-CF70-48AB-94F4-43351FE87258}" ShortID="197662909">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-30</Value>

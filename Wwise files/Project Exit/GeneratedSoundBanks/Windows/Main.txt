@@ -20,7 +20,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	533940874	SFX-Step-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-03		80124
 	562955119	SFX-Step-05	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-05		61256
 	611095017	SFX-Step-04	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-04		36538
-	653364092	test-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\test-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
+	653364092	test-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\test-02_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
 	670808234	SFX-Streichholz-01	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-01_6E57338D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-01		518496
 	706726449	SFX-Step-18	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-18_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-18		36026
 	788701648	SFX-Step-11	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-11		74092

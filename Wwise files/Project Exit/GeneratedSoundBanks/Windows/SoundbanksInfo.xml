@@ -165,7 +165,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E59822A-B92A-8A89-C53A-AB6597E4A2F5}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E7CBB3E-F057-E44F-BED1-E51DCADA9AD1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -223,7 +223,7 @@
 				</File>
 				<File Id="653364092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>test-02.wav</ShortName>
-					<CachePath>SFX/test-02_818F3B66.wem</CachePath>
+					<CachePath>SFX/test-02_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-01.wav</ShortName>
@@ -271,7 +271,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2181630209" Name="Play_menu_theme" DurationType="OneShot" DurationMin="28.235292" DurationMax="28.235292">
+				<Event Id="2181630209" Name="Play_menu_theme" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="653364092"/>
 					</MediaRefs>
@@ -320,5 +320,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{28CEF2E0-5A53-7657-C227-0B3B9AB32F61}</FileHash>
+	<FileHash>{B17DE5CE-AF04-3EEA-C87C-ECEB8EC1E5E1}</FileHash>
 </SoundBanksInfo>
