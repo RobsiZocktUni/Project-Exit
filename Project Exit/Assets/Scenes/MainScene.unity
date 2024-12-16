@@ -22820,12 +22820,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 722340277}
     - target: {fileID: 7021228136115632827, guid: e5a886875ab8dda409f6d89c2dedabe0, type: 3}
+      propertyPath: canSprint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021228136115632827, guid: e5a886875ab8dda409f6d89c2dedabe0, type: 3}
       propertyPath: InventoryUi
       value: 
       objectReference: {fileID: 1087307803}
     - target: {fileID: 7021228136115632827, guid: e5a886875ab8dda409f6d89c2dedabe0, type: 3}
       propertyPath: crouchHeight
       value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021228136115632827, guid: e5a886875ab8dda409f6d89c2dedabe0, type: 3}
+      propertyPath: stepsInterval
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 7021228136115632827, guid: e5a886875ab8dda409f6d89c2dedabe0, type: 3}
       propertyPath: standingHeight
@@ -29805,11 +29813,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1677954038 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f6e9774902250441b443fefe17c401e, type: 3}
-  m_PrefabInstance: {fileID: 1669706405}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1681833005
 PrefabInstance:
   m_ObjectHideFlags: 0
