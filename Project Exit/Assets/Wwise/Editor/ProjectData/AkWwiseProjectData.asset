@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 59a54538be14a14fa82609b2f635720d
     GuidInternal: 
-    m_lastTime: -8584672645679084217
+    m_lastTime: -8584672446756702884
     List:
     - name: Play_menu_theme
       guid: 886a9976a0dbc14ca4878fba9cf95582
@@ -403,8 +403,42 @@ MonoBehaviour:
         guid: 886a9976a0dbc14ca4878fba9cf95582
       Path: Events\Default Work Unit\Play_menu_theme
       maxAttenuation: 0
-      maxDuration: 28.235292
-      minDuration: 28.235292
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Kleine_Tuer
+      guid: 8dbbd65035602146821f8e590288e8be
+      id: 2408187165
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Kleine_Tuer
+        ObjectType: 3
+        guid: 8dbbd65035602146821f8e590288e8be
+      Path: Events\Default Work Unit\Play_SFX_Kleine_Tuer
+      maxAttenuation: 0
+      maxDuration: 1.1672916
+      minDuration: 1.1672916
+    - name: Play_SFX_schloss_auf
+      guid: ac4ad3e48844ea46bd58718ac1f560b5
+      id: 1880054156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_schloss_auf
+        ObjectType: 3
+        guid: ac4ad3e48844ea46bd58718ac1f560b5
+      Path: Events\Default Work Unit\Play_SFX_schloss_auf
+      maxAttenuation: 0
+      maxDuration: 0.50579166
+      minDuration: 0.50579166
     - name: Play_SFX_Schublade_auf
       guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       id: 1215060680
