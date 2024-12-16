@@ -14,8 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_MENU_THEME = 2181630209U;
-        static const AkUniqueID PLAY_SFX_KLEINE_TUER = 2408187165U;
-        static const AkUniqueID PLAY_SFX_SCHLOSS_AUF = 1880054156U;
         static const AkUniqueID PLAY_SFX_SCHUBLADE_AUF = 1215060680U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZ = 3417554753U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZSCHACHTEL_AUFHEBEN = 3591392569U;
