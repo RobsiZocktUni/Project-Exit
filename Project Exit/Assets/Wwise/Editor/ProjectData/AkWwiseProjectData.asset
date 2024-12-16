@@ -420,8 +420,8 @@ MonoBehaviour:
         guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       Path: Events\Default Work Unit\Play_SFX_Schublade_auf
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.9975208
+      minDuration: 0.9975208
     - name: Play_SFX_Streichholz
       guid: 3d271f54dbfccd49a6cd5bbfd8afff59
       id: 3417554753
@@ -437,8 +437,8 @@ MonoBehaviour:
         guid: 3d271f54dbfccd49a6cd5bbfd8afff59
       Path: Events\Default Work Unit\Play_SFX_Streichholz
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.7
+      minDuration: 2.7
     - name: Play_SFX_Streichholzschachtel_aufheben
       guid: 5b35526c5dbe834287c61cb34ab032e7
       id: 3591392569
@@ -454,8 +454,8 @@ MonoBehaviour:
         guid: 5b35526c5dbe834287c61cb34ab032e7
       Path: Events\Default Work Unit\Play_SFX_Streichholzschachtel_aufheben
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.7232086
+      minDuration: 0.7232086
     - name: Steps
       guid: 9a1d41cf04a41d4c9b44b63183a1f2c1
       id: 1718617278
@@ -471,8 +471,8 @@ MonoBehaviour:
         guid: 9a1d41cf04a41d4c9b44b63183a1f2c1
       Path: Events\Default Work Unit\Steps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.47829166
+      minDuration: 0.27658334
     - name: Stop_menu_theme
       guid: f341dacb0771a54a953b700895bfa17b
       id: 810056023
@@ -488,8 +488,8 @@ MonoBehaviour:
         guid: f341dacb0771a54a953b700895bfa17b
       Path: Events\Default Work Unit\Stop_menu_theme
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
