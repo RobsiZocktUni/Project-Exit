@@ -1717,6 +1717,21 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{691229D8-0BAD-4ACA-989C-42A42B0051A7}" ShortID="139714779">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="New_Parametric_EQ" ID="{12AF7BBC-91F3-4ADE-968D-16306495AE84}" WorkUnitID="{E85398C8-86F6-4777-8AF2-182C84CF2B52}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX-Kleine-Tür" ID="{E181EB27-3092-4AFB-892E-9F4C37EE3540}" Platform="Linked"/>
 					</ActiveSourceList>

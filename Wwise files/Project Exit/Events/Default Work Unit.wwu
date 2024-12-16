@@ -74,6 +74,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_schloss_auf" ID="{E4D34AAC-4488-46EA-BD58-718AC1F560B5}">
+					<ChildrenList>
+						<Action Name="" ID="{027AB717-7D0C-4E7E-A77C-BDC3215484E8}" ShortID="135384291">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-schloss-auf-02" ID="{F5DB45E8-BED1-44B7-9A8A-799FAFBB8EC8}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Kleine_Tuer" ID="{50D6BB8D-6035-4621-821F-8E590288E8BE}">
+					<ChildrenList>
+						<Action Name="" ID="{734F8C9E-7B92-4CBB-938A-C8638CC06658}" ShortID="553824617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Kleine-Tür" ID="{BF499029-D5F1-45DF-8366-BE4D15E179DB}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
