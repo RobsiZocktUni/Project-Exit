@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F5B2C2C4-5527-14C5-1C9D-0A88F86C0743}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3E9912EB-10F2-E23C-C5E8-91981FF255BB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -165,7 +165,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D30D9DA4-0E69-8E35-FD3E-558FC5760F93}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E7CBB3E-F057-E44F-BED1-E51DCADA9AD1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -209,10 +209,6 @@
 					<ShortName>SFX-Step-17.wav</ShortName>
 					<CachePath>SFX/SFX-Step-17_818F3B66.wem</CachePath>
 				</File>
-				<File Id="482374556" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX-schloss-auf-02.wav</ShortName>
-					<CachePath>SFX/SFX-schloss-auf-02_818F3B66.wem</CachePath>
-				</File>
 				<File Id="533940874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-03.wav</ShortName>
 					<CachePath>SFX/SFX-Step-03_818F3B66.wem</CachePath>
@@ -236,10 +232,6 @@
 				<File Id="706726449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-18.wav</ShortName>
 					<CachePath>SFX/SFX-Step-18_818F3B66.wem</CachePath>
-				</File>
-				<File Id="736421046" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX-Kleine-Tür.wav</ShortName>
-					<CachePath>SFX/SFX-Kleine-Tür_818F3B66.wem</CachePath>
 				</File>
 				<File Id="788701648" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-11.wav</ShortName>
@@ -278,30 +270,10 @@
 					<CachePath>SFX/SFX-Step-16_818F3B66.wem</CachePath>
 				</File>
 			</Media>
-			<Plugins>
-				<ShareSets>
-					<Plugin Id="3657550167" Name="New_Parametric_EQ" LibName="Wwise Parametric EQ" LibId="6881283"/>
-				</ShareSets>
-			</Plugins>
 			<Events>
 				<Event Id="2181630209" Name="Play_menu_theme" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="653364092"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2408187165" Name="Play_SFX_Kleine_Tuer" DurationType="OneShot" DurationMin="1.1672916" DurationMax="1.1672916">
-					<MediaRefs>
-						<MediaRef Id="736421046"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3657550167"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="1880054156" Name="Play_SFX_schloss_auf" DurationType="OneShot" DurationMin="0.50579166" DurationMax="0.50579166">
-					<MediaRefs>
-						<MediaRef Id="482374556"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1215060680" Name="Play_SFX_Schublade_auf" DurationType="OneShot" DurationMin="0.9975208" DurationMax="0.9975208">
@@ -348,5 +320,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A04AFF7D-CF46-98DB-B33A-8B48E1336900}</FileHash>
+	<FileHash>{B17DE5CE-AF04-3EEA-C87C-ECEB8EC1E5E1}</FileHash>
 </SoundBanksInfo>

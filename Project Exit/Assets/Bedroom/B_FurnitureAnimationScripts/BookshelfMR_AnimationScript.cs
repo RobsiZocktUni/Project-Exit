@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BookshelfMR_AnimationScript : InteractableObject
 {
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerDoor;
+
     public float openAngle = 0.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -61,6 +64,9 @@ public class BookshelfMR_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        //trigger door sound
+        triggerDoor.Post(gameObject);
+
         // Store the starting position of the animation
         Quaternion startRotation = transform.rotation;
 
