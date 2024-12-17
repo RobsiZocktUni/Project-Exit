@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class TableDrawerL_AnimationScript : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerdrawerclose;
+    public AK.Wwise.Event triggerdraweropen;
+    #endregion
     public Vector3 openPositionOffset;  // Offset to apply to the closed position to determine the open position
 
-    public float timeTillArrival = 1.0f;  // Duration of the animation in seconds
+    public float timeTillArrival = 0.75f;  // Duration of the animation in seconds
 
     private Vector3 closedPosition;  // Local position of the drawer when closed
 
@@ -61,6 +66,7 @@ public class TableDrawerL_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator MoveDrawer(Vector3 moveto)
     {
+        playSound(moveto);
         // Store the starting position of the animation
         Vector3 startPos = transform.localPosition;
 
@@ -90,4 +96,18 @@ public class TableDrawerL_AnimationScript : InteractableObject
         // Mark the animation as finished
         isAnimating = false;
     }
+    #region CodeFromLennart
+    private void playSound(Vector3 endpos)
+    {
+        if (endpos == closedPosition)
+        {
+            triggerdrawerclose.Post(gameObject);
+        }
+        else
+        {
+            triggerdraweropen.Post(gameObject);
+        }
+    }
+    #endregion
+
 }

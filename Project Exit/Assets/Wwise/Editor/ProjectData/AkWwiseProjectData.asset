@@ -358,7 +358,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\General
     guid: 0eb58fb455ea1346a166b0c3cde243d5
     GuidInternal: 
-    m_lastTime: -8584672645676192719
+    m_lastTime: -8584672327225239845
     List:
     - name: Main
       guid: 54d1edda390e2a45bac96fd5dfb7c700
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 59a54538be14a14fa82609b2f635720d
     GuidInternal: 
-    m_lastTime: -8584672446756702884
+    m_lastTime: -8584672327225147263
     List:
     - name: Play_menu_theme
       guid: 886a9976a0dbc14ca4878fba9cf95582
@@ -439,6 +439,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.50579166
       minDuration: 0.50579166
+    - name: Play_SFX_schloss_kein_Schluessel
+      guid: b4760d91d6fadc4893d117f9e60e105c
+      id: 324383601
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_schloss_kein_Schluessel
+        ObjectType: 3
+        guid: b4760d91d6fadc4893d117f9e60e105c
+      Path: Events\Default Work Unit\Play_SFX_schloss_kein_Schluessel
+      maxAttenuation: 0
+      maxDuration: 0.47366667
+      minDuration: 0.47366667
     - name: Play_SFX_Schublade_auf
       guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       id: 1215060680
@@ -456,6 +473,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.9975208
       minDuration: 0.9975208
+    - name: Play_SFX_Schublade_zu
+      guid: c03c7120683dd04ca405edc33eb86b02
+      id: 3803780191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Schublade_zu
+        ObjectType: 3
+        guid: c03c7120683dd04ca405edc33eb86b02
+      Path: Events\Default Work Unit\Play_SFX_Schublade_zu
+      maxAttenuation: 0
+      maxDuration: 0.75016385
+      minDuration: 0.75016385
     - name: Play_SFX_Streichholz
       guid: 3d271f54dbfccd49a6cd5bbfd8afff59
       id: 3417554753
