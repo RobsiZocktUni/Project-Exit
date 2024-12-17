@@ -118,6 +118,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Schranktuer_auf" ID="{71720190-525C-4FCC-9FBB-BF2CEB9B215E}">
+					<ChildrenList>
+						<Action Name="" ID="{A4FED55E-D650-4F25-BB8B-FE2F3168F7AB}" ShortID="300068357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Schranktuer_zu_02" ID="{731BE541-C668-4D51-A2CD-26CC44C17FAC}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Schranktuer_zu" ID="{E31E3DE9-F2F8-4A27-9F0B-B04330D5E18A}">
+					<ChildrenList>
+						<Action Name="" ID="{BDDF2CDB-94EB-4467-AA33-0137E87889A1}" ShortID="384843245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Schranktuer_zu_01" ID="{0A03FBCA-669A-4A36-9E02-CBD30131906D}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Zimmertuer" ID="{40F49090-B53C-4D33-ABC1-B8419529D4DE}">
+					<ChildrenList>
+						<Action Name="" ID="{E2203BD7-49AF-4C78-BB28-37C8DA3D3900}" ShortID="366940477">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX-Türklinke" ID="{A17466C8-0833-409F-890A-50D64C303EDF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ZimmerTuer" ID="{C6971CFA-7F08-4BB5-BD59-F6DE9EC711B7}">
+					<ChildrenList>
+						<Action Name="" ID="{789F8B81-B628-49B8-B3F1-C77D8ED418A8}" ShortID="1067230827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZimmerTür" ID="{8B16A2C7-4B73-4AEF-A752-B42781772DBD}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

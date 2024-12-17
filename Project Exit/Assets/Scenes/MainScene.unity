@@ -2459,6 +2459,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoorclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea4e42d02ee598c4a93e1b0464ee279c, type: 2}
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7617c6f09fddcf241920df96f65f247b, type: 2}
   openAngle: -20
   timeTillArrival: 3
 --- !u!1 &301001649
@@ -24383,6 +24391,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoorclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea4e42d02ee598c4a93e1b0464ee279c, type: 2}
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7617c6f09fddcf241920df96f65f247b, type: 2}
   openAngle: 200
   timeTillArrival: 3
 --- !u!224 &1615218062 stripped
@@ -31456,6 +31472,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99164e42062fe9b4b92e3a4406c4cb7e, type: 2}
   openAngle: 20
   timeTillArrival: 2
 --- !u!65 &1822167451
@@ -48344,7 +48364,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5993736301842262862, guid: ec8f6b822185aee4c8a7a1c83d000a6f, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7621619554869992646, guid: ec8f6b822185aee4c8a7a1c83d000a6f, type: 3}
       insertIndex: -1

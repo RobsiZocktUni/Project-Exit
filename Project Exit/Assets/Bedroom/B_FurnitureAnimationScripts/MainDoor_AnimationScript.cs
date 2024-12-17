@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MainDoor_AnimationScript : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerDooropen;
+    #endregion
     public float openAngle = 60.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -83,6 +87,7 @@ public class MainDoor_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        triggerDooropen.Post(gameObject); //triggers opening sound only, code needs to be expanded if closing and one time use of key should be intended
         // Store the starting position of the animation
         Quaternion startRotation = transform.rotation;
 
