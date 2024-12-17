@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class StandingCandle : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerlightCandle;
+    #endregion
+
     GameObject LightEffect;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +24,9 @@ public class StandingCandle : InteractableObject
         {
             if (item.ItemName == "Matchsticks")
             {
+                #region CodeFromLennart
+                triggerlightCandle.Post(gameObject);
+                #endregion
                 Debug.Log("You used a match to light the candle");
                 itemInInventory = true;
                 LightEffect.SetActive(true);

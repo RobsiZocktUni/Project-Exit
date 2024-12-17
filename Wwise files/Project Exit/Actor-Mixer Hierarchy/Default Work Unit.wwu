@@ -128,35 +128,6 @@
 						<ActiveSource Name="SFX-Holzknarzen" ID="{64A6AB1A-46EA-4087-80EF-FB462ECA8E21}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SFX-Schranktuer_auf_01" ID="{25264464-3719-412F-8B6A-C95D47DD3207}" ShortID="716368571">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schranktuer_auf_01" ID="{B81C007D-4D78-4473-8CD2-C97A39091A44}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.275032452795933"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.339325753449528"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.139534940087145"/>
-								<Property Name="TrimEnd" Type="Real64" Value="2.13953"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schranktuer_auf_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="497340865"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schranktuer_auf_01" ID="{B81C007D-4D78-4473-8CD2-C97A39091A44}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SFX-Schranktuer_auf_02" ID="{A2527B72-E15F-4082-BBFA-624F4F61737C}" ShortID="849868280">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -180,6 +151,23 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX-Schranktuer_auf_schnell" ID="{32144689-24C6-461D-8302-E5CC2F47FFD1}" ShortID="887691571">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>50</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>500</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
@@ -190,6 +178,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SFX-Schranktuer_auf_schnell" ID="{9F281DFB-1036-4DDB-B6CC-447A48428643}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.104277732389252"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.03307706971678"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX-Schranktuer_auf_schnell.wav</AudioFile>
 							<MediaIDList>
@@ -212,6 +205,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SFX-Schranktuer_zu_01" ID="{0F8BF881-CC33-4846-95CF-CE870A22B1A6}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.105197667029775"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.1052"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX-Schranktuer_zu_01.wav</AudioFile>
 							<MediaIDList>
@@ -234,6 +232,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SFX-Schranktuer_zu_02" ID="{4F7984EC-F883-46E1-8341-C82EA8463A9F}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.00255610021786"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX-Schranktuer_zu_02.wav</AudioFile>
 							<MediaIDList>
@@ -375,28 +378,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX-Schublade-auf-01" ID="{F7DCD367-2806-4488-BAF2-BC14DAD5474F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX-Schublade-auf-02" ID="{8221F633-4E6A-4160-8D53-0F9E0B7DF38F}" ShortID="469834645">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schublade-auf-02" ID="{367C8FBB-FB28-4C9D-9868-778A7DCD0513}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schublade-auf-02.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="817071074"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schublade-auf-02" ID="{367C8FBB-FB28-4C9D-9868-778A7DCD0513}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX-Schublade-auf-03" ID="{104C016D-839B-4EF7-868F-52B23D9378BE}" ShortID="51019450">
@@ -701,6 +682,11 @@
 					<ChildrenList>
 						<Sound Name="SFX-Streichholz-01" ID="{F193F8BE-E5E6-411E-AA7A-003FA1D491E3}" ShortID="243952085">
 							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>70</Value>
@@ -735,6 +721,11 @@
 						</Sound>
 						<Sound Name="SFX-Streichholz-02" ID="{3935B027-0DC9-4F84-A64A-81A233F9787C}" ShortID="376973385">
 							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>18</Value>
@@ -1303,28 +1294,6 @@
 						<ActiveSource Name="AMBIENT-outside-02" ID="{B1AF459E-7961-40C5-911D-AD2A4E2FE851}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SFX-Step-quietschen-03" ID="{20E648CC-4C9F-4465-9A38-40C694C598CA}" ShortID="502308312">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Step-quietschen-03.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="145725912"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SFX-Step-quietschen-02" ID="{5839273F-F095-479E-94E5-753E73DE4E13}" ShortID="982861982">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1479,116 +1448,6 @@
 						<ActiveSource Name="SFX-Tür-zu-leise" ID="{C8903EFC-B7D3-4150-9B40-1A82B16EEB12}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SFX-Türklinke" ID="{A17466C8-0833-409F-890A-50D64C303EDF}" ShortID="237219717">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Türklinke.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="316300769"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX-Schublade-zu-103" ID="{0055E450-B269-458C-B399-A849BEBC6175}" ShortID="332686393">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schublade-zu-103.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="155474234"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX-Schublade-zu-102" ID="{DAA7D690-EE2B-4255-B730-73804C97403C}" ShortID="267020561">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schublade-zu-102.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="234765194"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX-Schublade-zu-101" ID="{5D5D9F0F-E193-499C-81F0-3E1B86505A2E}" ShortID="843096150">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schublade-zu-101.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="824818412"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX-Schublade-auf-103" ID="{4E7FE9A9-FCA3-4F47-9C10-4DD494D4544D}" ShortID="600356991">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}">
-							<Language>SFX</Language>
-							<AudioFile>SFX-Schublade-auf-103.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1064966872"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SFX-Schublade-auf-102" ID="{14DC3354-1922-4C72-823B-809CABD36A41}" ShortID="261611077">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1717,6 +1576,21 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{691229D8-0BAD-4ACA-989C-42A42B0051A7}" ShortID="139714779">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="Low_cut" ID="{12AF7BBC-91F3-4ADE-968D-16306495AE84}" WorkUnitID="{E85398C8-86F6-4777-8AF2-182C84CF2B52}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX-Kleine-Tür" ID="{E181EB27-3092-4AFB-892E-9F4C37EE3540}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -1809,6 +1683,310 @@
 						<ActiveSource Name="SFX-Zug-einfahren" ID="{A79E66E1-7344-4251-9509-E4269F77FEB7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Schranktuer" ID="{FBE8EA13-09E3-4FE0-B79B-81B726D52D03}" ShortID="229493023">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX-Schranktuer_auf_01" ID="{25264464-3719-412F-8B6A-C95D47DD3207}" ShortID="716368571">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schranktuer_auf_01" ID="{B81C007D-4D78-4473-8CD2-C97A39091A44}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.275032452795933"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.339325753449528"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.139534940087145"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.13953"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schranktuer_auf_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="497340865"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schranktuer_auf_01" ID="{B81C007D-4D78-4473-8CD2-C97A39091A44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Schublade_auf" ID="{5F285746-56FD-4B8A-ABCD-8E971656E306}" ShortID="933217674">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX-Schublade-auf-02" ID="{8221F633-4E6A-4160-8D53-0F9E0B7DF38F}" ShortID="469834645">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schublade-auf-02" ID="{367C8FBB-FB28-4C9D-9868-778A7DCD0513}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schublade-auf-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="817071074"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schublade-auf-02" ID="{367C8FBB-FB28-4C9D-9868-778A7DCD0513}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Schublade-auf-103" ID="{4E7FE9A9-FCA3-4F47-9C10-4DD494D4544D}" ShortID="600356991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0384123093681917"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.751920955882353"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schublade-auf-103.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1064966872"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schublade-auf-103" ID="{6614985A-5953-482A-B0EC-F4A1290623E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Schublade_zu" ID="{4B41B403-42F6-4A90-ABC0-7CF7C65BFAEC}" ShortID="101955352">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX-Schublade-zu-102" ID="{DAA7D690-EE2B-4255-B730-73804C97403C}" ShortID="267020561">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.105681281771968"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.750163852578068"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schublade-zu-102.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="234765194"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schublade-zu-102" ID="{A720492E-DD52-48EB-8823-AC94A2FF40FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Schublade-zu-101" ID="{5D5D9F0F-E193-499C-81F0-3E1B86505A2E}" ShortID="843096150">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.749154411764706"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schublade-zu-101.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="824818412"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schublade-zu-101" ID="{CCA33AF9-B321-4F17-9374-E09C1F9C565B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Schublade-zu-103" ID="{0055E450-B269-458C-B399-A849BEBC6175}" ShortID="332686393">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.173433483115468"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Schublade-zu-103.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="155474234"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B7A51DDE-2076-441E-9B18-D09B7879A5BF}" ShortID="857868302">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_cut" ID="{12AF7BBC-91F3-4ADE-968D-16306495AE84}" WorkUnitID="{E85398C8-86F6-4777-8AF2-182C84CF2B52}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Schublade-zu-103" ID="{6E035CFE-CB21-4A12-84BF-4B8D3F60E0F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="ZimmerTür" ID="{8B16A2C7-4B73-4AEF-A752-B42781772DBD}" ShortID="354698389">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX-Türklinke" ID="{A17466C8-0833-409F-890A-50D64C303EDF}" ShortID="237219717">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.224800290486565"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX-Türklinke.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316300769"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Türklinke" ID="{9B5D9F79-6D9D-4B71-8AA9-82F31AFD1A5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX-Step-quietschen-03" ID="{20E648CC-4C9F-4465-9A38-40C694C598CA}" ShortID="502308312">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}">
+									<Language>SFX</Language>
+									<AudioFile>SFX-Step-quietschen-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145725912"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX-Step-quietschen-03" ID="{1BB3DF8D-6377-4008-AACB-E2BC13EC3C07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="SFX-Türklinke" ID="{A17466C8-0833-409F-890A-50D64C303EDF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="SFX-Step-quietschen-03" ID="{20E648CC-4C9F-4465-9A38-40C694C598CA}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -2024,8 +2024,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerdrawerclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1a1df92863f3974797514b0d55dc9d3, type: 2}
+  triggerdraweropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0d2320ab9a8a347939a397568018ac, type: 2}
   openPositionOffset: {x: -1, y: 0, z: 0}
-  timeTillArrival: 1
+  timeTillArrival: 0.75
 --- !u!65 &230658735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2451,6 +2459,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoorclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea4e42d02ee598c4a93e1b0464ee279c, type: 2}
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7617c6f09fddcf241920df96f65f247b, type: 2}
   openAngle: -20
   timeTillArrival: 3
 --- !u!1 &301001649
@@ -3915,8 +3931,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerdrawerclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1a1df92863f3974797514b0d55dc9d3, type: 2}
+  triggerdraweropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0d2320ab9a8a347939a397568018ac, type: 2}
   openPositionOffset: {x: -1, y: 0, z: 0}
-  timeTillArrival: 1
+  timeTillArrival: 0.75
 --- !u!65 &417919472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8915,6 +8939,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: 0
   timeTillArrival: 1
 --- !u!1 &443551812
@@ -9244,6 +9272,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1337724805}
     m_Modifications:
+    - target: {fileID: 559486562227448633, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
+      propertyPath: triggerlightCandle.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 887adc281f879e64dbb8d0823d506668, type: 2}
     - target: {fileID: 1467698595251591717, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_Name
       value: candle (1)
@@ -16179,6 +16211,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: 0
   timeTillArrival: 1
 --- !u!1001 &717683794
@@ -17670,8 +17706,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerdrawerclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1a1df92863f3974797514b0d55dc9d3, type: 2}
+  triggerdraweropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0d2320ab9a8a347939a397568018ac, type: 2}
   openPositionOffset: {x: -1, y: 0, z: 0}
-  timeTillArrival: 1
+  timeTillArrival: 0.75
 --- !u!65 &796314492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23211,6 +23255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: -170
   timeTillArrival: 1
 --- !u!1001 &883215123
@@ -25626,6 +25674,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: -170
   timeTillArrival: 1
 --- !u!1001 &1154838302
@@ -26407,11 +26459,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2864135078987767520, guid: 1994a247c5a0c32458daf9df69c3eb11, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3049811382109521059, guid: 1994a247c5a0c32458daf9df69c3eb11, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5161792931876563646, guid: 1994a247c5a0c32458daf9df69c3eb11, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26531,6 +26583,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: 0
   timeTillArrival: 1
 --- !u!1001 &1224567576
@@ -26768,6 +26824,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngle: -170
   timeTillArrival: 1
 --- !u!1 &1275759999
@@ -29897,7 +29957,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802412616}
+    - targetCorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802412615}
   m_SourcePrefab: {fileID: 100100000, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
 --- !u!1001 &1601890342
 PrefabInstance:
@@ -29907,6 +29973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1337724805}
     m_Modifications:
+    - target: {fileID: 559486562227448633, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
+      propertyPath: triggerlightCandle.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 887adc281f879e64dbb8d0823d506668, type: 2}
     - target: {fileID: 1467698595251591717, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_Name
       value: candle
@@ -30108,6 +30178,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDoorclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea4e42d02ee598c4a93e1b0464ee279c, type: 2}
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7617c6f09fddcf241920df96f65f247b, type: 2}
   openAngle: 200
   timeTillArrival: 3
 --- !u!224 &1615218062 stripped
@@ -41845,8 +41923,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerdrawerclose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1a1df92863f3974797514b0d55dc9d3, type: 2}
+  triggerdraweropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0d2320ab9a8a347939a397568018ac, type: 2}
   openPositionOffset: {x: -1, y: 0, z: 0}
-  timeTillArrival: 1
+  timeTillArrival: 0.75
+--- !u!1 &1802412611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
+  m_PrefabInstance: {fileID: 1601872901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1802412615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802412611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5440c40a88e90c941987a340c2a65671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 9864aaa1
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0dcaa5ae9b3d44c4182521e01806454c, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1802412616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802412611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01467871fe02a19478dbbad9da96aeb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1802902895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41947,6 +42089,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerDooropen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99164e42062fe9b4b92e3a4406c4cb7e, type: 2}
   openAngle: 20
   timeTillArrival: 2
 --- !u!65 &1822167451
@@ -47628,7 +47774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.904
+      value: -69.055
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.y
@@ -52519,6 +52665,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectName: 
+  triggerLockopen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a4102a6d00977f84d83e4b803904a5d9, type: 2}
+  triggerLocknoKey:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   openAngle: 180
   timeTillArrival: 2
 --- !u!65 &1951295283
@@ -58893,6 +59047,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1337724805}
     m_Modifications:
+    - target: {fileID: 559486562227448633, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
+      propertyPath: triggerlightCandle.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 887adc281f879e64dbb8d0823d506668, type: 2}
     - target: {fileID: 1467698595251591717, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_Name
       value: candle
@@ -59144,7 +59302,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5993736301842262862, guid: ec8f6b822185aee4c8a7a1c83d000a6f, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7621619554869992646, guid: ec8f6b822185aee4c8a7a1c83d000a6f, type: 3}
       insertIndex: -1
@@ -59468,6 +59627,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3394477719036047847, guid: 96a15679b1b51594381135fbe71a3dac, type: 3}
+      propertyPath: triggerlightCandle.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 887adc281f879e64dbb8d0823d506668, type: 2}
     - target: {fileID: 3431828408156958401, guid: 96a15679b1b51594381135fbe71a3dac, type: 3}
       propertyPath: m_IsActive
       value: 1
