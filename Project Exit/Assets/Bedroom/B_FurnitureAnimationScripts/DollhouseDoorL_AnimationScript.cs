@@ -50,7 +50,9 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         {
             if (item.ItemName == "DollhouseKey")
             {
+                #region CodeFromLennart
                 triggerLockopen.Post(gameObject);//plays the lock opening sound
+                #endregion
                 Debug.Log("You used the DollhouseKey Key to open the door");
                 itemInInventory = true;
                 #endregion
@@ -80,7 +82,9 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
+            #region CodeFromLennart
             triggerLocknoKey.Post(gameObject);//plays a sound for when player does not have a key while interacting
+            #endregion
             Debug.Log("You need to find a Key");
         }
         #endregion

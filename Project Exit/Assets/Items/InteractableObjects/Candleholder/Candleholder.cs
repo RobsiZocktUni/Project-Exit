@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Candleholder : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerlightCandle;
+    #endregion
     public GameObject LightEffectLeftCandle;
     public GameObject LightEffectMiddleCandle;
     public GameObject LightEffectRightCandle;
@@ -20,6 +24,9 @@ public class Candleholder : InteractableObject
         {
             if (item.ItemName == "Matchsticks")
             {
+                #region CodeFromLennart
+                triggerlightCandle.Post(gameObject);
+                #endregion
                 Debug.Log("You used a match to light the candle");
                 itemInInventory = true;
                 LightEffectLeftCandle.SetActive(true);
