@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 10436ce8ccc93847813970a032ffa020
     GuidInternal: 
-    m_lastTime: -8584672602573800812
+    m_lastTime: -8584678318251912635
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584672602573644028
+    m_lastTime: -8584678318251912635
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: b9586e14e61c1d4da6915231756fafa9
     GuidInternal: 
-    m_lastTime: -8584672602596182132
+    m_lastTime: -8584678318256079762
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -345,7 +345,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b29e5319b9a8f479420591913467967
     GuidInternal: 
-    m_lastTime: -8584672602574753842
+    m_lastTime: -8584678318251932583
     List: []
   - PhysicalPath: SoundBanks\General.wwu
     PathAndIcons:
@@ -358,7 +358,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\General
     guid: 0eb58fb455ea1346a166b0c3cde243d5
     GuidInternal: 
-    m_lastTime: -8584672602574596981
+    m_lastTime: -8584671319916634740
     List:
     - name: Main
       guid: 54d1edda390e2a45bac96fd5dfb7c700
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 59a54538be14a14fa82609b2f635720d
     GuidInternal: 
-    m_lastTime: -8584672602598991705
+    m_lastTime: -8584671319753546437
     List:
     - name: Play_menu_theme
       guid: 886a9976a0dbc14ca4878fba9cf95582
@@ -405,6 +405,91 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_Kleine_Tuer
+      guid: 8dbbd65035602146821f8e590288e8be
+      id: 2408187165
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Kleine_Tuer
+        ObjectType: 3
+        guid: 8dbbd65035602146821f8e590288e8be
+      Path: Events\Default Work Unit\Play_SFX_Kleine_Tuer
+      maxAttenuation: 0
+      maxDuration: 1.1672916
+      minDuration: 1.1672916
+    - name: Play_SFX_schloss_auf
+      guid: ac4ad3e48844ea46bd58718ac1f560b5
+      id: 1880054156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_schloss_auf
+        ObjectType: 3
+        guid: ac4ad3e48844ea46bd58718ac1f560b5
+      Path: Events\Default Work Unit\Play_SFX_schloss_auf
+      maxAttenuation: 0
+      maxDuration: 0.50579166
+      minDuration: 0.50579166
+    - name: Play_SFX_schloss_kein_Schluessel
+      guid: b4760d91d6fadc4893d117f9e60e105c
+      id: 324383601
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_schloss_kein_Schluessel
+        ObjectType: 3
+        guid: b4760d91d6fadc4893d117f9e60e105c
+      Path: Events\Default Work Unit\Play_SFX_schloss_kein_Schluessel
+      maxAttenuation: 0
+      maxDuration: 0.47366667
+      minDuration: 0.47366667
+    - name: Play_SFX_Schranktuer_auf
+      guid: 900172715c52cc4f9fbbbf2ceb9b215e
+      id: 3237937395
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Schranktuer_auf
+        ObjectType: 3
+        guid: 900172715c52cc4f9fbbbf2ceb9b215e
+      Path: Events\Default Work Unit\Play_SFX_Schranktuer_auf
+      maxAttenuation: 0
+      maxDuration: 2.002556
+      minDuration: 2.002556
+    - name: Play_SFX_Schranktuer_zu
+      guid: e93d1ee3f8f2274a9f0bb04330d5e18a
+      id: 3243827298
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Schranktuer_zu
+        ObjectType: 3
+        guid: e93d1ee3f8f2274a9f0bb04330d5e18a
+      Path: Events\Default Work Unit\Play_SFX_Schranktuer_zu
+      maxAttenuation: 0
+      maxDuration: 2.0000024
+      minDuration: 2.0000024
     - name: Play_SFX_Schublade_auf
       guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       id: 1215060680
@@ -421,7 +506,24 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Play_SFX_Schublade_auf
       maxAttenuation: 0
       maxDuration: 0.9975208
-      minDuration: 0.9975208
+      minDuration: 0.75192094
+    - name: Play_SFX_Schublade_zu
+      guid: c03c7120683dd04ca405edc33eb86b02
+      id: 3803780191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Schublade_zu
+        ObjectType: 3
+        guid: c03c7120683dd04ca405edc33eb86b02
+      Path: Events\Default Work Unit\Play_SFX_Schublade_zu
+      maxAttenuation: 0
+      maxDuration: 0.75016385
+      minDuration: 0.6892292
     - name: Play_SFX_Streichholz
       guid: 3d271f54dbfccd49a6cd5bbfd8afff59
       id: 3417554753
@@ -456,6 +558,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.7232086
       minDuration: 0.7232086
+    - name: Play_SFX_Zimmertuer
+      guid: 9090f4403cb5334dabc1b8419529d4de
+      id: 3916480950
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Zimmertuer
+        ObjectType: 3
+        guid: 9090f4403cb5334dabc1b8419529d4de
+      Path: Events\Default Work Unit\Play_SFX_Zimmertuer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ZimmerTuer
+      guid: fa1c97c6087fb54bbd59f6de9ec711b7
+      id: 2961924210
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_ZimmerTuer
+        ObjectType: 3
+        guid: fa1c97c6087fb54bbd59f6de9ec711b7
+      Path: Events\Default Work Unit\Play_ZimmerTuer
+      maxAttenuation: 0
+      maxDuration: 1.1398456
+      minDuration: 1.1398456
     - name: Steps
       guid: 9a1d41cf04a41d4c9b44b63183a1f2c1
       id: 1718617278
@@ -502,7 +638,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a890c63be44d54c9d6c32c4bf811f37
     GuidInternal: 
-    m_lastTime: -8584672602598991705
+    m_lastTime: -8584678318257023336
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -515,7 +651,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8584672602598832855
+    m_lastTime: -8584678318257013374
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -556,7 +692,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584672602598676464
+    m_lastTime: -8584678318257013374
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -710,7 +846,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a005d1b08765e74baa9a843b6729e911
     GuidInternal: 
-    m_lastTime: -8584672602574436870
+    m_lastTime: -8584678318251922619
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -724,7 +860,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: cf9754b989f1114a962a1c4a355a6c6c
     GuidInternal: 
-    m_lastTime: -8584672602574062380
+    m_lastTime: -8584678318251912635
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -738,7 +874,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 545fa4d1ed418348addd380f07d30444
     GuidInternal: 
-    m_lastTime: -8584672602573939216
+    m_lastTime: -8584678318251912635
     List: []
   ExpandedFileSystemItemIds: 02000000030000000d0000000f000000
   ExpandedWaapiItemIds: 0d000000

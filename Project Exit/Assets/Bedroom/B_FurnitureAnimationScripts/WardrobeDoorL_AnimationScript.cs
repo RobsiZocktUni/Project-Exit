@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class WardrobeDoorL_AnimationScript : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerDoorclose;
+    public AK.Wwise.Event triggerDooropen;
+    #endregion
     public float openAngle = 200.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -61,6 +66,7 @@ public class WardrobeDoorL_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        playSound(targetRotation);
         // Store the starting position of the animation
         Quaternion startRotation = transform.rotation;
 
@@ -89,4 +95,18 @@ public class WardrobeDoorL_AnimationScript : InteractableObject
         // Mark the animation as finished
         isAnimating = false;
     }
+
+    #region CodeFromLennart
+    private void playSound(Quaternion endrot)
+    {
+        if (endrot == closedRotation)
+        {
+            triggerDoorclose.Post(gameObject);
+        }
+        else
+        {
+            triggerDooropen.Post(gameObject);
+        }
+    }
+    #endregion
 }

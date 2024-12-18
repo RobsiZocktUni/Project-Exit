@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class DollhouseDoorL_AnimationScript : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerLockopen;
+    public AK.Wwise.Event triggerLocknoKey;
+    #endregion
+
     #region CodeFrom____Henni
     public float openAngle = 180.0f;  // Angle to rotate the door to (in degrees)
 
@@ -44,6 +50,9 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         {
             if (item.ItemName == "DollhouseKey")
             {
+                #region CodeFromLennart
+                triggerLockopen.Post(gameObject);//plays the lock opening sound
+                #endregion
                 Debug.Log("You used the DollhouseKey Key to open the door");
                 itemInInventory = true;
                 #endregion
@@ -73,6 +82,9 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
+            #region CodeFromLennart
+            triggerLocknoKey.Post(gameObject);//plays a sound for when player does not have a key while interacting
+            #endregion
             Debug.Log("You need to find a Key");
         }
         #endregion
