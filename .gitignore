@@ -10,3 +10,13 @@
 *.validationcache
 *.wsettings
 IncrementalSoundBankData.xml
+
+
+
+#build specific ignores, build wont be git merged, but instead merged though manuall push of main
+#ignores debug scripts
+./Debug_Tester Scripts/
+
+#ignores all notes
+./Shared Notes/
+./Git-Workshop-Folien-WiSe2425-handout.pdf
