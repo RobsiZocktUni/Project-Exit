@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
-
+/*
 public class GUIDFinder : EditorWindow
 {
     private string guid; // The GUID (of prefab, material, or script)
@@ -215,4 +215,4 @@ public class GUIDFinder : EditorWindow
         return false;
     }
 }
-
+*/

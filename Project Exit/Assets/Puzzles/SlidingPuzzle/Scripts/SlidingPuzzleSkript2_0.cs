@@ -9,13 +9,13 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
 
     public TileSkript2_0 emptySpace;  // Reference to the empty space in the puzzle
 
-    public float tileMoveThreshold = 0.1f;  // Treshold diestance: used to check if a tile is close enough to the empty space to be swapped
+    public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
 
-    public float tileMoveDuration = 0.5f;  // Duration of tile movement animation (in seconds)
+    public float tileMoveDuration = 0.25f;  // Duration of tile movement animation (in seconds)
 
     public BoxAnimationSkript boxAnimation;  // Reference to the box animation script
 
-   
+    private bool isMovingTile = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     void Update()
     {
         // Handle player input: when the player clicks the screen
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isMovingTile)  // // Only respond if not currently moving a tile
         {
             // Cast a ray from the mouse position to check if it hits a tile
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -46,10 +46,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
                 if (Vector3.Distance(emptySpace.gameObject.transform.position, hit.transform.position) <= tileMoveThreshold)
                 {
                     // Swap the clicked tile with the empty space
-                    SwapObjectsInBlocks(hit.collider.gameObject.GetComponent<TileSkript2_0>().myPosInArray, emptySpace.myPosInArray, 3.0f);
-
-                    // Check if the puzzle is solved after the move
-                    CheckPuzzleSolved();
+                    StartCoroutine(SwapObjectsInBlocks(hit.collider.gameObject.GetComponent<TileSkript2_0>().myPosInArray, emptySpace.myPosInArray, 3.0f));
                 }
             }
         }
@@ -92,7 +89,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         // Gradually move the object using a smooth interpolation (Slerp)
         do
         {
-           moveObject.transform.position = Vector3.Slerp(moveObject.transform.position, moveto, elapsed);
+           moveObject.transform.position = Vector3.Lerp(moveObject.transform.position, moveto, elapsed);
            elapsed += Time.deltaTime / secondsUntilArrival;  // Increment the elapsed time
 
             yield return null;  // Wait for the next frame
@@ -123,8 +120,10 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     /// <param name="obj">Index of the first tile in the tiles array</param>
     /// <param name="obj2">Index of the second tile in the tiles array</param>
     /// <param name="t">Duration for the movement animation</param>
-    private void SwapObjectsInBlocks(int obj, int obj2, float t)
+    private IEnumerator SwapObjectsInBlocks(int obj, int obj2, float t)
     {
+        isMovingTile = true;  // Tile is being moved
+
         // Create temporary variables to store the tiles being swapped
         TileSkript2_0 objectOneCopy = tiles[obj];
         TileSkript2_0 objectTwoCopy = tiles[obj2];
@@ -140,6 +139,13 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         tiles[obj].myPosInArray = obj;
         tiles[obj2].myPosInArray = obj2;
 
+        // Wait until animation is complete before continuing
+        yield return new WaitForSeconds(0.5f);
+
+        isMovingTile = false;  // Tile movement is complete
+
+        // Check if the puzzle is solved after the move
+        CheckPuzzleSolved();
     }
 
     /// <summary>
