@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
+//using static UnityEditor.Progress;
 
 #region CodeFromBeckJonas
 // Base class for items that can be picked up by the player, added to the inventory, and used later.

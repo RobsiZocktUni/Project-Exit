@@ -47634,7 +47634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -69.055
+      value: -67.919
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58850,6 +58850,10 @@ PrefabInstance:
       propertyPath: characterController
       value: 
       objectReference: {fileID: 1498693736}
+    - target: {fileID: 2846982893044400769, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4016512941549848046, guid: 9f7477084964ac44499120fad3457471, type: 3}
       propertyPath: m_BlockingObjects
       value: 0
