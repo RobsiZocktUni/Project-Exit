@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DollhouseDoorR_AnimationScript : InteractableObject
 {
-    #region CodeFrom___Henni
+    #region CodeFrom: Wendt Hendrik
     public float openAngle = -40.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -48,7 +48,7 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
                 itemInInventory = true;
                 #endregion
 
-                #region CodeFrom____Henni
+                #region CodeFrom: Wendt Hendrik
                 if (!isAnimating)
                 {
                     // Start the animation to move the drawer to the open or closed position
@@ -77,7 +77,7 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         }
         #endregion
     }
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
     /// </summary>

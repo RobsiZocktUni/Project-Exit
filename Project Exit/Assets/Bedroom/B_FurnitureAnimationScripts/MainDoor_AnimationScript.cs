@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the MainDoor_AnimationScript was written by: Wendt Hendrik
+/// Parts from Beck Jonas and Hartmann Lennart are marked as regions
+/// </summary>
 public class MainDoor_AnimationScript : InteractableObject
 {
     #region CodeFromLennart
     //Object that needs to be triggerd in order to play steps
     public AK.Wwise.Event triggerDooropen;
     #endregion
+
     public float openAngle = 60.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -49,7 +54,7 @@ public class MainDoor_AnimationScript : InteractableObject
                 itemInInventory = true;
                 #endregion
 
-                #region CodeFrom____Henni
+                #region CodeFrom: Wendt Hendrik
                 // If an animation is already running, do nothing
                 if (!isAnimating)
                 {

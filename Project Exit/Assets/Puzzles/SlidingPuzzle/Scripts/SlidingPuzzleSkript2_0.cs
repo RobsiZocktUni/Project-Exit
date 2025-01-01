@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the SlidingPuzzleSkript2_0 was written by: Wendt Hendrik
+/// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {
     public TileSkript2_0[] tiles;  // Array of tiles that will be used in the sliding puzzle

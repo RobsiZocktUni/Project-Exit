@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Main Code of the SettingsMenu_Script was written by Wendt Hendrik
+/// </summary>
 public class SettingsMenu_Script : MonoBehaviour
 {
     public TMPro.TMP_Dropdown resolutionDropdown;  // Dropdown: Selecting screen resolution
@@ -16,6 +19,9 @@ public class SettingsMenu_Script : MonoBehaviour
 
     public int minWidth = 1080;  // Allowed screen resolution (minimum)
     public int minHeight = 1080;  // Allowed screen resolution (minimum)
+
+    public Slider sensitivitySlider;  // Slider:  Mouse Sensitivity
+    private const string SensitivityKey = "MouseSensitivity";  // PlayerPrefs key to store mouse sensitivity
 
     /// <summary>
     /// Start is called before the first frame update.
@@ -54,6 +60,13 @@ public class SettingsMenu_Script : MonoBehaviour
 
         // Set the fullscreen toggle's default state to match the current fullscreen mode
         fullscreenToggle.isOn = Screen.fullScreen;
+
+        // Load and apply the saved mouse sensitivity value from PlayerPrefs
+        float savedSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 2.0f);  // Default to 2.0f if no value is saved
+        sensitivitySlider.value = savedSensitivity;  // Sewt the slider to reflect the saved sensitivity value
+
+        // Add listener to handle changes to the sensitivity slider's value
+        sensitivitySlider.onValueChanged.AddListener(SetMouseSensitivity);  
     }
 
     /// <summary>
@@ -86,8 +99,21 @@ public class SettingsMenu_Script : MonoBehaviour
     /// <param name="mouseSensitivity">New mouse sensitivity value</param>
     public void SetMouseSensitivity(float mouseSensitivity)
     {
+        // Save the new mouse sensitivity value in PlayerPrefs
+        PlayerPrefs.SetFloat("MouseSensitivity", mouseSensitivity);
+        PlayerPrefs.Save();  // Ensure the value is saved
+
         Debug.Log(mouseSensitivity);  // Log the sensitivity value (for debugging purposes)
     }
+
+    /// <summary>
+    /// Removes the sensitivity slider's listener to prevent errors on object destruction
+    /// </summary>
+    private void OnDestroy()
+    {
+        sensitivitySlider.onValueChanged.RemoveListener(SetMouseSensitivity);
+    }
+
 
     /// <summary>
     /// Logs the volume value (placeholder function).
@@ -138,5 +164,4 @@ public class SettingsMenu_Script : MonoBehaviour
             Debug.LogWarning("No Main Camera found to adjust aspect ratio.");
         }
     }
-
 }

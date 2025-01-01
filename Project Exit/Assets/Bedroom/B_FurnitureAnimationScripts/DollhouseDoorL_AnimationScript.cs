@@ -10,7 +10,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
     public AK.Wwise.Event triggerLocknoKey;
     #endregion
 
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     public float openAngle = 180.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -53,11 +53,12 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
                 #region CodeFromLennart
                 triggerLockopen.Post(gameObject);//plays the lock opening sound
                 #endregion
+
                 Debug.Log("You used the DollhouseKey Key to open the door");
                 itemInInventory = true;
                 #endregion
 
-                #region CodeFrom____Henni
+                #region CodeFrom: Wendt Hendrik
                 // If an animation is already running, do nothing
                 if (!isAnimating)
                 {
@@ -90,7 +91,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         #endregion
     }
 
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
     /// </summary>
