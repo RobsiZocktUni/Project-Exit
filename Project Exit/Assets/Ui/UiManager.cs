@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class UiManager : MonoBehaviour
 {
     public float RayLength = 3f;
@@ -24,7 +24,7 @@ public class UiManager : MonoBehaviour
         KeyItemPng.SetActive(false);
         InteractableItemPng.SetActive(false);
         TileInteractPng.SetActive(false);
-
+        #endregion
         #region CodeFrom: Wendt Hendrik
         // Do not process input when the game is paused or inventory is activated
         if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf)
@@ -32,7 +32,7 @@ public class UiManager : MonoBehaviour
             return;
         }
         #endregion
-
+        #region CodeFrom Beck Jonas
         if (Physics.Raycast(ray, out RaycastHit hit, RayLength))
         {
             if (hit.collider.gameObject.GetComponent<KeyItem>())
@@ -51,3 +51,4 @@ public class UiManager : MonoBehaviour
         }
     }
 }
+#endregion

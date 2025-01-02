@@ -138,7 +138,7 @@ public class Character_Controller : MonoBehaviour
             Vector3 screenCenter = new Vector3(Screen.width / 2.0f, Screen.height / 2.0f, 0);
             
             Ray ray = MainCamera.ScreenPointToRay(screenCenter);
-            if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity))
+            if (Physics.Raycast(ray, out RaycastHit hit, 3f))
             {
                 if (hit.collider.gameObject.GetComponent<KeyItem>())
                 {

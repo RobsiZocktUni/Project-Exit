@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class Doll_Clothing : KeyItem
 {
     public BoxCollider Hitbox;
@@ -37,3 +37,4 @@ public class Doll_Clothing : KeyItem
         }
     }
 }
+#endregion

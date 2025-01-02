@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+#region CodeFrom: Beck Jonas
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;    // Singelton
@@ -49,3 +49,4 @@ public class InventoryManager : MonoBehaviour
     }
     
 }
+#endregion
