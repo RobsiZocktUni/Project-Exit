@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the DollhouseHD_AnimationScript was written by: Wendt Hendrik
+/// </summary>
 public class DollhouseHD_AnimationScript : MonoBehaviour
 {
     public float openAngleX = -27.0f;  // Angle to rotate the door to (in degrees; X axe)

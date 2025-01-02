@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the NightstandR_AnimationScript was written by: Wendt Hendrik
+/// Parts from Hartmann Lennart are marked as regions
+/// </summary>
 public class NightstandR_AnimationScript : InteractableObject
 {
     #region CodeFromLennart
@@ -9,6 +13,7 @@ public class NightstandR_AnimationScript : InteractableObject
     public AK.Wwise.Event triggerdrawerclose;
     public AK.Wwise.Event triggerdraweropen;
     #endregion
+
     public Vector3 openPositionOffset;  // Offset to apply to the closed position to determine the open position
 
     public float timeTillArrival = 0.75f;  // Duration of the animation in seconds
@@ -66,7 +71,9 @@ public class NightstandR_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator MoveDrawer(Vector3 moveto)
     {
+        #region CodeFrom HartmannLennart
         playSound(moveto);
+        #endregion
 
         // Store the starting position of the animation
         Vector3 startPos = transform.localPosition;

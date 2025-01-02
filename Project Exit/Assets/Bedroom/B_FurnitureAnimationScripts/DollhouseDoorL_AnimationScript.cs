@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DollhouseDoorL_AnimationScript : InteractableObject
@@ -10,7 +11,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
     public AK.Wwise.Event triggerLocknoKey;
     #endregion
 
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     public float openAngle = 180.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -23,16 +24,20 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
 
+    #region CodeFrom: Beck Jonas
+    private bool firstTimeOpening = true;
     // Start is called before the first frame update
-    void Start()
+    
+    public override void Start()
     {
+        base.Start();
+        #endregion
         // Initialize the closed position to the current local position of the drawer
         closedRotation = transform.rotation;
 
         // Calculate the open rotation by rotating around the Y-axis (assuming the door swings around the Y-axis)
         openRotation = Quaternion.Euler(0.0f, openAngle, 0.0f);
     }
-
     /// <summary>
     /// Handles the interaction logic for the door.
     /// </summary>
@@ -53,11 +58,18 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
                 #region CodeFromLennart
                 triggerLockopen.Post(gameObject);//plays the lock opening sound
                 #endregion
+
                 Debug.Log("You used the DollhouseKey Key to open the door");
+                if (firstTimeOpening)
+                {
+                    uiText.SetText("You used the DollhouseKey to open the door");
+                    firstTimeOpening = false;
+                }
+                
                 itemInInventory = true;
                 #endregion
 
-                #region CodeFrom____Henni
+                #region CodeFrom: Wendt Hendrik
                 // If an animation is already running, do nothing
                 if (!isAnimating)
                 {
@@ -86,11 +98,12 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
             triggerLocknoKey.Post(gameObject);//plays a sound for when player does not have a key while interacting
             #endregion
             Debug.Log("You need to find a Key");
+            uiText.SetText("You need to find a Key");
         }
         #endregion
     }
 
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
     /// </summary>

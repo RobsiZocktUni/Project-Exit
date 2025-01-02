@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the RotateCamera_Script was written by: Wendt Hendrik
+/// </summary>
 public class RotateCamera_Script : MonoBehaviour
 {
     // Initial rotation angles for the camera (X, Y, Z)

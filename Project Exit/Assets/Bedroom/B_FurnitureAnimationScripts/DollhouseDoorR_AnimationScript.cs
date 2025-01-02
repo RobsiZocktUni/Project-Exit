@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DollhouseDoorR_AnimationScript : InteractableObject
 {
-    #region CodeFrom___Henni
+    #region CodeFrom: Wendt Hendrik
     public float openAngle = -40.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -16,10 +16,13 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
     private bool isOpen = false;  // Flag indicating whether the drawer is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
-
+    #region CodeFrom: Beck Jonas
+    private bool firstTimeOpening = true;
     // Start is called before the first frame update
-    void Start()
+    public override void Start()
     {
+        base.Start();
+        #endregion
         // Initialize the closed position to the current local position of the drawer
         closedRotation = transform.rotation;
 
@@ -45,10 +48,15 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
             if (item.ItemName == "DollhouseKey")
             {
                 Debug.Log("You used the DollhouseKey Key to open the door");
+                if (firstTimeOpening)
+                {
+                    uiText.SetText("You use the Dollhouse Key to open the door");
+                    firstTimeOpening = false;
+                }
                 itemInInventory = true;
                 #endregion
 
-                #region CodeFrom____Henni
+                #region CodeFrom: Wendt Hendrik
                 if (!isAnimating)
                 {
                     // Start the animation to move the drawer to the open or closed position
@@ -74,10 +82,11 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         if (itemInInventory == false)
         {
             Debug.Log("You need to find a Key");
+            uiText.SetText("You need to find a Key");
         }
         #endregion
     }
-    #region CodeFrom____Henni
+    #region CodeFrom: Wendt Hendrik
     /// <summary>
     /// Animates the rotation of the door to the specified target rotation over the defined duration
     /// </summary>

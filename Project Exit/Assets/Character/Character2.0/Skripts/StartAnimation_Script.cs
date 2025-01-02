@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the StartAnimation_Script was written by: Wendt Hendrik
+/// </summary>
 public class StartAnimation_Script : MonoBehaviour
 {
     [Header("References")]

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the MoveCamera_Script was written by: Wendt Hendrik
+/// </summary>
 public class MoveCamera_Script : MonoBehaviour
 {
     // Initial position for the camera movement (X, Y, Z)

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 //using static UnityEditor.Progress;
 
-#region CodeFromBeckJonas
+#region CodeFrom: Beck Jonas
 // Base class for items that can be picked up by the player, added to the inventory, and used later.
 public abstract class KeyItem : MonoBehaviour
 {
@@ -98,5 +98,6 @@ public abstract class KeyItem : MonoBehaviour
     }
 
     public abstract void UseItem(); // Has to be overwritten in derived classes
-    #endregion
+    
 }
+#endregion

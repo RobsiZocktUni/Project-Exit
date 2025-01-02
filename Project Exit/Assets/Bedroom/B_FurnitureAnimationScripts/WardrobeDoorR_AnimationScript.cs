@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the WardrobeDoorR_AnimationScript was written by: Wendt Hendrik
+/// Parts from Hartmann Lennart are marked as regions
+/// </summary>
 public class WardrobeDoorR_AnimationScript : InteractableObject
 {
     #region CodeFromLennart
@@ -9,6 +13,7 @@ public class WardrobeDoorR_AnimationScript : InteractableObject
     public AK.Wwise.Event triggerDoorclose;
     public AK.Wwise.Event triggerDooropen;
     #endregion
+
     public float openAngle = -20.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
@@ -66,7 +71,10 @@ public class WardrobeDoorR_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        #region CodeFrom HartmannLennart
         playSound(targetRotation);
+        #endregion
+
         // Store the starting position of the animation
         Quaternion startRotation = transform.rotation;
 
