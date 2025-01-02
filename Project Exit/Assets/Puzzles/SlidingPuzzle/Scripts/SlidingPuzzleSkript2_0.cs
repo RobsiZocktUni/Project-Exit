@@ -5,6 +5,7 @@ using UnityEngine;
 
 /// <summary>
 /// Main Code of the SlidingPuzzleSkript2_0 was written by: Wendt Hendrik
+/// The logic of the SlidingPuzzle_Game script was overworked for this script with the help of Tim Greinus
 /// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {

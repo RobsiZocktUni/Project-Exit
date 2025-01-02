@@ -47351,6 +47351,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 751603750}
     - target: {fileID: 6052228027579538934, guid: 94dddc3a819c3a34e9abe935d96184b6, type: 3}
+      propertyPath: InventoryUi
+      value: 
+      objectReference: {fileID: 1087307803}
+    - target: {fileID: 6052228027579538934, guid: 94dddc3a819c3a34e9abe935d96184b6, type: 3}
       propertyPath: TileInteractPng
       value: 
       objectReference: {fileID: 1433919918}
