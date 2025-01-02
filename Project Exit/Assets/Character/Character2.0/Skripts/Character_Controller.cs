@@ -114,6 +114,12 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     void Update()
     {
+        // Do not process input or movements when the game is paused or inventory is activated
+        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf)
+        {
+            return;
+        }
+
         if (CanMove && controlsEnabled)
         {
             HandleMovementInput();  // Handles WASD or arrow key movement

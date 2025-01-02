@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Main Code of the BookshelfLL_AnimationScript was written by: Wendt Hendrik
+/// Main Code of the PauseMenu_Script was written by: Wendt Hendrik
 /// </summary>
 public class PauseMenu_Script : MonoBehaviour
 {
@@ -20,6 +20,9 @@ public class PauseMenu_Script : MonoBehaviour
 
     // Boolean flag to track whether the game is paused or not
     private bool isPaused = false;
+
+    // Static pause state accessible to other scripts
+    public static bool IsPaused { get; private set; } = false;
 
     private void Start()
     {
@@ -51,6 +54,8 @@ public class PauseMenu_Script : MonoBehaviour
     /// </summary>
     private void TogglePauseMenu()
     {
+        IsPaused = !IsPaused;  // Toggle pause status
+
         // Toggle the pause state between paused and unpaused
         isPaused = !isPaused;
 
@@ -91,6 +96,8 @@ public class PauseMenu_Script : MonoBehaviour
     /// </summary>
     private void ExitPauseMenu()
     {
+        IsPaused = false;
+
         // Set the isPaused flag to false to indicate the game is no longer paused
         isPaused = false;
 
