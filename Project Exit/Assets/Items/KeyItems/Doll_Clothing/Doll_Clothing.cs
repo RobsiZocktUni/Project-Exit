@@ -8,12 +8,19 @@ public class Doll_Clothing : KeyItem
 
     private Camera mainCamera;
     private Character_Controller player;
+    private UiInfoText uiText;
     public override void Start()
     {
         base.Start();
         mainCamera = Camera.main;
         //player = GameObject.Find("Player").GetComponent<Character_Controller>();
         player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
+        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
+    }
+    public override void Pickup(Transform parent)
+    {
+        base.Pickup(parent);
+        uiText.SetText("You pickup a " + ItemName);
     }
     public override void UseItem() 
     {
@@ -32,6 +39,8 @@ public class Doll_Clothing : KeyItem
                     Hitbox.enabled = false;                                         // Disables the clothings hitbox so it cant block the hitbox of the Mannequin
                     player.InventoryUi.SetActive(false);                      // Closes the inventory  
                     player.EnableControls();
+
+                    uiText.SetText("You put the " + ItemName + " on the mannequin");
                 }
             }
         }
