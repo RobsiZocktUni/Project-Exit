@@ -534,6 +534,14 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4646821328290904984, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3820
+      objectReference: {fileID: 0}
+    - target: {fileID: 4646821328290904984, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2160
+      objectReference: {fileID: 0}
     - target: {fileID: 5120504638294186605, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: m_IsActive
       value: 1

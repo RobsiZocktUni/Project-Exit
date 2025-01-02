@@ -115,7 +115,7 @@ public class Character_Controller : MonoBehaviour
     void Update()
     {
         // Do not process input or movements when the game is paused or inventory is activated
-        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf)
+        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
         {
             return;
         }
