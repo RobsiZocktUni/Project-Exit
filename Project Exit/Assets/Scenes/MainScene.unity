@@ -58950,6 +58950,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5230330472557664470, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 1269969142831182157}
+    - target: {fileID: 5230330472557664470, guid: 9f7477084964ac44499120fad3457471, type: 3}
       propertyPath: fullscreenToggle
       value: 
       objectReference: {fileID: 948040373}
@@ -58957,6 +58961,22 @@ PrefabInstance:
       propertyPath: sensitivitySlider
       value: 
       objectReference: {fileID: 1802589807}
+    - target: {fileID: 6953835035636713417, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: m_Value
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953835035636713417, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: m_MaxValue
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953835035636713417, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: m_MinValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953835035636713417, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8212596524072174811, guid: 9f7477084964ac44499120fad3457471, type: 3}
       propertyPath: m_LocalPosition.x
       value: 917.57336
@@ -59013,6 +59033,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7188373147107689232, guid: 9f7477084964ac44499120fad3457471, type: 3}
   m_PrefabInstance: {fileID: 1269969142831182155}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1269969142831182157 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6953835035636713417, guid: 9f7477084964ac44499120fad3457471, type: 3}
+  m_PrefabInstance: {fileID: 1269969142831182155}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1269969142831182158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1626212700124578317, guid: 9f7477084964ac44499120fad3457471, type: 3}

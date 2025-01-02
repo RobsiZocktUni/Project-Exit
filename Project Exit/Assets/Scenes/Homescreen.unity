@@ -496,6 +496,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1226346095 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+  m_PrefabInstance: {fileID: 1535760149196286376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1752424176 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8923651309788834679, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+  m_PrefabInstance: {fileID: 1535760149196286376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31404475f5577fe48b6a37ade7fbbeb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1535760149196286376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -612,10 +634,58 @@ PrefabInstance:
       propertyPath: m_WholeNumbers
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_Value
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_MaxValue
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_MinValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1752424176}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SettingsMenu_Script, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297137841987224820, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7570234575702896440, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: m_Name
       value: Homescreen_UI (with fadeout)
       objectReference: {fileID: 0}
+    - target: {fileID: 8923651309788834679, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 1226346095}
     - target: {fileID: 8923651309788834679, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: fullscreenToggle
       value: 

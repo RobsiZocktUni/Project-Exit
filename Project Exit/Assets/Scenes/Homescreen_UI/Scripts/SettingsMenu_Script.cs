@@ -23,6 +23,10 @@ public class SettingsMenu_Script : MonoBehaviour
     public Slider sensitivitySlider;  // Slider:  Mouse Sensitivity
     private const string SensitivityKey = "MouseSensitivity";  // PlayerPrefs key to store mouse sensitivity
 
+    public Slider volumeSlider;  // Slider: Volume
+    private const string VolumeRTCP = "MasterVolume";  // Name of the RTPC in Wwise
+    private const string VolumeKey = "MasterVolume";  // PlayerPrefs key to store the volume
+
     /// <summary>
     /// Start is called before the first frame update.
     /// Initializes the resolution dropdown menu and sets the current resolution and fullscreen toggle state.
@@ -67,6 +71,16 @@ public class SettingsMenu_Script : MonoBehaviour
 
         // Add listener to handle changes to the sensitivity slider's value
         sensitivitySlider.onValueChanged.AddListener(SetMouseSensitivity);  
+
+        // Load and apply the saved volume from PlayerPrefs
+        float saveVolume = PlayerPrefs.GetFloat(VolumeKey, 50.0f);
+        volumeSlider.value = saveVolume;
+
+        // Set the RTPC value in Wwise
+        AkSoundEngine.SetRTPCValue(VolumeRTCP, saveVolume);
+
+        // Add listener for slider changes
+        volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
     /// <summary>
@@ -107,21 +121,29 @@ public class SettingsMenu_Script : MonoBehaviour
     }
 
     /// <summary>
+    /// Logs the volume value (placeholder function).
+    /// </summary>
+    /// <param name="volume">The new volume value (slider position)</param>
+    public void SetVolume(float volume)
+    {
+        // Set RTPC value in Wwise
+        AkSoundEngine.SetRTPCValue(VolumeRTCP, volume);
+
+        // Save volume in PlayerPrefs
+        PlayerPrefs.SetFloat(VolumeKey, volume);
+        PlayerPrefs.Save();
+
+        //Debug.Log(volume);  // Log the volume level (for debugging purposes)
+    }
+
+    /// <summary>
     /// Removes the sensitivity slider's listener to prevent errors on object destruction
+    /// Removes the volume slider's listener to prevent errors on object destruction
     /// </summary>
     private void OnDestroy()
     {
         sensitivitySlider.onValueChanged.RemoveListener(SetMouseSensitivity);
-    }
-
-
-    /// <summary>
-    /// Logs the volume value (placeholder function).
-    /// </summary>
-    /// <param name="volume">New volume level</param>
-    public void SetVolume(float volume)
-    {
-        Debug.Log(volume);  // Log the volume level (for debugging purposes)
+        volumeSlider.onValueChanged.RemoveListener(SetVolume);
     }
 
     /// <summary>
