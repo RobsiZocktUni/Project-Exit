@@ -148,7 +148,12 @@
 - Added Skip Button to the sliding puzzle
 -> after a few tile movements 
 -> Skip Option only shows up when the player is next to the puzzle
-
+03.01.2025:
+- Worked on skip button for the sliding puzzle
+- Worked on the settings menu:
+-> Resolutions are only given once in the dropdown
+-> Minimum resolution set to 1920x1080p
+- Added new open angles for dollhouse door animations
 
 
 
@@ -156,10 +161,10 @@
 
 
 ## Source references
-- First Person Player Movement Tutorials(19.10.2024 & 29.10.2024): 
+- First Person Player Movement Tutorials (19.10.2024 & 29.10.2024): 
   https://www.youtube.com/watch?v=_QajrabyTJc
   https://www.youtube.com/watch?v=2FTDa14nryI&t=1058s
-- Slider for mouse sensitivity(26.10.2024): 
+- Slider for mouse sensitivity (26.10.2024): 
   https://www.youtube.com/watch?v=h9beyqPe3jY
 - Homescreen Tutorials (12.12.2024):
   https://www.youtube.com/watch?v=zc8ac_qUXQY&t=0s
