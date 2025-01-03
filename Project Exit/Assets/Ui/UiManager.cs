@@ -27,7 +27,7 @@ public class UiManager : MonoBehaviour
         #endregion
         #region CodeFrom: Wendt Hendrik
         // Do not process input when the game is paused or inventory is activated
-        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf)
+        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
         {
             return;
         }

@@ -16,7 +16,7 @@ public class InteractableObject : MonoBehaviour
     {
         #region CodeFrom: Wendt Hendrik
         // Only allow interaction when the game is not paused
-        if(PauseMenu_Script.IsPaused)
+        if(PauseMenu_Script.IsPaused || EndAnimation_Script.gameEnded)
         {
             return;
         }

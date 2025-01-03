@@ -2,24 +2,27 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 /// <summary>
 /// Main Code of the SlidingPuzzleSkript2_0 was written by: Wendt Hendrik
-/// The logic of the SlidingPuzzle_Game script was overworked for this script with the help of Tim Greinus
 /// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {
     public TileSkript2_0[] tiles;  // Array of tiles that will be used in the sliding puzzle
-
     public TileSkript2_0 emptySpace;  // Reference to the empty space in the puzzle
-
     public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
-
     public float tileMoveDuration = 0.25f;  // Duration of tile movement animation (in seconds)
 
     public BoxAnimationSkript boxAnimation;  // Reference to the box animation script
+    public TextMeshProUGUI skipPuzzleText;  // UI element that shows the skip message
+    public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
 
-    private bool isMovingTile = false;
+    private bool isMovingTile = false;  // Tracks if a tile is currently moved
+    private int moveCounter = 0;  // Tracks how many moves the player has made
+    private const int maxMovementsBeforeSkip = 300;  // Maximum moves allowed before showing the skip message
+    private bool playerNearby = false;  // // Tracks whether the player is within the puzzle's trigger zone
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +34,13 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         }
         // Find and assign the empty space tile based on its tag in the scene
         emptySpace = GameObject.FindGameObjectWithTag("emptySpace").GetComponent<TileSkript2_0>();
+
+        skipPuzzleText.text = "";  // Hide Skip Puzzle text initially
+
+        if (puzzleCanvas != null)
+        {
+            puzzleCanvas.SetActive(false);  // Initially deactivate the canvas
+        }
     }
 
     // Update is called once per frame
@@ -54,6 +64,21 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
                 }
             }
         }
+
+        // Check if the player has made enough moves for the skip button
+        if(moveCounter >= maxMovementsBeforeSkip)
+        {
+            skipPuzzleText.text = "Press Enter to skip the sliding puzzle";
+        }
+
+        // Allows the player to skip the puzzle only if they are in the trigger zone and have made enough moves
+        if (playerNearby)
+        {
+            if (Input.GetKeyDown(KeyCode.Return) && moveCounter >= maxMovementsBeforeSkip)
+            {
+                StartCoroutine(DelayBeforeOpeningBox());
+            }
+        }
     }
 
     /// <summary>
@@ -73,17 +98,17 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
 
         // If all tiles are in correct position the puzzle is solved
         Debug.Log("Gewonnen");
+
         // Trigger box opening animation
         StartCoroutine(DelayBeforeOpeningBox());
     }
 
-
     /// <summary>
-    /// Bewegt ein Objekt in einer bestimmten Zeit zu einem Punkt
+    /// Moves an object to a point in a specified time
     /// </summary>
-    /// <param name="moveObject">Objekt das bewegt wird</param>
-    /// <param name="moveto">Ziel</param>
-    /// <param name="secondsUntilArrival">Zeit bis zur Ankunft</param>
+    /// <param name="moveObject">Object that is being moved</param>
+    /// <param name="moveto">Goal</param>
+    /// <param name="secondsUntilArrival">Time to arrive</param>
     /// <returns></returns>
     private IEnumerator MoveTo(GameObject moveObject, Vector3 moveto, float secondsUntilArrival)
     {
@@ -126,6 +151,8 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     /// <param name="t">Duration for the movement animation</param>
     private IEnumerator SwapObjectsInBlocks(int obj, int obj2, float t)
     {
+        moveCounter++;
+
         isMovingTile = true;  // Tile is being moved
 
         // Create temporary variables to store the tiles being swapped
@@ -144,7 +171,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         tiles[obj2].myPosInArray = obj2;
 
         // Wait until animation is complete before continuing
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
 
         isMovingTile = false;  // Tile movement is complete
 
@@ -161,6 +188,45 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         yield return new WaitForSeconds(0.25f);  // Wait 0.25 seconds
 
         boxAnimation.BoxOpen();  // Trigger the box opening animation
+
+        skipPuzzleText.text = "";  // Hide Skip Puzzle Text after the puzzle is solved
+
+        puzzleCanvas.SetActive(false);  // Hides UI Element of the skip text
     }
 
+    /// <summary>
+    /// Activates the puzzle canvas when the player enters the trigger zone
+    /// </summary>
+    /// <param name="other">Collider of the object entering the trigger zone</param>
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check if the player enters the trigger zone
+        if(other.CompareTag("Player"))
+        {
+            playerNearby = true;  // Set flag to true
+
+            if (puzzleCanvas != null)
+            {
+                puzzleCanvas.gameObject.SetActive(true);  // Activate the canvas
+            }
+        }
+    }
+
+    /// <summary>
+    /// Deactivates the puzzle canvas when the player leaves the trigger zone
+    /// </summary>
+    /// <param name="other">Collider of the object exiting the trigger zone</param>
+    private void OnTriggerExit(Collider other)
+    {
+        // Check if the player leaves the trigger zone
+        if (other.CompareTag("Player"))
+        {
+            playerNearby = false;  // Set flag to false
+
+            if (puzzleCanvas != null)
+            {
+                puzzleCanvas.gameObject.SetActive(false);  // Deactivate the canvas
+            }
+        }
+    }
 }

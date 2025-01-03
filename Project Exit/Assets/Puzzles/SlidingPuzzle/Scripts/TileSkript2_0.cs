@@ -16,7 +16,7 @@ public class TileSkript2_0 : MonoBehaviour
     /// </summary>
     /// <param name="check">The number to check against the tile's current number</param>
     /// <returns>Returns true if the tile's number matches the check value, otherwise false</returns>
-    public bool AmIRight(int check)
+    public bool RightPosition(int check)
     {
         // If the tile's number is equal to the check value, return true.
         if (myNumber == check)
