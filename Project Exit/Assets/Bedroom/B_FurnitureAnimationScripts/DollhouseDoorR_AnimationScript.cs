@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class DollhouseDoorR_AnimationScript : InteractableObject
 {
+    #region CodeFromLennart
+    //Object that needs to be triggerd in order to play steps
+    public AK.Wwise.Event triggerdooropen;
+    #endregion
+
     #region CodeFrom: Wendt Hendrik
     public float openAngle = -40.0f;  // Angle to rotate the door to (in degrees)
 
@@ -59,6 +64,10 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
                 #region CodeFrom: Wendt Hendrik
                 if (!isAnimating)
                 {
+                    #region CodeFromLennart
+                    triggerdooropen.Post(gameObject);//plays the lock opening sound
+                    #endregion
+
                     // Start the animation to move the drawer to the open or closed position
                     StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
