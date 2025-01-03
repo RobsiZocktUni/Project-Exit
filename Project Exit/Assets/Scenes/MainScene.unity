@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 29838728}
   - component: {fileID: 29838730}
   - component: {fileID: 29838729}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,6 +871,10 @@ PrefabInstance:
       propertyPath: puzzleCanvas
       value: 
       objectReference: {fileID: 1377507965}
+    - target: {fileID: 266252508552603514, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
+      propertyPath: textCollider
+      value: 
+      objectReference: {fileID: 469406528}
     - target: {fileID: 266252508552603514, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
       propertyPath: skipPuzzleText
       value: 
@@ -16540,7 +16544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722340278}
   - component: {fileID: 722340279}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FadeManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25724,7 +25728,7 @@ GameObject:
   - component: {fileID: 1113483604}
   - component: {fileID: 1113483607}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Puppet (Placeholder)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25831,9 +25835,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectName: Puppet
   uiText: {fileID: 0}
-  animationOnTrigger: 
   characterController: {fileID: 1498693736}
   fadeImage: {fileID: 29838729}
+  animationCanvas: {fileID: 1724351694}
   fadeDuration: 3
 --- !u!1001 &1122596934
 PrefabInstance:
@@ -28045,7 +28049,7 @@ GameObject:
   - component: {fileID: 1377507969}
   - component: {fileID: 1377507968}
   - component: {fileID: 1377507967}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SkipPuzzle_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28101,7 +28105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -28133,7 +28137,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!1 &1378180459 stripped
 GameObject:
@@ -30407,7 +30411,7 @@ GameObject:
   - component: {fileID: 1619643458}
   - component: {fileID: 1619643457}
   - component: {fileID: 1619643456}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: FadeFromBlack_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30475,7 +30479,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &1619643459
 RectTransform:
@@ -36667,9 +36671,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectName: 
   uiText: {fileID: 0}
-  animationOnTrigger: 
   characterController: {fileID: 1498693736}
   fadeImage: {fileID: 0}
+  animationCanvas: {fileID: 0}
   fadeDuration: 3
 --- !u!1 &1712488404
 GameObject:
@@ -41513,13 +41517,13 @@ GameObject:
   - component: {fileID: 1724351694}
   - component: {fileID: 1724351693}
   - component: {fileID: 1724351692}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FadeToBlack_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1724351691
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41601,7 +41605,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!1 &1732368878
 GameObject:
@@ -42012,7 +42016,7 @@ GameObject:
   - component: {fileID: 1783603269}
   - component: {fileID: 1783603271}
   - component: {fileID: 1783603270}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Black_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48297,7 +48301,7 @@ GameObject:
   - component: {fileID: 1939752699}
   - component: {fileID: 1939752701}
   - component: {fileID: 1939752700}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SkipPuzzle_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48312,7 +48316,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939752698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48320,8 +48324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: -500}
-  m_SizeDelta: {x: 800, y: 50}
+  m_AnchoredPosition: {x: -220, y: -190}
+  m_SizeDelta: {x: 300, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939752700
 MonoBehaviour:
@@ -48370,13 +48374,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 8
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -48580,7 +48584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -68.63
+      value: -67.907
       objectReference: {fileID: 0}
     - target: {fileID: 8349770888597160060, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_LocalPosition.y
@@ -59612,8 +59616,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -1.0999756}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: 5.4000244}
+  m_SizeDelta: {x: 400, y: 25}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2114950386
 MonoBehaviour:
@@ -59650,15 +59654,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
+  m_sharedMaterial: {fileID: 1234772708652057854, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.3529412}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -59675,13 +59679,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 8
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -59711,7 +59715,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -278.82745, y: 0, z: -270.2675, w: 0}
+  m_margin: {x: 0.11417388, y: 0, z: -0.45011902, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -60248,6 +60252,10 @@ PrefabInstance:
       objectReference: {fileID: 378360786}
     - target: {fileID: 2021612879668885122, guid: 9f7477084964ac44499120fad3457471, type: 3}
       propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021612879668885122, guid: 9f7477084964ac44499120fad3457471, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2771484386036969538, guid: 9f7477084964ac44499120fad3457471, type: 3}

@@ -25,6 +25,7 @@ public class UiManager : MonoBehaviour
         InteractableItemPng.SetActive(false);
         TileInteractPng.SetActive(false);
         #endregion
+
         #region CodeFrom: Wendt Hendrik
         // Do not process input when the game is paused or inventory is activated
         if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
@@ -32,6 +33,7 @@ public class UiManager : MonoBehaviour
             return;
         }
         #endregion
+
         #region CodeFrom Beck Jonas
         if (Physics.Raycast(ray, out RaycastHit hit, RayLength))
         {
