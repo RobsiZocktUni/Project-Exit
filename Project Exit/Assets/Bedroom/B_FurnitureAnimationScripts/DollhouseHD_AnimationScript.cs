@@ -9,7 +9,7 @@ public class DollhouseHD_AnimationScript : MonoBehaviour
 {
     public float openAngleX = -27.0f;  // Angle to rotate the door to (in degrees; X axe)
 
-    public float openAngleY = 101.27f;  // Angle to rotate the door to (in degrees; Y axe)
+    public float openAngleY = 71.0f;  // Angle to rotate the door to (in degrees; Y axe)
 
     public float openAngleZ = -90.0f;  // Angle to rotate the door to (in degrees; Z axe)
 
