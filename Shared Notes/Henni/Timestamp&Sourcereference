@@ -5,9 +5,9 @@
 
 ~ Week 21-27.10.2024: 
 22.10.2034:
-- GDD: started working on GDD; Adding: "Essenz, Winning Condition and Alleinstellungsmerkmale"
+- Summary: started working on Summary; Adding: "Essenz, Winning Condition and Alleinstellungsmerkmale"
 24.10.2024:
-- GDD: Adding: "Kurzfassung" and "Zielgruppe"
+- Summary: Adding: "Kurzfassung" and "Zielgruppe"
 26.10.2024:
 - first person player: adding a slider for mouse movement
 
@@ -24,7 +24,7 @@
 09.11.2024:
 - sliding puzzle: finished 2D Version of the sliding puzzle with a function to see if the puzzle is solvable
 10.11.2024:
-- GDD: Adding "Basis-Zykus", "Weitere Spielyklen", "Eingabemodelle" and "Spielraum 
+- Summary: Adding "Basis-Zykus", "Weitere Spielyklen", "Eingabemodelle" and "Spielraum 
 
 ~ week 11.11.2024-17.11.2024:
 14.11.2024:
@@ -48,7 +48,7 @@
 
 ~ week 25.11.2024-01.12.2024:
 26.11.2024:
-- Working on GDD:
+- Working on Summary:
 -> improved "Essenz", "Kurzfassung", "Alleinstellungsmerkmale", "Zielgruppe", "Kernmechaniken"
 -> added "Motivationsprofil", "Fokus und Ziel", "Nebenhandlung" and "Charaktere"
 01.12.2024:
@@ -58,12 +58,96 @@
 -> added animation: bookshelf doors
 -> added animation: dollhouse doors
 - Fixed box colliders: bookshelf, bed, dollhouse
-- Working on GDD:
+- Working on Summary:
 -> Adding Characters (backstory)
--> 
+- Worked on Summary
+- Created Project Exit Demo pdf:
+-> Clear structure of the demo
+-> Everything included that is importand for the gamelool of the demo
 
+~ week 02.12.2024-08.12.2024:  
+08.12.2024:
+- Added start animation for the main scene
+- placed animation for bookshelf doors
+09.12.2024:
+- Rearranged box colliders in the scene
+- changed open angles for dollhouse doors
 
+~ week 09.12.2024-15.12.2024:
+12.12.2024:
+- Added Homescreen
+-> Play Button: Start Main Scene
+-> Controls Button: Show Controls
+-> Quit Button: Quit Game/Application
+- Basic Text for the start
+13.12.2024:
+- Worked on Homescreen:
+-> Added Backstory and Settings as possible menus
+-> Added black fadeout when the play button is clicked
+- Added fade in when the game is started
+-> Before start animation
+14.12.2024:
+- Worked on box colliders for dollhouse doors
+- Worked on animation for dollhouse doors
+15.12.2024:
+- Added Animation for the hidden door (dollhouse)
+- Worked on Homescreen:
+-> Added new font for the text in homescreen
+-> Added Controls Menu: Control scheme
+-> Added backstory to the backstory menu
+- Worked on animations
+- Worked on key Pickup when the sliding puzzle is solved
+-> Rearranged colliders on the puzzle box and key
+- Added basig Endtriggerpoint for the MainScene
+-> After the player goes into the second room the Homescreen is loading
+- Changed Collider for Tile Frame
+- Added Pause Menu to the main scene
+-> Continue Button: continues the game
+-> Controls Button: shows controls
+-> Settings Button: Shows Game current settings
+-> Quit Game Button: quits game
+- Fixed Fadeout in Homescreen
 
+~ week 16.12.2024-22.12.2024:
+17.12.2024:
+- Added Back to Homescreen Option to the Pause Menu
+20.12.2024:
+- Worked on Settings Menu:
+-> Fixed Problem when the fullscreen was enabled
+-> Adjusts camere when a low resolution is picked
+- Worked on Sliding Puzzle:
+-> Fixed Tile Movement bug when the game is to fast played
+- First build version of the game for playtests
+
+~ week 23.12.2024-29.12.2024:
+25.12.2024:
+- Playtests
+27.12.2024:
+- Playtestes
+28.12.2024:
+- Playtests
+
+~ week 30.12.2024-05.01.2025:
+01.01.2025:
+- Added Mouse Sensitivity Slider to the Settings Menu:
+-> value is saved between the scenes
+-> possible values between 1 and 100; at the beginning on 50
+- Added regions to all scripts
+-> Division for the respective names
+02.01.2025:
+- Added Volume Slider to the Settings Menu:
+-> value is saved between the scenes
+-> possible values between 1 and 100; at the beginning on 50
+- Worked on Pause Menu:
+-> Interaction with objects is no longer possible when the player is in the pause menu or inventory
+-> Interaction Pictures arte no longer active when player is in the pause menu or inventory
+- Added new end Animation:
+-> placeholder object in the dark room
+-> Endanimation after player clicks on the "puppet"
+-> interactable objects pngs cannot be seen after clicking on the puppet
+- Added Skip Button to the sliding puzzle
+-> after a few tile movements 
+-> Skip Option only shows up when the player is next to the puzzle
 
 
 
@@ -72,8 +156,15 @@
 
 
 ## Source references
-- First Person Player Movement: https://www.youtube.com/watch?v=_QajrabyTJc
+- First Person Player Movement Tutorials(19.10.2024 & 29.10.2024): 
+  https://www.youtube.com/watch?v=_QajrabyTJc
   https://www.youtube.com/watch?v=2FTDa14nryI&t=1058s
+- Slider for mouse sensitivity(26.10.2024): 
+  https://www.youtube.com/watch?v=h9beyqPe3jY
+- Homescreen Tutorials (12.12.2024):
+  https://www.youtube.com/watch?v=zc8ac_qUXQY&t=0s
   
-- Slider for mouse sensitivity: https://www.youtube.com/watch?v=h9beyqPe3jY
+- Free Font (15.12.2024):
+  https://www.1001fonts.com/stanford-breath-font.html
+
 - GDD references: lecture documents for Game Design by Rene Bühling
