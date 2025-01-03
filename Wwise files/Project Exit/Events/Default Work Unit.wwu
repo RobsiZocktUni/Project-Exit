@@ -162,6 +162,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tiles_schieben" ID="{091833F3-9CB8-41CF-BB42-CE566B172F7C}">
+					<ChildrenList>
+						<Action Name="" ID="{919CAF97-62F2-4382-849B-C774CE3F0DC7}" ShortID="308256101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tiles_Schieben" ID="{A0A4F7D5-D567-41E1-AA2C-332D10D21979}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
