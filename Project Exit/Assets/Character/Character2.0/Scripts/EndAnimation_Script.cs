@@ -10,12 +10,12 @@ using UnityEngine.UI;
 /// </summary>
 public class EndAnimation_Script : InteractableObject
 {
-    public string animationOnTrigger; // Name of the animation to be triggered (currently not used in the script)
-
+    [Header("References")]
     public Character_Controller characterController;  // Reference to the Character_Controller script for enabling/disabling character controls
-
     public Image fadeImage;  // Reference to the Image component used for fading to black
+    public Canvas animationCanvas;  // Reference to the Canvas component used for fading to black
 
+    [Header("Animation")]
     public float fadeDuration = 3.0f;  // Duration (in seconds) for the fade effect to complete
 
     // Static game ended state accessible to other scripts
@@ -30,6 +30,8 @@ public class EndAnimation_Script : InteractableObject
         // Check if the characterController has been assigned in the Inspector
         if (characterController != null)
         {
+            animationCanvas.gameObject.SetActive(true);  // Activate Canvas for end animation
+
             gameEnded = true;
 
             // Disable character controls when the player triggers the event
@@ -62,6 +64,8 @@ public class EndAnimation_Script : InteractableObject
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        gameEnded = false;
 
         // Alternatively: Load the scene named "Homescreen"
         // Ensure "Homescreen" is added to the Build Settings in Unity for this to work

@@ -33,12 +33,12 @@ public class UiInfoText : MonoBehaviour
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
-            float alpha = Mathf.Lerp(0, 1, elapsedTime / fadeDuration);
+            float alpha = Mathf.Lerp(0, 0.3f, elapsedTime / fadeDuration);
             UiText.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
             yield return null;
         }
 
-        UiText.color = new Color(originalColor.r, originalColor.g, originalColor.b, 1);
+        UiText.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.3f);
         //---------------------------
         //ShowTextOnScreen
         elapsedTime = 0;
@@ -53,7 +53,7 @@ public class UiInfoText : MonoBehaviour
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
-            float alpha = Mathf.Lerp(1, 0, elapsedTime / fadeDuration);
+            float alpha = Mathf.Lerp(0.3f, 0, elapsedTime / fadeDuration);
             UiText.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
             yield return null;
         }

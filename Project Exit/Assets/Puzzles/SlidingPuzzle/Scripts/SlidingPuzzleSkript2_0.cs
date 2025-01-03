@@ -10,18 +10,21 @@ using TMPro;
 /// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {
+    [Header("References")]
     public TileSkript2_0[] tiles;  // Array of tiles that will be used in the sliding puzzle
     public TileSkript2_0 emptySpace;  // Reference to the empty space in the puzzle
-    public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
-    public float tileMoveDuration = 0.25f;  // Duration of tile movement animation (in seconds)
-
     public BoxAnimationSkript boxAnimation;  // Reference to the box animation script
     public TextMeshProUGUI skipPuzzleText;  // UI element that shows the skip message
     public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
+    public Collider textCollider;  // Collider that is used to trigger the skip text
+
+    [Header("Variables")] 
+    public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
+    public float tileMoveDuration = 0.25f;  // Duration of tile movement animation (in seconds)
 
     private bool isMovingTile = false;  // Tracks if a tile is currently moved
     private int moveCounter = 0;  // Tracks how many moves the player has made
-    private const int maxMovementsBeforeSkip = 300;  // Maximum moves allowed before showing the skip message
+    private const int maxMovementsBeforeSkip = 250;  // Maximum moves allowed before showing the skip message
     private bool playerNearby = false;  // // Tracks whether the player is within the puzzle's trigger zone
 
     // Start is called before the first frame update
@@ -192,6 +195,11 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         skipPuzzleText.text = "";  // Hide Skip Puzzle Text after the puzzle is solved
 
         puzzleCanvas.SetActive(false);  // Hides UI Element of the skip text
+
+        if(textCollider != null) 
+        {
+            textCollider.enabled = false;  // Deactivates the trigger
+        }
     }
 
     /// <summary>

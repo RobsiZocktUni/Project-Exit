@@ -12,7 +12,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
     #endregion
 
     #region CodeFrom: Wendt Hendrik
-    public float openAngle = 180.0f;  // Angle to rotate the door to (in degrees)
+    public float openAngle = 160.0f;  // Angle to rotate the door to (in degrees)
 
     public float timeTillArrival = 2.0f;  // Duration of the animation in seconds
 

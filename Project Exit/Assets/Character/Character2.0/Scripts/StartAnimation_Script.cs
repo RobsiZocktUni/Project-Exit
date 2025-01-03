@@ -11,17 +11,8 @@ public class StartAnimation_Script : MonoBehaviour
     public RotateCamera_Script RotateCamera;  // Reference to the RotateCamera script for rotating the camera
     public MoveCamera_Script MoveCamera;  // Reference to the MoveCamera script for moving the camera
     public Character_Controller characterController;  // Reference to the Character_Controller script for enabling/disabling character controls
-
-    [Header("Fade")]
     public Fade_Script fade;
     public GameObject FadeManager;
-
-    /*
-    [Header("Animation Timing")]
-    public float firstAnimationDelay = 1.0f;  // Delay before starting the first animation (in seconds)
-    public float secondAnimationDelay = 5.0f;  // Delay before starting the second animation (in seconds)
-    public float enableControllerDelay = 7.0f;  // Delay before enabling the character controller after the animations (in seconds)
-    */
 
     /// <summary>
     /// Initializes the script and starts the animation sequence.
