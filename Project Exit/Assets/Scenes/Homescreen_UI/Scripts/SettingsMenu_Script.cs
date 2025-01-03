@@ -24,7 +24,7 @@ public class SettingsMenu_Script : MonoBehaviour
     private const string SensitivityKey = "MouseSensitivity";  // PlayerPrefs key to store mouse sensitivity
 
     public Slider volumeSlider;  // Slider: Volume
-    private const string VolumeRTCP = "MasterVolume";  // Name of the RTPC in Wwise
+    private const string VolumeRTCP = "Master_Volume";  // Name of the RTPC in Wwise
     private const string VolumeKey = "MasterVolume";  // PlayerPrefs key to store the volume
 
     /// <summary>
@@ -93,7 +93,7 @@ public class SettingsMenu_Script : MonoBehaviour
         sensitivitySlider.onValueChanged.AddListener(SetMouseSensitivity);  
 
         // Load and apply the saved volume from PlayerPrefs
-        float saveVolume = PlayerPrefs.GetFloat(VolumeKey, 50.0f);
+        float saveVolume = PlayerPrefs.GetFloat(VolumeKey, 100.0f);
         volumeSlider.value = saveVolume;
 
         // Set the RTPC value in Wwise
