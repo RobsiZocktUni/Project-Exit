@@ -60,7 +60,7 @@ public class EndAnimation_Script : InteractableObject
         yield return StartCoroutine(Fade(0.0f, 1.0f));
 
         // Load the Homescreen Scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -69,7 +69,7 @@ public class EndAnimation_Script : InteractableObject
 
         // Alternatively: Load the scene named "Homescreen"
         // Ensure "Homescreen" is added to the Build Settings in Unity for this to work
-        // SceneManager.LoadScene("Homescreen");
+        // SceneManager.LoadScene("Credits");
     }
 
     /// <summary>
