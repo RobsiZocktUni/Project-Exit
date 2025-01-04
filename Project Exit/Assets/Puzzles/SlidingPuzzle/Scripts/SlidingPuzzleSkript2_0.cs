@@ -10,6 +10,7 @@ using TMPro;
 /// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {
+
     [Header("References")]
     public TileSkript2_0[] tiles;  // Array of tiles that will be used in the sliding puzzle
     public TileSkript2_0 emptySpace;  // Reference to the empty space in the puzzle
@@ -17,6 +18,8 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     public TextMeshProUGUI skipPuzzleText;  // UI element that shows the skip message
     public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
     public Collider textCollider;  // Collider that is used to trigger the skip text
+
+    public AK.Wwise.Event triggerTileSlide; //Object that needs to be triggerd in order to play steps
 
     [Header("Variables")] 
     public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
@@ -62,7 +65,11 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
                 // If the distance between the empty space and the clicked tile is within the allowed threshold
                 if (Vector3.Distance(emptySpace.gameObject.transform.position, hit.transform.position) <= tileMoveThreshold)
                 {
+                    #region CodeFromLennart
+                    //Play sound
                     // Swap the clicked tile with the empty space
+                    triggerTileSlide.Post(gameObject);
+                    #endregion
                     StartCoroutine(SwapObjectsInBlocks(hit.collider.gameObject.GetComponent<TileSkript2_0>().myPosInArray, emptySpace.myPosInArray, 3.0f));
                 }
             }

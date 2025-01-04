@@ -4,6 +4,11 @@ using UnityEngine;
 #region CodeFrom: Beck Jonas
 public class Doll_Clothing : KeyItem
 {
+
+    #region CodeFromLennart
+    public AK.Wwise.Event triggerpickup;
+    #endregion
+
     public BoxCollider Hitbox;
 
     private Camera mainCamera;
@@ -21,6 +26,9 @@ public class Doll_Clothing : KeyItem
     {
         base.Pickup(parent);
         uiText.SetText("You pickup a " + ItemName);
+        #region CodeFromLennart
+        triggerpickup.Post(gameObject);
+        #endregion
     }
     public override void UseItem() 
     {

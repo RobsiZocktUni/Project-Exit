@@ -9,7 +9,12 @@ public class Mannequin : InteractableObject
     public bool Interactable = true;
     private Character_Controller player;
     private DollhousePuzzleManager manager;
-    
+
+    #region CodeFromLennart
+    public AK.Wwise.Event triggerClothdown;
+    public AK.Wwise.Event triggerClothup;
+    #endregion
+
 
 
     private void Start()
@@ -32,6 +37,9 @@ public class Mannequin : InteractableObject
             {
                 InventoryManager.Instance.AddItem(CurrentClothing);     //Pick up the clothing of the Mannequin if it already has one
                 CurrentClothing = null;
+                #region CodeFromLennart
+                triggerClothup.Post(gameObject);
+                #endregion
             }
         }
     }
@@ -41,6 +49,9 @@ public class Mannequin : InteractableObject
         if (CurrentClothing == null)
         {
             CurrentClothing = NewClothing;
+            #region CodeFromLennart
+            triggerClothdown.Post(gameObject);
+            #endregion
             manager.CheckIfDone();
             return true;
         }
