@@ -41,13 +41,15 @@ public class Credits_Script : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Start fading to black
+            StartCoroutine(HomescreenLoader());
+        }
+
         if (creditsEnded)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                // Start fading to black
-                StartCoroutine(HomescreenLoader());
-            }
+            StartCoroutine(HomescreenLoader());
         }
     }
 
@@ -59,7 +61,7 @@ public class Credits_Script : MonoBehaviour
 
         // Alternatively: Load the scene named "Homescreen"
         // Ensure "Homescreen" is added to the Build Settings in Unity for this to work
-        // SceneManager.LoadScene("Homescreen");
+        //SceneManager.LoadScene("Homescreen");
     }
 
     /// <summary>
