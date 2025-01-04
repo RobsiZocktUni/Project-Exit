@@ -23277,6 +23277,10 @@ PrefabInstance:
       propertyPath: CorrectOutfit
       value: 
       objectReference: {fileID: 344187975}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin (Rainoutfit)
@@ -30784,6 +30788,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 849199575448778322, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0dcaa5ae9b3d44c4182521e01806454c, type: 2}
     - target: {fileID: 2998132481119461458, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -30843,13 +30851,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1802412616}
-    - targetCorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1802412615}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
 --- !u!1001 &1601890342
 PrefabInstance:
@@ -42872,62 +42874,6 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 3d0d2320ab9a8a347939a397568018ac, type: 2}
   openPositionOffset: {x: -1, y: 0, z: 0}
   timeTillArrival: 0.75
---- !u!1 &1802412611 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6290100247399072412, guid: b315b60d5ea99b14a92893895b84ba55, type: 3}
-  m_PrefabInstance: {fileID: 1601872901}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1802412615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802412611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5440c40a88e90c941987a340c2a65671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 9864aaa1
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0dcaa5ae9b3d44c4182521e01806454c, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1802412616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802412611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01467871fe02a19478dbbad9da96aeb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!114 &1802589807 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4270766988333242704, guid: 9f7477084964ac44499120fad3457471, type: 3}
@@ -48954,6 +48900,10 @@ PrefabInstance:
       propertyPath: CorrectOutfit
       value: 
       objectReference: {fileID: 346207867}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin(WinterOutfit)
@@ -54577,6 +54527,10 @@ PrefabInstance:
       propertyPath: CorrectOutfit
       value: 
       objectReference: {fileID: 306829258}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin (Grievingdress)
@@ -61694,6 +61648,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1051337096}
     m_Modifications:
+    - target: {fileID: 2109352447498974132, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 4732867432029683949, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
       propertyPath: m_Name
       value: winteroutfit2.0
@@ -62863,6 +62821,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 417919473}
     m_Modifications:
+    - target: {fileID: -4948243425948254046, guid: 13723f6f9073eab49aad36aa5d8e4eb9, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 1709758385202579470, guid: 13723f6f9073eab49aad36aa5d8e4eb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.110000655
@@ -63061,6 +63023,10 @@ PrefabInstance:
       propertyPath: CorrectOutfit
       value: 
       objectReference: {fileID: 964598176}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin(Summerdress)
@@ -64641,6 +64607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3663237084195905206, guid: 2bf0816392123e2439bd6f7e09bb5e3d, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66296,6 +66266,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1051337096}
     m_Modifications:
+    - target: {fileID: 5130558146678772818, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6156146835968715533, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.395

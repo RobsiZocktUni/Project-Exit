@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1880054156	Play_SFX_schloss_auf			\Default Work Unit\Play_SFX_schloss_auf	
 	2181630209	Play_menu_theme			\Default Work Unit\Play_menu_theme	
 	2408187165	Play_SFX_Kleine_Tuer			\Default Work Unit\Play_SFX_Kleine_Tuer	
+	2852810046	Play_SFX_Cloth_up			\Default Work Unit\Play_SFX_Cloth_up	
 	3417554753	Play_SFX_Streichholz			\Default Work Unit\Play_SFX_Streichholz	
 	3591392569	Play_SFX_Streichholzschachtel_aufheben			\Default Work Unit\Play_SFX_Streichholzschachtel_aufheben	
 	3723063527	Play_Tiles_schieben			\Default Work Unit\Play_Tiles_schieben	
@@ -17,6 +18,7 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11586564	SFX-Step-06	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-06		38860
 	60211904	SFX-Schieben-05	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\Tiles_Schieben\SFX-Schieben-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tiles_Schieben\SFX-Schieben-05		43740
+	61914961	SFX_Cloth_up	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX_Cloth_up_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Cloth_up		21634
 	72590103	SFX-Step-10	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-10		68208
 	74071834	SFX-Schieben-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\Tiles_Schieben\SFX-Schieben-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tiles_Schieben\SFX-Schieben-03		44290
 	76998002	SFX-Step-07	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-07		33542

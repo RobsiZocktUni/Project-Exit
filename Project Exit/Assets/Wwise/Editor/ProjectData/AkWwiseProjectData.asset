@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: b9586e14e61c1d4da6915231756fafa9
     GuidInternal: 
-    m_lastTime: -8584656681919725618
+    m_lastTime: -8584655909000187993
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -358,7 +358,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\General
     guid: 0eb58fb455ea1346a166b0c3cde243d5
     GuidInternal: 
-    m_lastTime: -8584656639521912969
+    m_lastTime: -8584655856326339357
     List:
     - name: Main
       guid: 54d1edda390e2a45bac96fd5dfb7c700
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 59a54538be14a14fa82609b2f635720d
     GuidInternal: 
-    m_lastTime: -8584656653195378379
+    m_lastTime: -8584655856326146050
     List:
     - name: Play_menu_theme
       guid: 886a9976a0dbc14ca4878fba9cf95582
@@ -405,6 +405,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_Cloth_up
+      guid: b5973099546ece4bb6e28d894bd5bc1f
+      id: 2852810046
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_Cloth_up
+        ObjectType: 3
+        guid: b5973099546ece4bb6e28d894bd5bc1f
+      Path: Events\Default Work Unit\Play_SFX_Cloth_up
+      maxAttenuation: 0
+      maxDuration: 0.22435416
+      minDuration: 0.22435416
     - name: Play_SFX_Kleine_Tuer
       guid: 8dbbd65035602146821f8e590288e8be
       id: 2408187165
@@ -471,8 +488,8 @@ MonoBehaviour:
         guid: 900172715c52cc4f9fbbbf2ceb9b215e
       Path: Events\Default Work Unit\Play_SFX_Schranktuer_auf
       maxAttenuation: 0
-      maxDuration: 2.002556
-      minDuration: 2.002556
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_Schranktuer_zu
       guid: e93d1ee3f8f2274a9f0bb04330d5e18a
       id: 3243827298
@@ -488,8 +505,8 @@ MonoBehaviour:
         guid: e93d1ee3f8f2274a9f0bb04330d5e18a
       Path: Events\Default Work Unit\Play_SFX_Schranktuer_zu
       maxAttenuation: 0
-      maxDuration: 2.0000024
-      minDuration: 2.0000024
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_Schublade_auf
       guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       id: 1215060680
@@ -607,8 +624,8 @@ MonoBehaviour:
         guid: fa1c97c6087fb54bbd59f6de9ec711b7
       Path: Events\Default Work Unit\Play_ZimmerTuer
       maxAttenuation: 0
-      maxDuration: 1.1398456
-      minDuration: 1.1398456
+      maxDuration: -1
+      minDuration: -1
     - name: Steps
       guid: 9a1d41cf04a41d4c9b44b63183a1f2c1
       id: 1718617278
@@ -655,7 +672,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a890c63be44d54c9d6c32c4bf811f37
     GuidInternal: 
-    m_lastTime: -8584656682153082338
+    m_lastTime: -8584655909001092229
     List:
     - name: Master_Volume
       guid: b3bf2292d465ee4e84443a41b89b65fb

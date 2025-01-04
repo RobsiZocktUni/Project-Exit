@@ -2183,6 +2183,28 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SFX_Cloth_up" ID="{05F6A77F-16E4-4B7D-8D73-91B414E8F9EF}" ShortID="890800138">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Cloth_up" ID="{91227BA1-0B5A-407F-B019-AC4D8B0E8B67}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Cloth_up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="61914961"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Cloth_up" ID="{91227BA1-0B5A-407F-B019-AC4D8B0E8B67}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

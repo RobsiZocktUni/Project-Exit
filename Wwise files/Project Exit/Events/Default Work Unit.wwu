@@ -173,6 +173,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Cloth_up" ID="{993097B5-6E54-4BCE-B6E2-8D894BD5BC1F}">
+					<ChildrenList>
+						<Action Name="" ID="{B3CE469E-EB15-4FCB-9EF3-E2F9471AE7DB}" ShortID="61075884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Cloth_up" ID="{05F6A77F-16E4-4B7D-8D73-91B414E8F9EF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

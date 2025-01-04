@@ -166,7 +166,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{62E19037-FA39-AB37-ABD5-80D3E359FC44}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{23D084A5-F78D-A82B-8D03-43F6F341A2F4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -177,6 +177,10 @@
 				<File Id="60211904" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tiles_Schieben\SFX-Schieben-05.wav</ShortName>
 					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="61914961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Cloth_up.wav</ShortName>
+					<CachePath>SFX/SFX_Cloth_up_818F3B66.wem</CachePath>
 				</File>
 				<File Id="72590103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-10.wav</ShortName>
@@ -334,6 +338,11 @@
 						<MediaRef Id="653364092"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2852810046" Name="Play_SFX_Cloth_up" DurationType="OneShot" DurationMin="0.22435416" DurationMax="0.22435416">
+					<MediaRefs>
+						<MediaRef Id="61914961"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2408187165" Name="Play_SFX_Kleine_Tuer" DurationType="OneShot" DurationMin="1.1672916" DurationMax="1.1672916">
 					<MediaRefs>
 						<MediaRef Id="736421046"/>
@@ -416,5 +425,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AAAD1516-E638-F1B6-4124-7BC407A89C42}</FileHash>
+	<FileHash>{72209F64-B4FC-BDA0-2CBD-C1DCEDB299EE}</FileHash>
 </SoundBanksInfo>
