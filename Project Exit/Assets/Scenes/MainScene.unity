@@ -23281,6 +23281,10 @@ PrefabInstance:
       propertyPath: triggerClothup.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothdown.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin (Rainoutfit)
@@ -48904,6 +48908,10 @@ PrefabInstance:
       propertyPath: triggerClothup.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothdown.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: m_Name
       value: Mannequin(WinterOutfit)
@@ -54529,6 +54537,10 @@ PrefabInstance:
       objectReference: {fileID: 306829258}
     - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothdown.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
@@ -63025,6 +63037,10 @@ PrefabInstance:
       objectReference: {fileID: 964598176}
     - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
       propertyPath: triggerClothup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
+    - target: {fileID: 6463687601899850617, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
+      propertyPath: triggerClothdown.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     - target: {fileID: 6532312979217419154, guid: 109e2f65b0c1e3940baeaf304df4dda2, type: 3}
