@@ -7,10 +7,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	2181630209	Play_menu_theme			\Default Work Unit\Play_menu_theme	
 	2408187165	Play_SFX_Kleine_Tuer			\Default Work Unit\Play_SFX_Kleine_Tuer	
 	2852810046	Play_SFX_Cloth_up			\Default Work Unit\Play_SFX_Cloth_up	
+	2961924210	Play_ZimmerTuer			\Default Work Unit\Play_ZimmerTuer	
+	3237937395	Play_SFX_Schranktuer_auf			\Default Work Unit\Play_SFX_Schranktuer_auf	
+	3243827298	Play_SFX_Schranktuer_zu			\Default Work Unit\Play_SFX_Schranktuer_zu	
 	3417554753	Play_SFX_Streichholz			\Default Work Unit\Play_SFX_Streichholz	
+	3510297426	Play_SFX_puzzle_top_move			\Default Work Unit\Play_SFX_puzzle_top_move	
 	3591392569	Play_SFX_Streichholzschachtel_aufheben			\Default Work Unit\Play_SFX_Streichholzschachtel_aufheben	
 	3723063527	Play_Tiles_schieben			\Default Work Unit\Play_Tiles_schieben	
 	3803780191	Play_SFX_Schublade_zu			\Default Work Unit\Play_SFX_Schublade_zu	
+	3916480950	Play_SFX_Zimmertuer			\Default Work Unit\Play_SFX_Zimmertuer	
 
 Effect plug-ins	ID	Name	Type				Notes
 	2818210640	Low_cut	Wwise Parametric EQ			
@@ -22,13 +27,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	72590103	SFX-Step-10	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-10		68208
 	74071834	SFX-Schieben-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\Tiles_Schieben\SFX-Schieben-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tiles_Schieben\SFX-Schieben-03		44290
 	76998002	SFX-Step-07	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-07		33542
+	95548653	SFX-Schranktuer_zu_01	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schranktuer_zu_01_15A3D6FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Schranktuer_zu_01		384100
 	104246434	SFX-Step-14	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-14		53200
 	108637881	SFX-Step-13	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-13		39474
 	126333147	SFX-Streichholzschachtel-offnen	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholzschachtel-offnen_1D21B644.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholzschachtel-offnen		138952
+	145725912	SFX-Step-quietschen-03	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-quietschen-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZimmerTür\SFX-Step-quietschen-03		88668
 	155474234	SFX-Schublade-zu-103	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schublade-zu-103_7089B273.wem		\Actor-Mixer Hierarchy\Default Work Unit\Schublade_zu\SFX-Schublade-zu-103		132428
 	191634209	SFX-schloss-auf	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-schloss-auf_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-schloss-auf		91040
 	234765194	SFX-Schublade-zu-102	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schublade-zu-102_92D47F0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Schublade_zu\SFX-Schublade-zu-102		144128
 	280295012	SFX-Step-15	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-15		63232
+	316300769	SFX-Türklinke	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Türklinke_807A9FAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZimmerTür\SFX-Türklinke		53576
 	319123657	SFX-Step-19	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-19_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-19		31234
 	356211607	SFX-Step-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-02		31926
 	408970512	SFX-Step-17	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-17_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-17		40422
@@ -39,9 +47,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	562955119	SFX-Step-05	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-05		61256
 	577585697	SFX-Schieben-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\Tiles_Schieben\SFX-Schieben-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tiles_Schieben\SFX-Schieben-02		52810
 	611095017	SFX-Step-04	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-04		36538
-	653364092	test-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\test-02_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
+	653364092	test-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\test-02_75837659.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-02		5421272
 	670808234	SFX-Streichholz-01	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Streichholz-01_6E57338D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Streichholz\SFX-Streichholz-01		518496
 	706726449	SFX-Step-18	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-18_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-18		36026
+	732247733	SFX-Schranktuer_zu_02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schranktuer_zu_02_33C530A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Schranktuer_zu_02		384588
 	736421046	SFX-Kleine-Tür	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Kleine-Tür_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX-Kleine-Tür		224216
 	788701648	SFX-Step-11	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Step-11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\SFX-Step-11		74092
 	817071074	SFX-Schublade-auf-02	G:\GELAB\Project-Exit\Wwise files\Project Exit\.cache\Windows\SFX\SFX-Schublade-auf-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Schublade_auf\SFX-Schublade-auf-02		191620
