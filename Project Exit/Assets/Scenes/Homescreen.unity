@@ -526,6 +526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 245629612482206012, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -400
+      objectReference: {fileID: 0}
     - target: {fileID: 1114363711070922493, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -541,6 +545,43 @@ PrefabInstance:
     - target: {fileID: 2136394567707837584, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163697675726128940, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2186460565190256641, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410085308500450186, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548624638306255917, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_text
+      value: 'Walk
+
+        Camera Movement
+
+        Interactions
+
+        Sprint
+
+        Crouch
+
+        Inventory
+
+        Pause
+        Menu'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673223990388873506, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946553570472425844, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4646821328290904984, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: m_SizeDelta.x
@@ -694,9 +735,21 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7475507282030091353, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7475507282030091353, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 7570234575702896440, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: m_Name
       value: Homescreen_UI (with fadeout)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160742452994341605, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 8923651309788834679, guid: 52d1769393cb168478c315325a1e4315, type: 3}
       propertyPath: volumeSlider
@@ -710,6 +763,10 @@ PrefabInstance:
       propertyPath: sensitivitySlider
       value: 
       objectReference: {fileID: 30170875}
+    - target: {fileID: 9077809937074007472, guid: 52d1769393cb168478c315325a1e4315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
