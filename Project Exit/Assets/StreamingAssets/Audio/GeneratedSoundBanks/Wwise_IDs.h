@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_MENU_THEME = 2181630209U;
         static const AkUniqueID PLAY_SFX_CLOTH_UP = 2852810046U;
         static const AkUniqueID PLAY_SFX_KLEINE_TUER = 2408187165U;
+        static const AkUniqueID PLAY_SFX_PUZZLE_TOP_MOVE = 3510297426U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_AUF = 1880054156U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_KEIN_SCHLUESSEL = 324383601U;
         static const AkUniqueID PLAY_SFX_SCHRANKTUER_AUF = 3237937395U;

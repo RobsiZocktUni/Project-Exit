@@ -166,7 +166,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{24BFCAF3-C5F7-BE3A-3296-19C0E1F34794}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6280D7DD-1EBB-2928-B71C-3740C0709043}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -369,6 +369,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="3510297426" Name="Play_SFX_puzzle_top_move" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1880054156" Name="Play_SFX_schloss_auf" DurationType="OneShot" DurationMin="0.50579166" DurationMax="0.50579166">
 					<MediaRefs>
 						<MediaRef Id="482374556"/>
@@ -462,5 +463,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5ED17D58-ABC4-29AB-D9B9-84CE207ADE80}</FileHash>
+	<FileHash>{D369B0E3-7CB6-97A6-4408-A8E4E8B821E9}</FileHash>
 </SoundBanksInfo>

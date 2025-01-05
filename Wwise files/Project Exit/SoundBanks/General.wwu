@@ -20,6 +20,7 @@
 						<ObjectRef Name="Play_menu_theme" ID="{76996A88-DBA0-4CC1-A487-8FBA9CF95582}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Schublade_zu" ID="{20713CC0-3D68-4CD0-A405-EDC33EB86B02}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Zimmertuer" ID="{40F49090-B53C-4D33-ABC1-B8419529D4DE}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_puzzle_top_move" ID="{CFFFD6D0-D8FE-4F55-BD2C-ED9B0F69859A}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Schranktuer_auf" ID="{71720190-525C-4FCC-9FBB-BF2CEB9B215E}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
