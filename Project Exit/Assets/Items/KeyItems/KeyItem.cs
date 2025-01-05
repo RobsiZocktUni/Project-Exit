@@ -22,7 +22,13 @@ public abstract class KeyItem : MonoBehaviour
     public virtual void Pickup(Transform parent) // Do not use this function directly. Use InventoryManager.AddItem instead.
     {
 
-        foreach (var item in parent.GetComponents<UnityEngine.Component>()) // Disables all components of the object
+        DisableComponents(parent);
+
+    }
+
+    public virtual void DisableComponents(Transform parent) // Disables all components of the object
+    {
+        foreach (var item in parent.GetComponents<UnityEngine.Component>())
         {
             if (item == this)
             {
@@ -32,7 +38,7 @@ public abstract class KeyItem : MonoBehaviour
             {
                 ((Rigidbody)item).isKinematic = true;
             }
-            else if(item is Behaviour)
+            else if (item is Behaviour)
             {
                 ((Behaviour)item).enabled = false;
             }
@@ -48,9 +54,8 @@ public abstract class KeyItem : MonoBehaviour
 
         foreach (Transform child in parent)     // Disables all components of the objects children
         {
-            Pickup(child);
+            DisableComponents(child);
         }
-
     }
 
     public virtual void Drop(Vector3 dropCoordinates) // Do not use this function directly. Use InventoryManager.DropItem instead.
