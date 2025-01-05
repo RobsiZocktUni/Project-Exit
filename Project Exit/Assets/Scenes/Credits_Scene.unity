@@ -646,18 +646,20 @@ PrefabInstance:
         Technical Support:</size>\n<align=center><size=25>Lennart Hartmann</size></align>\n\n\n\n\n<align=center><size=35>Playtester:</size></align>\n\n<align=center><size=20>Hendrik
         Maas, Jonas Pilgrim, Benedikt Flax, Tim Greinus, Stefan Oswald (aka Steveeeeee)
         etc.</size></align>\n\n<align=center><size=35>Special Thanks to:</size></align>\n\n<align=center><size=20>Tim
-        Greinus and Dan Eisenkr\xE4mer</size></align>\n\n\n\n\n\n<size=20>[Copyrights]</size>\n<size=20>\xA9
+        Greinus and Dan Eisenkr\xE4mer</size></align>\n\n\n\n\n\n<align=center><size=40>This
+        project was created as part of the GE-Lab project at Kempten University</size></align>\n<align=center><size=40>Group:
+        short and engaging</size></align>\n\n\n\n\n<size=20>[Copyrights]</size>\n<size=20>\xA9
         Team Exit. All Rights Reserved.</size>\n<size=20>Buld with Unity. \xA9 Unity
         Technologies.</size>\n<size=20>Audio powered by Wwise. \xA9 Audiokinetic
         Inc.</size>\n\n\n\n\n\n\n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1099182326318802265, guid: e7c399526378bbe48bc420b23e3e8e6e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 3188.1445
+      value: 3417.796
       objectReference: {fileID: 0}
     - target: {fileID: 1099182326318802265, guid: e7c399526378bbe48bc420b23e3e8e6e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1594.0234
+      value: -1708.849
       objectReference: {fileID: 0}
     - target: {fileID: 1988082998079492376, guid: e7c399526378bbe48bc420b23e3e8e6e, type: 3}
       propertyPath: m_IsActive
