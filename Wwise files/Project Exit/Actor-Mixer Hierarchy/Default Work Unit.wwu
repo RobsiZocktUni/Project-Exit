@@ -29,6 +29,10 @@
 							</MediaIDList>
 						</AudioFileSource>
 						<AudioFileSource Name="test-02" ID="{12BFDC06-1A95-4C03-9CC9-BD114C9F6202}">
+							<PropertyList>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>test-02.wav</AudioFile>
 							<MediaIDList>

@@ -166,7 +166,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{23D084A5-F78D-A82B-8D03-43F6F341A2F4}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8774C83B-17AD-6774-EB4F-FE333B1E3A1A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -194,6 +194,10 @@
 					<ShortName>SFX-Step-07.wav</ShortName>
 					<CachePath>SFX/SFX-Step-07_818F3B66.wem</CachePath>
 				</File>
+				<File Id="95548653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Schranktuer_zu_01.wav</ShortName>
+					<CachePath>SFX/SFX-Schranktuer_zu_01_15A3D6FB.wem</CachePath>
+				</File>
 				<File Id="104246434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-14.wav</ShortName>
 					<CachePath>SFX/SFX-Step-14_818F3B66.wem</CachePath>
@@ -205,6 +209,10 @@
 				<File Id="126333147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholzschachtel-offnen.wav</ShortName>
 					<CachePath>SFX/SFX-Streichholzschachtel-offnen_1D21B644.wem</CachePath>
+				</File>
+				<File Id="145725912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Step-quietschen-03.wav</ShortName>
+					<CachePath>SFX/SFX-Step-quietschen-03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="155474234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-zu-103.wav</ShortName>
@@ -221,6 +229,10 @@
 				<File Id="280295012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-15.wav</ShortName>
 					<CachePath>SFX/SFX-Step-15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="316300769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Türklinke.wav</ShortName>
+					<CachePath>SFX/SFX-Türklinke_807A9FAD.wem</CachePath>
 				</File>
 				<File Id="319123657" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-19.wav</ShortName>
@@ -264,7 +276,7 @@
 				</File>
 				<File Id="653364092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>test-02.wav</ShortName>
-					<CachePath>SFX/test-02_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/test-02_75837659.wem</CachePath>
 				</File>
 				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-01.wav</ShortName>
@@ -273,6 +285,10 @@
 				<File Id="706726449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-18.wav</ShortName>
 					<CachePath>SFX/SFX-Step-18_818F3B66.wem</CachePath>
+				</File>
+				<File Id="732247733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX-Schranktuer_zu_02.wav</ShortName>
+					<CachePath>SFX/SFX-Schranktuer_zu_02_33C530A2.wem</CachePath>
 				</File>
 				<File Id="736421046" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Kleine-Tür.wav</ShortName>
@@ -363,6 +379,16 @@
 						<MediaRef Id="191634209"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3237937395" Name="Play_SFX_Schranktuer_auf" DurationType="OneShot" DurationMin="2.002556" DurationMax="2.002556">
+					<MediaRefs>
+						<MediaRef Id="732247733"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3243827298" Name="Play_SFX_Schranktuer_zu" DurationType="OneShot" DurationMin="2.0000024" DurationMax="2.0000024">
+					<MediaRefs>
+						<MediaRef Id="95548653"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1215060680" Name="Play_SFX_Schublade_auf" DurationType="OneShot" DurationMin="0.75192094" DurationMax="0.9975208">
 					<MediaRefs>
 						<MediaRef Id="817071074"/>
@@ -388,6 +414,11 @@
 						<MediaRef Id="126333147"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3916480950" Name="Play_SFX_Zimmertuer" DurationType="OneShot" DurationMin="0.27853304" DurationMax="0.27853304">
+					<MediaRefs>
+						<MediaRef Id="316300769"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3723063527" Name="Play_Tiles_schieben" DurationType="OneShot" DurationMin="0.36000332" DurationMax="0.45334485">
 					<MediaRefs>
 						<MediaRef Id="60211904"/>
@@ -396,6 +427,12 @@
 						<MediaRef Id="507495544"/>
 						<MediaRef Id="577585697"/>
 						<MediaRef Id="817073664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2961924210" Name="Play_ZimmerTuer" DurationType="OneShot" DurationMin="1.1398456" DurationMax="1.1398456">
+					<MediaRefs>
+						<MediaRef Id="145725912"/>
+						<MediaRef Id="316300769"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1718617278" Name="Steps" DurationType="OneShot" DurationMin="0.27658334" DurationMax="0.47829166">
@@ -425,5 +462,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{72209F64-B4FC-BDA0-2CBD-C1DCEDB299EE}</FileHash>
+	<FileHash>{E09417BC-2C65-38F0-F8D7-7921CA6E50CC}</FileHash>
 </SoundBanksInfo>

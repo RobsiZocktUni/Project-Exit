@@ -18,11 +18,15 @@ namespace AK
         static const AkUniqueID PLAY_SFX_KLEINE_TUER = 2408187165U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_AUF = 1880054156U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_KEIN_SCHLUESSEL = 324383601U;
+        static const AkUniqueID PLAY_SFX_SCHRANKTUER_AUF = 3237937395U;
+        static const AkUniqueID PLAY_SFX_SCHRANKTUER_ZU = 3243827298U;
         static const AkUniqueID PLAY_SFX_SCHUBLADE_AUF = 1215060680U;
         static const AkUniqueID PLAY_SFX_SCHUBLADE_ZU = 3803780191U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZ = 3417554753U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZSCHACHTEL_AUFHEBEN = 3591392569U;
+        static const AkUniqueID PLAY_SFX_ZIMMERTUER = 3916480950U;
         static const AkUniqueID PLAY_TILES_SCHIEBEN = 3723063527U;
+        static const AkUniqueID PLAY_ZIMMERTUER = 2961924210U;
         static const AkUniqueID STEPS = 1718617278U;
         static const AkUniqueID STOP_MENU_THEME = 810056023U;
     } // namespace EVENTS
