@@ -439,6 +439,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.1672916
       minDuration: 1.1672916
+    - name: Play_SFX_puzzle_top_move
+      guid: d0d6ffcffed8554fbd2ced9b0f69859a
+      id: 3510297426
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59a54538be14a14fa82609b2f635720d
+      - ElementName: Play_SFX_puzzle_top_move
+        ObjectType: 3
+        guid: d0d6ffcffed8554fbd2ced9b0f69859a
+      Path: Events\Default Work Unit\Play_SFX_puzzle_top_move
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_SFX_schloss_auf
       guid: ac4ad3e48844ea46bd58718ac1f560b5
       id: 1880054156
@@ -488,8 +505,8 @@ MonoBehaviour:
         guid: 900172715c52cc4f9fbbbf2ceb9b215e
       Path: Events\Default Work Unit\Play_SFX_Schranktuer_auf
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.002556
+      minDuration: 2.002556
     - name: Play_SFX_Schranktuer_zu
       guid: e93d1ee3f8f2274a9f0bb04330d5e18a
       id: 3243827298
@@ -505,8 +522,8 @@ MonoBehaviour:
         guid: e93d1ee3f8f2274a9f0bb04330d5e18a
       Path: Events\Default Work Unit\Play_SFX_Schranktuer_zu
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.0000024
+      minDuration: 2.0000024
     - name: Play_SFX_Schublade_auf
       guid: 8289acb18c4f6f47aec1d9f94ffa40fb
       id: 1215060680
@@ -590,8 +607,8 @@ MonoBehaviour:
         guid: 9090f4403cb5334dabc1b8419529d4de
       Path: Events\Default Work Unit\Play_SFX_Zimmertuer
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.27853304
+      minDuration: 0.27853304
     - name: Play_Tiles_schieben
       guid: f3331809b89ccf41bb42ce566b172f7c
       id: 3723063527
@@ -624,8 +641,8 @@ MonoBehaviour:
         guid: fa1c97c6087fb54bbd59f6de9ec711b7
       Path: Events\Default Work Unit\Play_ZimmerTuer
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.1398456
+      minDuration: 1.1398456
     - name: Steps
       guid: 9a1d41cf04a41d4c9b44b63183a1f2c1
       id: 1718617278
