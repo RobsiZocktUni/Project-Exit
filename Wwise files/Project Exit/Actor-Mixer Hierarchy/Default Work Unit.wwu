@@ -649,6 +649,19 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX-Streichholzschachtel-offnen" ID="{48C32EBE-2981-470F-9E94-03C7CB8217BF}" ShortID="461890986">
+					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
@@ -2188,6 +2201,19 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="SFX_Cloth_up" ID="{05F6A77F-16E4-4B7D-8D73-91B414E8F9EF}" ShortID="890800138">
+					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
