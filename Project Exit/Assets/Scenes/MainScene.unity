@@ -18085,6 +18085,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818208a2e5abfc94eb5c706c0dff3e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerdoor:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40346175bd190264a95c3a0c69b00342, type: 2}
   openAngleX: 27
   openAngleY: 71
   openAngleZ: -90
@@ -54061,6 +54065,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a4102a6d00977f84d83e4b803904a5d9, type: 2}
   triggerLocknoKey:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  triggerdoor:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}

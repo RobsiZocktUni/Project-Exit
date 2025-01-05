@@ -184,6 +184,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_puzzle_top_move" ID="{CFFFD6D0-D8FE-4F55-BD2C-ED9B0F69859A}">
+					<ChildrenList>
+						<Action Name="" ID="{7A620F17-E29E-4A88-9189-68AB5AC22A1F}" ShortID="320314082"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

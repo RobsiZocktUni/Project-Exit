@@ -9,6 +9,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
     //Object that needs to be triggerd in order to play steps
     public AK.Wwise.Event triggerLockopen;
     public AK.Wwise.Event triggerLocknoKey;
+    public AK.Wwise.Event triggerdoor;
     #endregion
 
     #region CodeFrom: Wendt Hendrik
@@ -55,13 +56,14 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
         {
             if (item.ItemName == "DollhouseKey")
             {
-                #region CodeFromLennart
-                triggerLockopen.Post(gameObject);//plays the lock opening sound
-                #endregion
+
 
                 Debug.Log("You used the DollhouseKey Key to open the door");
                 if (firstTimeOpening)
                 {
+                    #region CodeFromLennart
+                    triggerLockopen.Post(gameObject);//plays the lock opening sound
+                    #endregion
                     uiText.SetText("You used the DollhouseKey to open the door");
                     firstTimeOpening = false;
                 }
@@ -75,6 +77,10 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
                 {
                     // Start the animation to move the drawer to the open or closed position
                     StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+
+                    #region CodeFromLennart
+                    triggerdoor.Post(gameObject);//plays the lock opening sound
+                    #endregion
 
                     // Toggle the isOpen flag to reflect the new state
                     isOpen = !isOpen;
