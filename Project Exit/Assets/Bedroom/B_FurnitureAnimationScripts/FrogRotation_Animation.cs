@@ -1,33 +1,32 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Main code of the DollHeadRotation_Script was written by Hendrik Wendt
+/// Main code of the FrogRotation_Animation was written by Hendrik Wendt
 /// </summary>
-public class DollHeadRotation_Script : MonoBehaviour
+public class FrogRotation_Animation : MonoBehaviour
 {
     public Transform playerCamera;  // Reference to the player camera
-    public Transform dollHead;      // Reference to the doll head
+    public Transform frogBody;      // Reference to the frog body
 
-    public float rotationSpeed = 6.0f;  // Rotation speed
-    public float verLimit = 60.0f;      // aximum vertical rotation limit in degrees (up/down movement)
-    public float horLimit = 60.0f;      // Maximum horizontal rotation limit in degrees (left/right movement)
+    public float rotationSpeed = 9.0f;  // Rotation speed
+    public float verLimit = 0.0f;      // aximum vertical rotation limit in degrees (up/down movement)
+    public float horLimit = 70.0f;      // Maximum horizontal rotation limit in degrees (left/right movement)
 
     private Quaternion initialRotation; // Stores the initial rotation of the doll's head
 
     private void Start()
     {
-        // Save the initial local rotation of the doll's head
+        // Save the initial local rotation of the frog's body
         // Reference point for all future rotations
-        initialRotation = dollHead.localRotation;
+        initialRotation = frogBody.localRotation;
     }
 
     private void Update()
     {
-        // Calculate the direction vector from the doll's head to the player's camera
-        Vector3 targetDirection = playerCamera.position - dollHead.position;
+        // Calculate the direction vector from the frogs body to the player's camera
+        Vector3 targetDirection = playerCamera.position - frogBody.position;
 
         // Ensure the direction vector has a minimum length to avoid issues
         if (targetDirection.magnitude < 0.1f) return;
@@ -39,7 +38,7 @@ public class DollHeadRotation_Script : MonoBehaviour
         Quaternion constrainedRotation = ConstrainRotation(targetRotation);
 
         // Rotate the doll's head towards the constrained rotation
-        dollHead.localRotation = Quaternion.Slerp(dollHead.localRotation, constrainedRotation, Time.deltaTime * rotationSpeed);
+        frogBody.localRotation = Quaternion.Slerp(frogBody.localRotation, constrainedRotation, Time.deltaTime * rotationSpeed);
     }
 
     /// <summary>

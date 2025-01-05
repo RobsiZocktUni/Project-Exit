@@ -22,6 +22,21 @@ public class MainMenu_Script : MonoBehaviour
     }
 
     /// <summary>
+    /// Starts the credits by transitioning to the third scene in the build index
+    /// This method is called when the player presses the 'Credits' button in the main menu
+    /// </summary>
+    public void LoadCredits()
+    {
+        // Load the third scene in the build order
+        // This assumes the scenes are properly ordered in the build settings
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
+        // Alternatively: Load the scene named "Credits_Scene"
+        // Ensure "Credits_Scene" is added to the Build Settings in Unity for this to work
+        //SceneManager.LoadScene("Credits_scene");
+    }
+
+    /// <summary>
     /// Handles the game start with a fade effect before loading the next scene
     /// </summary>
     /// <returns>An IEnumerator for the coroutine</returns>
