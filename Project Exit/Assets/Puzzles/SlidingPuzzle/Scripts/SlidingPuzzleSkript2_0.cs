@@ -7,6 +7,7 @@ using TMPro;
 
 /// <summary>
 /// Main Code of the SlidingPuzzleSkript2_0 was written by: Wendt Hendrik
+/// Parts from Hartmann Lennart is marked as regions
 /// </summary>
 public class SlidingPuzzleSkript2_0 : MonoBehaviour
 {
@@ -19,7 +20,9 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
     public Collider textCollider;  // Collider that is used to trigger the skip text
 
+    #region CodeFrom HartmannLennart
     public AK.Wwise.Event triggerTileSlide; //Object that needs to be triggerd in order to play steps
+    #endregion
 
     [Header("Variables")] 
     public float tileMoveThreshold = 0.1f;  // Treshold distance: used to check if a tile is close enough to the empty space to be swapped
@@ -29,6 +32,8 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     private int moveCounter = 0;  // Tracks how many moves the player has made
     private const int maxMovementsBeforeSkip = 250;  // Maximum moves allowed before showing the skip message
     private bool playerNearby = false;  // // Tracks whether the player is within the puzzle's trigger zone
+
+    public GameObject InventoryUi;  // Inventory reference
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +57,12 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Do not process input or movements when the game is paused or inventory is activated
+        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf)
+        {
+            return;
+        }
+
         // Handle player input: when the player clicks the screen
         if (Input.GetMouseButtonDown(0) && !isMovingTile)  // // Only respond if not currently moving a tile
         {
@@ -67,9 +78,10 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
                 {
                     #region CodeFromLennart
                     //Play sound
-                    // Swap the clicked tile with the empty space
                     triggerTileSlide.Post(gameObject);
                     #endregion
+
+                    // Swap the clicked tile with the empty space
                     StartCoroutine(SwapObjectsInBlocks(hit.collider.gameObject.GetComponent<TileSkript2_0>().myPosInArray, emptySpace.myPosInArray, 3.0f));
                 }
             }

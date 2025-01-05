@@ -852,6 +852,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1377507965}
     - target: {fileID: 266252508552603514, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
+      propertyPath: InventoryUi
+      value: 
+      objectReference: {fileID: 1087307803}
+    - target: {fileID: 266252508552603514, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
       propertyPath: puzzleCanvas
       value: 
       objectReference: {fileID: 1377507965}
@@ -28814,11 +28818,6 @@ PrefabInstance:
 --- !u!4 &1366509302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
-  m_PrefabInstance: {fileID: 1366509301}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1366509303 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -5816913209878649045, guid: 055a43ab7d3cf544894b7409c7cc6a21, type: 3}
   m_PrefabInstance: {fileID: 1366509301}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1377507965 stripped
