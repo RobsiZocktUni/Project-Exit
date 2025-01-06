@@ -1,19 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class Doll_Clothing : KeyItem
 {
+
+    #region CodeFromLennart
+    public AK.Wwise.Event triggerpickup;
+    #endregion
+
     public BoxCollider Hitbox;
 
     private Camera mainCamera;
     private Character_Controller player;
+    private UiInfoText uiText;
     public override void Start()
     {
         base.Start();
         mainCamera = Camera.main;
         //player = GameObject.Find("Player").GetComponent<Character_Controller>();
         player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
+        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
+    }
+    public override void Pickup(Transform parent)
+    {
+        base.Pickup(parent);
+        uiText.SetText("You pickup a " + ItemName);
+        #region CodeFromLennart
+        triggerpickup.Post(gameObject);
+        #endregion
     }
     public override void UseItem() 
     {
@@ -28,12 +43,15 @@ public class Doll_Clothing : KeyItem
                 if (mannequin.AddClothingPossible(this))    //Calls the function in Mannequin.cs to add the clothing to it if possible
                 {
                     InventoryManager.DropItem(this, mannequin.transform.position);  // "Drops" the item ontop of the Mannequin
-                    this.transform.eulerAngles = new Vector3(0, -13.244f, 0);        
+                    this.transform.eulerAngles = new Vector3(0, -40.8f, 0);        
                     Hitbox.enabled = false;                                         // Disables the clothings hitbox so it cant block the hitbox of the Mannequin
                     player.InventoryUi.SetActive(false);                      // Closes the inventory  
                     player.EnableControls();
+
+                    uiText.SetText("You put the " + ItemName + " on the mannequin");
                 }
             }
         }
     }
 }
+#endregion

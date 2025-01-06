@@ -5,16 +5,23 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DAEDD154-0E39-452A-BAC9-6FD5DFB7C700}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Tiles_schieben" ID="{091833F3-9CB8-41CF-BB42-CE566B172F7C}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Streichholzschachtel_aufheben" ID="{6C52355B-BE5D-4283-87C6-1CB34AB032E7}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Kleine_Tuer" ID="{50D6BB8D-6035-4621-821F-8E590288E8BE}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_schloss_auf" ID="{E4D34AAC-4488-46EA-BD58-718AC1F560B5}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Schublade_auf" ID="{B1AC8982-4F8C-476F-AEC1-D9F94FFA40FB}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_schloss_kein_Schluessel" ID="{910D76B4-FAD6-48DC-93D1-17F9E60E105C}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Streichholz" ID="{541F273D-FCDB-49CD-A6CD-5BBFD8AFFF59}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Schranktuer_zu" ID="{E31E3DE9-F2F8-4A27-9F0B-B04330D5E18A}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_menu_theme" ID="{CBDA41F3-7107-4AA5-953B-700895BFA17B}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ZimmerTuer" ID="{C6971CFA-7F08-4BB5-BD59-F6DE9EC711B7}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Cloth_up" ID="{993097B5-6E54-4BCE-B6E2-8D894BD5BC1F}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Steps" ID="{CF411D9A-A404-4C1D-9B44-B63183A1F2C1}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_menu_theme" ID="{76996A88-DBA0-4CC1-A487-8FBA9CF95582}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Schublade_zu" ID="{20713CC0-3D68-4CD0-A405-EDC33EB86B02}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Zimmertuer" ID="{40F49090-B53C-4D33-ABC1-B8419529D4DE}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_puzzle_top_move" ID="{CFFFD6D0-D8FE-4F55-BD2C-ED9B0F69859A}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Schranktuer_auf" ID="{71720190-525C-4FCC-9FBB-BF2CEB9B215E}" WorkUnitID="{3845A559-14BE-4FA1-A826-09B2F635720D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

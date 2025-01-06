@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class DollhousePuzzleManager : MonoBehaviour
 {
     public List<Mannequin> mannequins = new List<Mannequin>();
@@ -30,3 +30,4 @@ public class DollhousePuzzleManager : MonoBehaviour
         }
     }
 }
+#endregion

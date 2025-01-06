@@ -162,6 +162,33 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tiles_schieben" ID="{091833F3-9CB8-41CF-BB42-CE566B172F7C}">
+					<ChildrenList>
+						<Action Name="" ID="{919CAF97-62F2-4382-849B-C774CE3F0DC7}" ShortID="308256101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tiles_Schieben" ID="{A0A4F7D5-D567-41E1-AA2C-332D10D21979}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Cloth_up" ID="{993097B5-6E54-4BCE-B6E2-8D894BD5BC1F}">
+					<ChildrenList>
+						<Action Name="" ID="{B3CE469E-EB15-4FCB-9EF3-E2F9471AE7DB}" ShortID="61075884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Cloth_up" ID="{05F6A77F-16E4-4B7D-8D73-91B414E8F9EF}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_puzzle_top_move" ID="{CFFFD6D0-D8FE-4F55-BD2C-ED9B0F69859A}">
+					<ChildrenList>
+						<Action Name="" ID="{7A620F17-E29E-4A88-9189-68AB5AC22A1F}" ShortID="320314082"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

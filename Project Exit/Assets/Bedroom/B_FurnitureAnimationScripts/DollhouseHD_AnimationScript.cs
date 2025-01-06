@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the DollhouseHD_AnimationScript was written by: Wendt Hendrik
+/// </summary>
 public class DollhouseHD_AnimationScript : MonoBehaviour
 {
+    #region CodeFromLennart
+    public AK.Wwise.Event triggerdoor;
+    #endregion
+
     public float openAngleX = -27.0f;  // Angle to rotate the door to (in degrees; X axe)
 
-    public float openAngleY = 101.27f;  // Angle to rotate the door to (in degrees; Y axe)
+    public float openAngleY = 71.0f;  // Angle to rotate the door to (in degrees; Y axe)
 
     public float openAngleZ = -90.0f;  // Angle to rotate the door to (in degrees; Z axe)
 
@@ -46,8 +53,12 @@ public class DollhouseHD_AnimationScript : MonoBehaviour
              //Start the animation to move the drawer to the open or closed position
             StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
-             //Toggle the isOpen flag to reflect the new state
-            isOpen = !isOpen;
+            #region CodeFromLennart
+            triggerdoor.Post(gameObject);
+            #endregion
+
+    //Toggle the isOpen flag to reflect the new state
+    isOpen = !isOpen;
 
              //Provide feedback for the interaction
             Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");

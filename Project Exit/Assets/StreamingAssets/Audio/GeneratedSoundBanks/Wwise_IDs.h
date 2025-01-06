@@ -14,7 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_MENU_THEME = 2181630209U;
+        static const AkUniqueID PLAY_SFX_CLOTH_UP = 2852810046U;
         static const AkUniqueID PLAY_SFX_KLEINE_TUER = 2408187165U;
+        static const AkUniqueID PLAY_SFX_PUZZLE_TOP_MOVE = 3510297426U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_AUF = 1880054156U;
         static const AkUniqueID PLAY_SFX_SCHLOSS_KEIN_SCHLUESSEL = 324383601U;
         static const AkUniqueID PLAY_SFX_SCHRANKTUER_AUF = 3237937395U;
@@ -23,6 +25,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_SCHUBLADE_ZU = 3803780191U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZ = 3417554753U;
         static const AkUniqueID PLAY_SFX_STREICHHOLZSCHACHTEL_AUFHEBEN = 3591392569U;
+        static const AkUniqueID PLAY_SFX_ZIMMERTUER = 3916480950U;
+        static const AkUniqueID PLAY_TILES_SCHIEBEN = 3723063527U;
         static const AkUniqueID PLAY_ZIMMERTUER = 2961924210U;
         static const AkUniqueID STEPS = 1718617278U;
         static const AkUniqueID STOP_MENU_THEME = 810056023U;
@@ -30,6 +34,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID MASTER_VOLUME = 4179668880U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID RPM = 796049864U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;

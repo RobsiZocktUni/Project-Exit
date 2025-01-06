@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Main Code of the SettingsMenu_Script was written by Wendt Hendrik
+/// </summary>
 public class SettingsMenu_Script : MonoBehaviour
 {
     public TMPro.TMP_Dropdown resolutionDropdown;  // Dropdown: Selecting screen resolution
@@ -14,8 +17,15 @@ public class SettingsMenu_Script : MonoBehaviour
 
     int currentResolutionIndex = 0;  // Index of the currently active screen resolution
 
-    public int minWidth = 1080;  // Allowed screen resolution (minimum)
+    public int minWidth = 1920;  // Allowed screen resolution (minimum)
     public int minHeight = 1080;  // Allowed screen resolution (minimum)
+
+    public Slider sensitivitySlider;  // Slider:  Mouse Sensitivity
+    private const string SensitivityKey = "MouseSensitivity";  // PlayerPrefs key to store mouse sensitivity
+
+    public Slider volumeSlider;  // Slider: Volume
+    private const string VolumeRTCP = "Master_Volume";  // Name of the RTPC in Wwise
+    private const string VolumeKey = "MasterVolume";  // PlayerPrefs key to store the volume
 
     /// <summary>
     /// Start is called before the first frame update.
@@ -32,18 +42,38 @@ public class SettingsMenu_Script : MonoBehaviour
         // Create a list to store the resolution options as strings
         List<string> options = new List<string>();
 
+        // Keeps track of unique resoltions with HashSet
+        HashSet<string> uniqueResolutions = new HashSet<string>();
+
+        // Filter out resolutions below the minimum allowed size
+        List<Resolution> filteredResolutions = new List<Resolution>();
+
         // Dropdown options: Loop through each resolution
         for (int i = 0; i < resolutions.Length; i++)
         {
-            string option = resolutions[i].width + " x " + resolutions[i].height;  // Format resolution as "Width x Height"
-            options.Add(option);
-
-            // Check if this resolution matches the current screen resolution
-            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+            if (resolutions[i].width >= minWidth && resolutions[i].height >= minHeight)
             {
-                currentResolutionIndex = i;  // Stores the index of the current resolution
+                string option = resolutions[i].width + " x " + resolutions[i].height;
+
+                // Add resolution if its unique
+                if (!uniqueResolutions.Contains(option))
+                {
+                    uniqueResolutions.Add(option);
+                    filteredResolutions.Add(resolutions[i]);
+                    options.Add(option);
+
+                    // Check if the resolution matches the current screen resolution
+                    if (resolutions[i].width == Screen.currentResolution.width &&
+                    resolutions[i].height == Screen.currentResolution.height)
+                    {
+                        currentResolutionIndex = filteredResolutions.Count - 1; // Store index of current resolution
+                    }
+                }
             }
         }
+
+        // Replace the resolutions array with the filtered list
+        resolutions = filteredResolutions.ToArray();
 
         // Dropdown menu: Add the resolution options
         resolutionDropdown.AddOptions(options);
@@ -54,6 +84,23 @@ public class SettingsMenu_Script : MonoBehaviour
 
         // Set the fullscreen toggle's default state to match the current fullscreen mode
         fullscreenToggle.isOn = Screen.fullScreen;
+
+        // Load and apply the saved mouse sensitivity value from PlayerPrefs
+        float savedSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 2.0f);  // Default to 2.0f if no value is saved
+        sensitivitySlider.value = savedSensitivity;  // Sewt the slider to reflect the saved sensitivity value
+
+        // Add listener to handle changes to the sensitivity slider's value
+        sensitivitySlider.onValueChanged.AddListener(SetMouseSensitivity);  
+
+        // Load and apply the saved volume from PlayerPrefs
+        float saveVolume = PlayerPrefs.GetFloat(VolumeKey, 100.0f);
+        volumeSlider.value = saveVolume;
+
+        // Set the RTPC value in Wwise
+        AkSoundEngine.SetRTPCValue(VolumeRTCP, saveVolume);
+
+        // Add listener for slider changes
+        volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
     /// <summary>
@@ -86,16 +133,37 @@ public class SettingsMenu_Script : MonoBehaviour
     /// <param name="mouseSensitivity">New mouse sensitivity value</param>
     public void SetMouseSensitivity(float mouseSensitivity)
     {
+        // Save the new mouse sensitivity value in PlayerPrefs
+        PlayerPrefs.SetFloat("MouseSensitivity", mouseSensitivity);
+        PlayerPrefs.Save();  // Ensure the value is saved
+
         Debug.Log(mouseSensitivity);  // Log the sensitivity value (for debugging purposes)
     }
 
     /// <summary>
     /// Logs the volume value (placeholder function).
     /// </summary>
-    /// <param name="volume">New volume level</param>
+    /// <param name="volume">The new volume value (slider position)</param>
     public void SetVolume(float volume)
     {
-        Debug.Log(volume);  // Log the volume level (for debugging purposes)
+        // Set RTPC value in Wwise
+        AkSoundEngine.SetRTPCValue(VolumeRTCP, volume);
+
+        // Save volume in PlayerPrefs
+        PlayerPrefs.SetFloat(VolumeKey, volume);
+        PlayerPrefs.Save();
+
+        //Debug.Log(volume);  // Log the volume level (for debugging purposes)
+    }
+
+    /// <summary>
+    /// Removes the sensitivity slider's listener to prevent errors on object destruction
+    /// Removes the volume slider's listener to prevent errors on object destruction
+    /// </summary>
+    private void OnDestroy()
+    {
+        sensitivitySlider.onValueChanged.RemoveListener(SetMouseSensitivity);
+        volumeSlider.onValueChanged.RemoveListener(SetVolume);
     }
 
     /// <summary>
@@ -138,5 +206,4 @@ public class SettingsMenu_Script : MonoBehaviour
             Debug.LogWarning("No Main Camera found to adjust aspect ratio.");
         }
     }
-
 }

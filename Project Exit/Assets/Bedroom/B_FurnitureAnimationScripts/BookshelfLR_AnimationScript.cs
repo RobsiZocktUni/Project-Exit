@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main Code of the BookshelfLR_AnimationScript was written by: Wendt Hendrik
+/// Parts from Hartmann Lennart are marked as regions
+/// </summary>
 public class BookshelfLR_AnimationScript : InteractableObject
 {
+    #region CodeFrom HartmannLennart
     //Object that needs to be triggerd in order to play steps
     public AK.Wwise.Event triggerDoor;
+    #endregion
 
     public float openAngle = 0.0f;  // Angle to rotate the door to (in degrees)
 
@@ -64,8 +70,10 @@ public class BookshelfLR_AnimationScript : InteractableObject
     /// <returns>An IEnumerator for the coroutine</returns>
     private System.Collections.IEnumerator RotateDoor(Quaternion targetRotation)
     {
+        #region CodeFrom HartmannLennart
         //trigger door sound
         triggerDoor.Post(gameObject);
+        #endregion
 
         // Store the starting position of the animation
         Quaternion startRotation = transform.rotation;

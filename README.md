@@ -2,6 +2,16 @@
 
 Name nicht final, **alle** Dateien sind aktuell nur Platzhalter und Templates.
 
+## Installing the game
+
+1. Get the latest version of this project at [Releases](https://github.com/RobsiZocktUni/Project-Exit/releases). Donwload the "build" .zip-file and extract it. 
+2. Find the 'Project Exit.exe' and start it
+
+#### common mistakes
+- trying to start the game without extracting the .zip-file first. This will not work since the game actively needs access to the other game files.
+
+## For Development:
+
 ## Getting Started
 
 all project work will be done in 
@@ -45,9 +55,7 @@ Checks if the best practices and the right coding style has been used.
 
     Give an example
 
-## Deployment
 
-Add additional notes to deploy this on a live system
 
 ## Built With
 

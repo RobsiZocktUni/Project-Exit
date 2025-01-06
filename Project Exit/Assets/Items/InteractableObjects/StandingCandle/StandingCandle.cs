@@ -7,6 +7,7 @@ public class StandingCandle : InteractableObject
     #region CodeFromLennart
     //Object that needs to be triggerd in order to play steps
     public AK.Wwise.Event triggerlightCandle;
+    private bool isAktive = false;
     #endregion
 
     GameObject LightEffect;
@@ -25,7 +26,11 @@ public class StandingCandle : InteractableObject
             if (item.ItemName == "Matchsticks")
             {
                 #region CodeFromLennart
-                triggerlightCandle.Post(gameObject);
+                if (!isAktive)
+                {
+                    triggerlightCandle.Post(gameObject);
+                    isAktive=true;
+                }
                 #endregion
                 Debug.Log("You used a match to light the candle");
                 itemInInventory = true;

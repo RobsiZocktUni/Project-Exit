@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F5B2C2C4-5527-14C5-1C9D-0A88F86C0743}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4A0FDA6D-5FA0-7093-B1DB-F0DE3F923A84}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -35,6 +35,7 @@
 				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
 				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+				<GameParameter Id="4179668880" Name="Master_Volume"/>
 			</GameParameters>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
@@ -165,7 +166,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{BAA8D3C5-A07F-DAF0-922B-3C8E9DB3F260}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6280D7DD-1EBB-2928-B71C-3740C0709043}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -173,9 +174,21 @@
 					<ShortName>SFX-Step-06.wav</ShortName>
 					<CachePath>SFX/SFX-Step-06_818F3B66.wem</CachePath>
 				</File>
+				<File Id="60211904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-05.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="61914961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Cloth_up.wav</ShortName>
+					<CachePath>SFX/SFX_Cloth_up_818F3B66.wem</CachePath>
+				</File>
 				<File Id="72590103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-10.wav</ShortName>
 					<CachePath>SFX/SFX-Step-10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="74071834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-03.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="76998002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-07.wav</ShortName>
@@ -183,7 +196,7 @@
 				</File>
 				<File Id="95548653" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schranktuer_zu_01.wav</ShortName>
-					<CachePath>SFX/SFX-Schranktuer_zu_01_BC98603C.wem</CachePath>
+					<CachePath>SFX/SFX-Schranktuer_zu_01_15A3D6FB.wem</CachePath>
 				</File>
 				<File Id="104246434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-14.wav</ShortName>
@@ -219,7 +232,7 @@
 				</File>
 				<File Id="316300769" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Türklinke.wav</ShortName>
-					<CachePath>SFX/SFX-Türklinke_E2FE186A.wem</CachePath>
+					<CachePath>SFX/SFX-Türklinke_807A9FAD.wem</CachePath>
 				</File>
 				<File Id="319123657" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-19.wav</ShortName>
@@ -233,9 +246,17 @@
 					<ShortName>SFX-Step-17.wav</ShortName>
 					<CachePath>SFX/SFX-Step-17_818F3B66.wem</CachePath>
 				</File>
+				<File Id="442433583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-07.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-07_818F3B66.wem</CachePath>
+				</File>
 				<File Id="482374556" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-schloss-auf-02.wav</ShortName>
 					<CachePath>SFX/SFX-schloss-auf-02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="507495544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-06.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-06_818F3B66.wem</CachePath>
 				</File>
 				<File Id="533940874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-03.wav</ShortName>
@@ -245,13 +266,17 @@
 					<ShortName>SFX-Step-05.wav</ShortName>
 					<CachePath>SFX/SFX-Step-05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="577585697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-02.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="611095017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-04.wav</ShortName>
 					<CachePath>SFX/SFX-Step-04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="653364092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>test-02.wav</ShortName>
-					<CachePath>SFX/test-02_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/test-02_75837659.wem</CachePath>
 				</File>
 				<File Id="670808234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-01.wav</ShortName>
@@ -263,7 +288,7 @@
 				</File>
 				<File Id="732247733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schranktuer_zu_02.wav</ShortName>
-					<CachePath>SFX/SFX-Schranktuer_zu_02_3EABF62C.wem</CachePath>
+					<CachePath>SFX/SFX-Schranktuer_zu_02_33C530A2.wem</CachePath>
 				</File>
 				<File Id="736421046" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Kleine-Tür.wav</ShortName>
@@ -277,9 +302,13 @@
 					<ShortName>SFX-Schublade-auf-02.wav</ShortName>
 					<CachePath>SFX/SFX-Schublade-auf-02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="817073664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tiles_Schieben\SFX-Schieben-04.wav</ShortName>
+					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-04_818F3B66.wem</CachePath>
+				</File>
 				<File Id="824818412" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-zu-101.wav</ShortName>
-					<CachePath>SFX/SFX-Schublade-zu-101_BD82F62A.wem</CachePath>
+					<CachePath>SFX/SFX-Schublade-zu-101_2F1E71B7.wem</CachePath>
 				</File>
 				<File Id="826635155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Streichholz-03.wav</ShortName>
@@ -311,7 +340,7 @@
 				</File>
 				<File Id="1064966872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-auf-103.wav</ShortName>
-					<CachePath>SFX/SFX-Schublade-auf-103_420F61F1.wem</CachePath>
+					<CachePath>SFX/SFX-Schublade-auf-103_9BFFA300.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -325,6 +354,11 @@
 						<MediaRef Id="653364092"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2852810046" Name="Play_SFX_Cloth_up" DurationType="OneShot" DurationMin="0.22435416" DurationMax="0.22435416">
+					<MediaRefs>
+						<MediaRef Id="61914961"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2408187165" Name="Play_SFX_Kleine_Tuer" DurationType="OneShot" DurationMin="1.1672916" DurationMax="1.1672916">
 					<MediaRefs>
 						<MediaRef Id="736421046"/>
@@ -335,6 +369,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="3510297426" Name="Play_SFX_puzzle_top_move" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1880054156" Name="Play_SFX_schloss_auf" DurationType="OneShot" DurationMin="0.50579166" DurationMax="0.50579166">
 					<MediaRefs>
 						<MediaRef Id="482374556"/>
@@ -380,6 +415,21 @@
 						<MediaRef Id="126333147"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3916480950" Name="Play_SFX_Zimmertuer" DurationType="OneShot" DurationMin="0.27853304" DurationMax="0.27853304">
+					<MediaRefs>
+						<MediaRef Id="316300769"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3723063527" Name="Play_Tiles_schieben" DurationType="OneShot" DurationMin="0.36000332" DurationMax="0.45334485">
+					<MediaRefs>
+						<MediaRef Id="60211904"/>
+						<MediaRef Id="74071834"/>
+						<MediaRef Id="442433583"/>
+						<MediaRef Id="507495544"/>
+						<MediaRef Id="577585697"/>
+						<MediaRef Id="817073664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2961924210" Name="Play_ZimmerTuer" DurationType="OneShot" DurationMin="1.1398456" DurationMax="1.1398456">
 					<MediaRefs>
 						<MediaRef Id="145725912"/>
@@ -413,5 +463,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7204900D-E033-DDF8-4D65-4223DA0F3358}</FileHash>
+	<FileHash>{D369B0E3-7CB6-97A6-4408-A8E4E8B821E9}</FileHash>
 </SoundBanksInfo>
