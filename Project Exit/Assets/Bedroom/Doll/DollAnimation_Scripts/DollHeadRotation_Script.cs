@@ -11,8 +11,8 @@ public class DollHeadRotation_Script : MonoBehaviour
     public Transform playerCamera;  // Reference to the player camera
     public Transform dollHead;      // Reference to the doll head
 
-    public float rotationSpeed = 6.0f;  // Rotation speed
-    public float verLimit = 60.0f;      // aximum vertical rotation limit in degrees (up/down movement)
+    public float rotationSpeed = 7.0f;  // Rotation speed
+    public float verLimit = 60.0f;      // Maximum vertical rotation limit in degrees (up/down movement)
     public float horLimit = 60.0f;      // Maximum horizontal rotation limit in degrees (left/right movement)
 
     private Quaternion initialRotation; // Stores the initial rotation of the doll's head
