@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class Candleholder : InteractableObject
 {
     #region CodeFromLennart
@@ -12,14 +12,14 @@ public class Candleholder : InteractableObject
     public GameObject LightEffectLeftCandle;
     public GameObject LightEffectMiddleCandle;
     public GameObject LightEffectRightCandle;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     //Lights the Candle when the player interacts with it while having matchsticks in the inventory
     public override void Interact()
     {
+        if (isAktive)
+        {
+            uiText.SetText("The candles are already lit");
+        }
+
         bool itemInInventory = false;
         foreach (var item in InventoryManager.Instance.InventoryItems)
         {
@@ -29,6 +29,9 @@ public class Candleholder : InteractableObject
                 if (!isAktive)
                 {
                     triggerlightCandle.Post(gameObject);
+                    #region CodeFrom: Beck Jonas
+                    uiText.SetText("You used a match to light the candles");
+                    #endregion
                     isAktive = true;
                 }
                 #endregion
@@ -42,7 +45,12 @@ public class Candleholder : InteractableObject
         }
         if (itemInInventory == false)
         {
-            Debug.Log("You need something to light it with");
+            if (!isAktive)
+            {
+                uiText.SetText("You need something to light it with");
+                Debug.Log("You need something to light it with");
+            }
         }
     }
 }
+#endregion

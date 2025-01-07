@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-#region CodeFromBeckJonas
+#region CodeFrom: BeckJonas
 public class InteractableObject : MonoBehaviour
 {
     public string ObjectName;

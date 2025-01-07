@@ -13,14 +13,12 @@ public class Doll_Clothing : KeyItem
 
     private Camera mainCamera;
     private Character_Controller player;
-    private UiInfoText uiText;
     public override void Start()
     {
         base.Start();
         mainCamera = Camera.main;
         //player = GameObject.Find("Player").GetComponent<Character_Controller>();
         player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
-        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
     }
     public override void Pickup(Transform parent)
     {

@@ -50,12 +50,12 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         bool itemInInventory = false;
         foreach (var item in InventoryManager.Instance.InventoryItems)
         {
-            if (item.ItemName == "DollhouseKey")
+            if (item.ItemName == "dollhouse key")
             {
-                Debug.Log("You used the DollhouseKey Key to open the door");
+                Debug.Log("You used the dollhouse key to open the door");
                 if (firstTimeOpening)
                 {
-                    uiText.SetText("You use the Dollhouse Key to open the door");
+                    uiText.SetText("You used the dollhouse key to open the door");
                     firstTimeOpening = false;
                 }
                 itemInInventory = true;
