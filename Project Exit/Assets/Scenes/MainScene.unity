@@ -18054,7 +18054,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 572df93e99e273549adc63f881b63989, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1061192096}
-    - targetCorrespondingSourceObject: {fileID: 5940435034069726382, guid: 572df93e99e273549adc63f881b63989, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 572df93e99e273549adc63f881b63989, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1688862697}
     m_AddedComponents:
@@ -18129,11 +18129,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1757076, y: 0.9860077, z: 2.173818}
   m_Center: {x: -0.06169327, y: -0.091076136, z: 0.18158638}
---- !u!4 &782075222 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5940435034069726382, guid: 572df93e99e273549adc63f881b63989, type: 3}
-  m_PrefabInstance: {fileID: 782075211}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &785989660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30647,6 +30642,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1337724805}
     m_Modifications:
     - target: {fileID: 559486562227448633, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
+      propertyPath: isAktive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 559486562227448633, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: triggerlightCandle.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 887adc281f879e64dbb8d0823d506668, type: 2}
@@ -36881,7 +36880,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 782075222}
+    m_TransformParent: {fileID: 1409169784}
     m_Modifications:
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -36889,27 +36888,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.018999996
+      value: 0.018999998
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.18399997
+      value: 0.184
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.423
+      value: -0.756
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.50371456
+      value: 2.7964935
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018
+      value: 0.492
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.008700997
+      value: -0.008700967
       objectReference: {fileID: 0}
     - target: {fileID: 3781971049846254906, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_LocalRotation.x
@@ -36958,6 +36957,10 @@ PrefabInstance:
     - target: {fileID: 4674534726801362772, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_Center.z
       value: 0.9799249
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600558379391119040, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
+      propertyPath: ItemName
+      value: bedroom key
       objectReference: {fileID: 0}
     - target: {fileID: 6266144470981924201, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_Name
@@ -48590,6 +48593,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1051337096}
     m_Modifications:
+    - target: {fileID: -6749860217496948740, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
+      propertyPath: ItemName
+      value: dollhouse key
+      objectReference: {fileID: 0}
     - target: {fileID: 1724184844558558507, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_Name
       value: DollhouseKey
@@ -60049,6 +60056,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1051337096}
     m_Modifications:
     - target: {fileID: 2109352447498974132, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
+      propertyPath: ItemName
+      value: warm jacket
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109352447498974132, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
@@ -60527,6 +60538,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 417919473}
     m_Modifications:
+    - target: {fileID: -4948243425948254046, guid: 13723f6f9073eab49aad36aa5d8e4eb9, type: 3}
+      propertyPath: ItemName
+      value: rain coat
+      objectReference: {fileID: 0}
     - target: {fileID: -4948243425948254046, guid: 13723f6f9073eab49aad36aa5d8e4eb9, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
       value: 
@@ -61234,6 +61249,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3663237084195905206, guid: 2bf0816392123e2439bd6f7e09bb5e3d, type: 3}
+      propertyPath: ItemName
+      value: summer dress
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663237084195905206, guid: 2bf0816392123e2439bd6f7e09bb5e3d, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
@@ -61472,6 +61491,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1051337096}
     m_Modifications:
+    - target: {fileID: 5130558146678772818, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
+      propertyPath: ItemName
+      value: black dress
+      objectReference: {fileID: 0}
     - target: {fileID: 5130558146678772818, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
       value: 

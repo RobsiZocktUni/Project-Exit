@@ -24,11 +24,14 @@ public class MainDoor_AnimationScript : InteractableObject
     private bool isOpen = false;  // Flag indicating whether the drawer is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
-
+    #region CodeFrom: Beck Jonas
+    private bool firstTimeOpening = true;
     // Start is called before the first frame update
-    void Start()
+
+    public override void Start()
     {
-        // Initialize the closed position to the current local position of the drawer
+        base.Start();
+        #endregion  // Initialize the closed position to the current local position of the drawer
         closedRotation = transform.rotation;
 
         // Calculate the open rotation by rotating around the Y-axis (assuming the door swings around the Y-axis)
@@ -48,9 +51,14 @@ public class MainDoor_AnimationScript : InteractableObject
         bool itemInInventory = false;
         foreach (var item in InventoryManager.Instance.InventoryItems)
         {
-            if (item.ItemName == "BedroomDoorKey")
+            if (item.ItemName == "bedroom key")
             {
-                Debug.Log("You used the BedroomDoorKey Key to open the door");
+                Debug.Log("You used the bedroom key to open the door");
+                if (firstTimeOpening)
+                {
+                    uiText.SetText("You used the bedroom key to open the door");
+                    firstTimeOpening = false;
+                }
                 itemInInventory = true;
                 #endregion
 

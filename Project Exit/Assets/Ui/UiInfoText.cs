@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class UiInfoText : MonoBehaviour
 {
     public TextMeshProUGUI UiText;
@@ -64,3 +64,4 @@ public class UiInfoText : MonoBehaviour
     }
 
 }
+#endregion

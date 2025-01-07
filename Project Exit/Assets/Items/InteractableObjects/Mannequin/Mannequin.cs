@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+#region CodeFrom: Beck Jonas
 public class Mannequin : InteractableObject
 {
     public Doll_Clothing CorrectOutfit;
@@ -17,8 +17,9 @@ public class Mannequin : InteractableObject
 
 
 
-    private void Start()
+    public override void Start()
     {
+        base.Start();
         //player = GameObject.Find("Player").GetComponent<Character_Controller>();
         player = GameObject.Find("Player(withstartanimation)").GetComponent<Character_Controller>();
         manager = GameObject.Find("GameManager").GetComponent<DollhousePuzzleManager>();
@@ -62,3 +63,4 @@ public class Mannequin : InteractableObject
         }
     }
 }
+#endregion
