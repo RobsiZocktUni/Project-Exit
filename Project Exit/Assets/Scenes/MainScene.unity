@@ -60357,7 +60357,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2109352447498974132, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
       propertyPath: ItemName
-      value: warm jacket
+      value: warm mantle
       objectReference: {fileID: 0}
     - target: {fileID: 2109352447498974132, guid: abe2df6c2716fdb4f8dad2ff38f54431, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
@@ -61556,7 +61556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3663237084195905206, guid: 2bf0816392123e2439bd6f7e09bb5e3d, type: 3}
       propertyPath: ItemName
-      value: summer dress
+      value: tea gown
       objectReference: {fileID: 0}
     - target: {fileID: 3663237084195905206, guid: 2bf0816392123e2439bd6f7e09bb5e3d, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
@@ -61799,7 +61799,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5130558146678772818, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
       propertyPath: ItemName
-      value: black dress
+      value: mourning dress
       objectReference: {fileID: 0}
     - target: {fileID: 5130558146678772818, guid: 1e59b6f6c38a7ce47926fd46c205f770, type: 3}
       propertyPath: triggerpickup.WwiseObjectReference
