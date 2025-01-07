@@ -199,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Warm jacket
+  m_text: Warm mantle
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
   m_sharedMaterial: {fileID: 1234772708652057854, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
@@ -226,8 +226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.7
-  m_fontSizeBase: 12.7
+  m_fontSize: 12.4
+  m_fontSizeBase: 12.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 10

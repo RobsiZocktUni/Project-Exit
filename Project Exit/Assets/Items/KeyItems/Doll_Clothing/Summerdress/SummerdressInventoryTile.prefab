@@ -199,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Summer dress
+  m_text: Tea gown
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
   m_sharedMaterial: {fileID: 1234772708652057854, guid: 7bffbb183c383164eb64eb52ce671cf7, type: 2}
