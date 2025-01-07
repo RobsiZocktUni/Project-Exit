@@ -90,7 +90,7 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
-            Debug.Log("You need to find a Key");
+            Debug.Log("You need to find a key");
             uiText.SetText("You need to find a Key");
         }
         #endregion
