@@ -87,6 +87,7 @@ public class MainDoor_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
+            uiText.SetText("You need to find a key");
             Debug.Log("You need to find a Key");
         }
         #endregion

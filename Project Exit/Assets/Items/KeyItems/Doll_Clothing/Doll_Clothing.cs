@@ -23,7 +23,7 @@ public class Doll_Clothing : KeyItem
     public override void Pickup(Transform parent)
     {
         base.Pickup(parent);
-        uiText.SetText("You pickup a " + ItemName);
+        uiText.SetText("You picked up a " + ItemName);
         #region CodeFromLennart
         triggerpickup.Post(gameObject);
         #endregion
