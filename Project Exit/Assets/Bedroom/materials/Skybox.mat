@@ -106,7 +106,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.15723255, g: 0.04004979, b: 0.052071117, a: 0}
     - _HorizonColor: {r: 0.059135217, g: 0.059135217, b: 0.06289297, a: 0}
-    - _MainLightDirection: {r: -0.553531, g: -0.8287699, b: 0.082121074, a: 0}
+    - _MainLightDirection: {r: -0.81997037, g: -0.5665834, b: -0.08143728, a: 0}
     - _MoonColor: {r: 2.79544, g: 2.79544, b: 2.79544, a: 0}
     - _SkyColor: {r: 0.03987181, g: 0.050630845, b: 0.20125777, a: 0}
   m_BuildTextureStacks: []
