@@ -114,6 +114,28 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     void Update()
     {
+        // Waits until the start animation is over
+        if (StartAnimation_Script.animationsDone)
+        {
+            #region CodeFrom BeckJonas
+            //ToggleInventory-----------------------
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                if (InventoryUi.activeSelf)
+                {
+                    EnableControls();
+                    InventoryUi.SetActive(false);
+                }
+                else
+                {
+                    DisableControls();
+                    InventoryUi.SetActive(true);
+                }
+            }
+            #endregion
+        }
+
+
         // Do not process input or movements when the game is paused or inventory is activated
         if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
         {
@@ -149,21 +171,6 @@ public class Character_Controller : MonoBehaviour
                     hit.collider.gameObject.GetComponent<InteractableObject>().Interact();
                 }
 
-            }
-        }
-
-        //ToggleInventory-----------------------
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            if (InventoryUi.activeSelf)
-            {
-                EnableControls();
-                InventoryUi.SetActive(false);
-            }
-            else
-            {
-                DisableControls();
-                InventoryUi.SetActive(true);
             }
         }
         #endregion
