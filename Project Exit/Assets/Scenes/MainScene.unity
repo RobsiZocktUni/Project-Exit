@@ -16107,7 +16107,6 @@ LightProbeGroup:
   m_Enabled: 1
   m_SourcePositions:
   - {x: 5.6074295, y: 4.385933, z: 11.314524}
-  - {x: 4.2744827, y: 1, z: -5.10664}
   - {x: 5.6074295, y: -1, z: 9.331421}
   - {x: -14.5877495, y: 4.385933, z: 11.314524}
   - {x: -1, y: -1, z: 9.331421}
@@ -16125,7 +16124,6 @@ LightProbeGroup:
   - {x: 5.6074295, y: -1, z: 6.969822}
   - {x: -1, y: -1, z: 6.969822}
   - {x: -1, y: 4.385933, z: -5.1036205}
-  - {x: 4.2744827, y: 4.385933, z: -5.1036205}
   - {x: -1, y: 1, z: 6.969822}
   - {x: 5.6074295, y: 1, z: 6.969822}
   - {x: 5.6074295, y: -1.0756356, z: 11.314524}
@@ -16152,7 +16150,6 @@ LightProbeGroup:
   - {x: -1, y: 4.385933, z: 6.969822}
   - {x: 5.6074295, y: 4.385933, z: 6.969822}
   - {x: -1, y: 4.385933, z: 4.9940834}
-  - {x: 5.5948753, y: 4.385933, z: 1.0760403}
   - {x: -1, y: 4.385933, z: 3.412817}
   - {x: 4.2744827, y: 4.385933, z: 3.412817}
   - {x: -1, y: 4.385933, z: 1.4363136}
@@ -16190,17 +16187,13 @@ LightProbeGroup:
   - {x: 1, y: 1, z: 1}
   - {x: 1, y: 2.4536808, z: -5.1036205}
   - {x: 5.6074295, y: 4.385933, z: 4.9940834}
-  - {x: 5.6074295, y: 4.385933, z: 3.1675377}
-  - {x: 5.5948753, y: 2.4536808, z: 1.0760403}
   - {x: -5.9728584, y: -1.1119771, z: -3.0424862}
   - {x: -1, y: 2.4536808, z: -0.7007656}
   - {x: 1, y: 2.4536808, z: -0.7007656}
-  - {x: 4.2744827, y: 2.4536808, z: -5.1036205}
   - {x: 4.2744827, y: 2.4536808, z: 1.4363136}
   - {x: 1, y: 2.4536808, z: 1.4363136}
   - {x: -1, y: 2.4536808, z: 1.4363136}
   - {x: -14.5877495, y: 2.4536808, z: 1.1156063}
-  - {x: 5.6074295, y: 2.4536808, z: 3.1675377}
   - {x: 4.2744827, y: 2.4536808, z: 3.412817}
   - {x: 1, y: 2.4536808, z: 3.412817}
   - {x: -1, y: 2.4536808, z: 3.412817}
@@ -16208,7 +16201,6 @@ LightProbeGroup:
   - {x: -14.5877495, y: 2.4536808, z: 4.98143}
   - {x: -1, y: 2.4536808, z: 4.9940834}
   - {x: 1, y: 2.4536808, z: 4.9940834}
-  - {x: 5.6074295, y: 2.4536808, z: 4.9940834}
   - {x: 4.2744827, y: 2.4536808, z: 4.9940834}
   - {x: 5.6074295, y: 2.4536808, z: 6.969822}
   - {x: 4.2744827, y: 2.4536808, z: 6.969822}
@@ -31197,7 +31189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5222718358544160169, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5222718358544160169, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31225,19 +31217,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8618787335835609800, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 8618787335835609800, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 4.58e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618787335835609800, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -5.5732177e+31
+      value: -2.9994313e-19
       objectReference: {fileID: 0}
     - target: {fileID: 8618787335835609800, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.58e-43
+      value: 8.87e-43
       objectReference: {fileID: 0}
     - target: {fileID: 9089884870019186941, guid: 0158c71422be91942bfbca8bfed92833, type: 3}
       propertyPath: m_StaticEditorFlags
