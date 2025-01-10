@@ -19,6 +19,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     public TextMeshProUGUI skipPuzzleText;  // UI element that shows the skip message
     public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
     public Collider textCollider;  // Collider that is used to trigger the skip text
+    public TextMeshProUGUI skipInfoText;  // UI Info for the skip info message
 
     #region CodeFrom HartmannLennart
     public AK.Wwise.Event triggerTileSlide; //Object that needs to be triggerd in order to play steps
@@ -30,8 +31,9 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
 
     private bool isMovingTile = false;  // Tracks if a tile is currently moved
     private int moveCounter = 0;  // Tracks how many moves the player has made
-    private const int maxMovementsBeforeSkip = 250;  // Maximum moves allowed before showing the skip message
-    private bool playerNearby = false;  // // Tracks whether the player is within the puzzle's trigger zone
+    private const int maxMovementsBeforeSkip = 150;  // Maximum moves allowed before showing the skip message
+    private const int skipInfoCounter = 40;  // Moves in where the info text message is shown
+    private bool playerNearby = false;  // Tracks whether the player is within the puzzle's trigger zone
 
     public GameObject InventoryUi;  // Inventory reference
 
@@ -43,6 +45,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         {
             tiles[i].myPosInArray = i;
         }
+
         // Find and assign the empty space tile based on its tag in the scene
         emptySpace = GameObject.FindGameObjectWithTag("emptySpace").GetComponent<TileSkript2_0>();
 
@@ -52,6 +55,14 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         {
             puzzleCanvas.SetActive(false);  // Initially deactivate the canvas
         }
+
+        // Initialize the skip info text
+        if (skipInfoText != null)
+        {
+            skipInfoText.text = "";  // Hide the text initially
+            skipInfoText.gameObject.SetActive(false);  // Ensure the text is not visible ate the start
+        }
+
     }
 
     // Update is called once per frame
@@ -90,7 +101,27 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         // Check if the player has made enough moves for the skip button
         if(moveCounter >= maxMovementsBeforeSkip)
         {
-            skipPuzzleText.text = "Press Enter to skip the sliding puzzle";
+            if (skipPuzzleText != null)
+            {
+                skipPuzzleText.text = "Press Enter to skip the sliding puzzle";
+            }
+        }
+
+        // Handles the text for the first 25 moves (only if the player is in the trigger zone)
+        if (playerNearby && moveCounter <= skipInfoCounter) // 
+        {
+            if (skipInfoText != null)
+            {
+                skipInfoText.gameObject.SetActive(true);  // Show the text
+                skipInfoText.text = "The puzzle will be skippable after a few tile movements";
+            }
+        }
+        else
+        {
+            if (skipInfoText != null)
+            {
+                skipInfoText.gameObject.SetActive(false);  // Hide the text
+            }
         }
 
         // Allows the player to skip the puzzle only if they are in the trigger zone and have made enough moves
@@ -193,7 +224,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         tiles[obj2].myPosInArray = obj2;
 
         // Wait until animation is complete before continuing
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.4f);
 
         isMovingTile = false;  // Tile movement is complete
 

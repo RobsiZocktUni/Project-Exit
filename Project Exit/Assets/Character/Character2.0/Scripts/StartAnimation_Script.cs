@@ -14,6 +14,8 @@ public class StartAnimation_Script : MonoBehaviour
     public Fade_Script fade;
     public GameObject FadeManager;
 
+    public static bool animationsDone { get; private set; } = false;
+
     /// <summary>
     /// Initializes the script and starts the animation sequence.
     /// </summary>
@@ -70,5 +72,7 @@ public class StartAnimation_Script : MonoBehaviour
 
         // Enable the character's controls after the animations are complete
         characterController.EnableControls();
+
+        animationsDone = true;
     }
 }
