@@ -11,7 +11,7 @@ public class Matchsticks : KeyItem
         base.Pickup(parent);
         triggerpickup.Post(gameObject);
         #region CodeFrom: Beck Jonas
-        uiText.SetText("You picked up a box of matchsticks");
+        //uiText.SetText("You picked up a box of matchsticks");
         #endregion
     }
     #endregion

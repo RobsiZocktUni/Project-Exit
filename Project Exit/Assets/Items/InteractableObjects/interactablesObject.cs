@@ -10,7 +10,7 @@ public class InteractableObject : MonoBehaviour
 
     public virtual void Start()
     {
-        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
+        //uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
     }
     public virtual void Interact()
     {

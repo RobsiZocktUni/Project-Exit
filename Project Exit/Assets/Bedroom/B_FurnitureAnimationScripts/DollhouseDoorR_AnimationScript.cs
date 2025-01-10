@@ -52,10 +52,10 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         {
             if (item.ItemName == "dollhouse key")
             {
-                Debug.Log("You used the dollhouse key to open the door");
+                //Debug.Log("You used the dollhouse key to open the door");
                 if (firstTimeOpening)
                 {
-                    uiText.SetText("You used the dollhouse key to open the door");
+                    //uiText.SetText("You used the dollhouse key to open the door");
                     firstTimeOpening = false;
                 }
                 itemInInventory = true;
@@ -93,8 +93,8 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
-            Debug.Log("You need to find a key");
-            uiText.SetText("You need to find a Key");
+            //Debug.Log("You need to find a key");
+            //uiText.SetText("You need to find a Key");
         }
         #endregion
     }

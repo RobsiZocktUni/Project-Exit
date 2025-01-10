@@ -64,7 +64,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
                     #region CodeFromLennart
                     triggerLockopen.Post(gameObject);//plays the lock opening sound
                     #endregion
-                    uiText.SetText("You used the dollhouse key to open the door");
+                    //uiText.SetText("You used the dollhouse key to open the door");
                     firstTimeOpening = false;
                 }
                 
@@ -106,8 +106,8 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
             #region CodeFromLennart
             triggerLocknoKey.Post(gameObject);//plays a sound for when player does not have a key while interacting
             #endregion
-            Debug.Log("You need to find a Key");
-            uiText.SetText("You need to find a Key");
+            //bug.Log("You need to find a Key");
+            //uiText.SetText("You need to find a Key");
         }
         #endregion
     }

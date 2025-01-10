@@ -9,7 +9,7 @@ public class Key : KeyItem
     public override void Pickup(Transform parent)
     {
         base.Pickup(parent);
-        uiText.SetText("You picked up a " + ItemName);
+        //uiText.SetText("You picked up a " + ItemName);
         triggerpickup.Post(gameObject);
     }
     #endregion

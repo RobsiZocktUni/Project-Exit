@@ -17,7 +17,7 @@ public class Candleholder : InteractableObject
     {
         if (isAktive)
         {
-            uiText.SetText("The candles are already lit");
+            //uiText.SetText("The candles are already lit");
         }
 
         bool itemInInventory = false;
@@ -30,12 +30,12 @@ public class Candleholder : InteractableObject
                 {
                     triggerlightCandle.Post(gameObject);
                     #region CodeFrom: Beck Jonas
-                    uiText.SetText("You used a match to light the candles");
+                    //uiText.SetText("You used a match to light the candles");
                     #endregion
                     isAktive = true;
                 }
                 #endregion
-                Debug.Log("You used a match to light the candle");
+                //Debug.Log("You used a match to light the candle");
                 itemInInventory = true;
                 LightEffectLeftCandle.SetActive(true);
                 LightEffectMiddleCandle.SetActive(true);
@@ -47,8 +47,8 @@ public class Candleholder : InteractableObject
         {
             if (!isAktive)
             {
-                uiText.SetText("You need something to light it with");
-                Debug.Log("You need something to light it with");
+                //uiText.SetText("You need something to light it with");
+                //Debug.Log("You need something to light it with");
             }
         }
     }

@@ -23,7 +23,7 @@ public class Doll_Clothing : KeyItem
     public override void Pickup(Transform parent)
     {
         base.Pickup(parent);
-        uiText.SetText("You picked up a " + ItemName);
+        //uiText.SetText("You picked up a " + ItemName);
         #region CodeFromLennart
         triggerpickup.Post(gameObject);
         #endregion
@@ -46,7 +46,7 @@ public class Doll_Clothing : KeyItem
                     player.InventoryUi.SetActive(false);                      // Closes the inventory  
                     player.EnableControls();
 
-                    uiText.SetText("You put the " + ItemName + " on the mannequin");
+                    //uiText.SetText("You put the " + ItemName + " on the mannequin");
                 }
             }
         }

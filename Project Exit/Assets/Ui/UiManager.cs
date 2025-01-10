@@ -37,18 +37,18 @@ public class UiManager : MonoBehaviour
         #region CodeFrom Beck Jonas
         if (Physics.Raycast(ray, out RaycastHit hit, RayLength))
         {
-            if (hit.collider.gameObject.GetComponent<KeyItem>())
-            {
-                KeyItemPng.SetActive(true);
-            }
-            else if (hit.collider.gameObject.GetComponent<InteractableObject>())
-            {
-                InteractableItemPng.SetActive(true);
-            }
-            else if (hit.collider.gameObject.GetComponent<TileSkript2_0>())
-            {
-                TileInteractPng.SetActive(true);
-            }
+            //if (hit.collider.gameObject.GetComponent<KeyItem>())
+            //{
+            //    KeyItemPng.SetActive(true);
+            //}
+            //else if (hit.collider.gameObject.GetComponent<InteractableObject>())
+            //{
+            //    InteractableItemPng.SetActive(true);
+            //}
+            //else if (hit.collider.gameObject.GetComponent<TileSkript2_0>())
+            //{
+            //    TileInteractPng.SetActive(true);
+            //}
 
         }
     }

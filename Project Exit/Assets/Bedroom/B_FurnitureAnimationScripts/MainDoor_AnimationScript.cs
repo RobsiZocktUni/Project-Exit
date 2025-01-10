@@ -73,11 +73,11 @@ public class MainDoor_AnimationScript : InteractableObject
                     isOpen = !isOpen;
 
                     // Provide feedback for the interaction
-                    Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
+                    //Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");
                 }
                 else
                 {
-                    Debug.Log("The door is already moving.");
+                    //Debug.Log("The door is already moving.");
                 }
                 #endregion
 
@@ -87,8 +87,8 @@ public class MainDoor_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
-            uiText.SetText("You need to find a key");
-            Debug.Log("You need to find a Key");
+            //uiText.SetText("You need to find a key");
+            //Debug.Log("You need to find a Key");
         }
         #endregion
 

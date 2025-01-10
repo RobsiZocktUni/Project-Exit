@@ -20,7 +20,7 @@ public abstract class KeyItem : MonoBehaviour
     {
 
         InventoryManager = GameObject.Find("GameManager").GetComponent<InventoryManager>();
-        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
+        //uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
     }
     public virtual void Pickup(Transform parent) // Do not use this function directly. Use InventoryManager.AddItem instead.
     {
