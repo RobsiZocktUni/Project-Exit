@@ -56,7 +56,7 @@ public class MainDoor_AnimationScript : InteractableObject
                 Debug.Log("You used the bedroom key to open the door");
                 if (firstTimeOpening)
                 {
-                    uiText.SetText("You used the bedroom key to open the door");
+                    //uiText.SetText("You used the bedroom key to open the door");
                     firstTimeOpening = false;
                 }
                 itemInInventory = true;
