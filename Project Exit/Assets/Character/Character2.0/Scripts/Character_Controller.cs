@@ -59,6 +59,8 @@ public class Character_Controller : MonoBehaviour
 
     private bool controlsEnabled = true; // Status of the controller
 
+    public static bool inventoryActive { get; private set; } = false;
+
     #region CodeFrom BeckJonas
     //PickUp --------------
     InventoryManager InvManager;
@@ -117,22 +119,36 @@ public class Character_Controller : MonoBehaviour
         // Waits until the start animation is over
         if (StartAnimation_Script.animationsDone)
         {
-            #region CodeFrom BeckJonas
-            //ToggleInventory-----------------------
-            if (Input.GetKeyDown(KeyCode.I))
+            // Only activates the inventory when the pause menu is not active
+            if (!PauseMenu_Script.pauseMenuActive)
             {
-                if (InventoryUi.activeSelf)
+
+                #region CodeFrom BeckJonas
+                //ToggleInventory-----------------------
+                if (Input.GetKeyDown(KeyCode.I))
                 {
-                    EnableControls();
-                    InventoryUi.SetActive(false);
+                    if (InventoryUi.activeSelf)
+                    {
+                        EnableControls();
+                        InventoryUi.SetActive(false);
+
+                        #region CodeFrom: Hendrik Wendt
+                        inventoryActive = false;
+                        #endregion
+                    }
+                    else
+                    {
+                        DisableControls();
+                        InventoryUi.SetActive(true);
+
+                        #region CodeFrom: Hendrik Wendt
+                        inventoryActive = true;
+                        #endregion
+                    }
                 }
-                else
-                {
-                    DisableControls();
-                    InventoryUi.SetActive(true);
-                }
+                #endregion
+
             }
-            #endregion
         }
 
 
@@ -185,7 +201,7 @@ public class Character_Controller : MonoBehaviour
         float currentSpeed;
 
         // Determine movement speed based on player state
-        if (isSprinting)
+        if (isSprinting && !isCrouching)
         {
             currentSpeed = sprintSpeed;  // Set speed to sprint speed if the player is sprinting
         }

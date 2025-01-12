@@ -24,6 +24,8 @@ public class PauseMenu_Script : MonoBehaviour
     // Static pause state accessible to other scripts
     public static bool IsPaused { get; private set; } = false;
 
+    public static bool pauseMenuActive { get; private set; } = false;
+
     private void Start()
     {
         // Add the ClickedContinue method to the continueButton's onClick event
@@ -39,16 +41,19 @@ public class PauseMenu_Script : MonoBehaviour
         // Open the pause menu is possible when the start animation is finished
         if (StartAnimation_Script.animationsDone)
         {
-            // Toggle the pause menu when the Tab key is pressed
-            if (Input.GetKeyDown(KeyCode.Tab))
+            if (!Character_Controller.inventoryActive)
             {
-                TogglePauseMenu();
-            }
+                // Toggle the pause menu when the Tab key is pressed
+                if (Input.GetKeyDown(KeyCode.Tab))
+                {
+                    TogglePauseMenu();
+                }
 
-            // Exit the pause menu when the Escape key is pressed, but only if the game is paused
-            if (Input.GetKeyDown(KeyCode.Escape) && IsPaused)
-            {
-                ExitPauseMenu();
+                // Exit the pause menu when the Escape key is pressed, but only if the game is paused
+                if (Input.GetKeyDown(KeyCode.Escape) && IsPaused)
+                {
+                    ExitPauseMenu();
+                }
             }
         }
     }
@@ -59,6 +64,8 @@ public class PauseMenu_Script : MonoBehaviour
     private void TogglePauseMenu()
     {
         IsPaused = !IsPaused;  // Toggle pause status
+
+        pauseMenuActive = !pauseMenuActive;
 
         // Toggle the pause state between paused and unpaused
         //isPaused = !isPaused;
@@ -101,6 +108,8 @@ public class PauseMenu_Script : MonoBehaviour
     private void ExitPauseMenu()
     {
         IsPaused = false;
+
+        pauseMenuActive = false;
 
         // Set the isPaused flag to false to indicate the game is no longer paused
         //isPaused = false;

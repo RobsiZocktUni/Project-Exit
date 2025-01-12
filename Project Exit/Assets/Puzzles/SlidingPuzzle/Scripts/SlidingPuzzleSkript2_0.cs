@@ -113,7 +113,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
             if (skipInfoText != null)
             {
                 skipInfoText.gameObject.SetActive(true);  // Show the text
-                skipInfoText.text = "The puzzle will be skippable after a few tile movements";
+                skipInfoText.text = "The puzzle will be skippable";
             }
         }
         else
