@@ -358,7 +358,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\General
     guid: 0eb58fb455ea1346a166b0c3cde243d5
     GuidInternal: 
-    m_lastTime: -8584649047786517142
+    m_lastTime: -8584649011171976060
     List:
     - name: Main
       guid: 54d1edda390e2a45bac96fd5dfb7c700
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 59a54538be14a14fa82609b2f635720d
     GuidInternal: 
-    m_lastTime: -8584649042648090157
+    m_lastTime: -8584649011174098768
     List:
     - name: Play_menu_theme
       guid: 886a9976a0dbc14ca4878fba9cf95582
@@ -471,8 +471,8 @@ MonoBehaviour:
         guid: d0d6ffcffed8554fbd2ced9b0f69859a
       Path: Events\Default Work Unit\Play_SFX_puzzle_top_move
       maxAttenuation: 0
-      maxDuration: 6.380542
-      minDuration: 6.380542
+      maxDuration: 1.5013039
+      minDuration: 1.5013039
     - name: Play_SFX_schloss_auf
       guid: ac4ad3e48844ea46bd58718ac1f560b5
       id: 1880054156
