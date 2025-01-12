@@ -166,10 +166,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6280D7DD-1EBB-2928-B71C-3740C0709043}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{596F32B9-09E0-8DBB-E104-B740C6F541BB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="1408366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_schiebe_puzzle_auf.wav</ShortName>
+					<CachePath>SFX/SFX_schiebe_puzzle_auf_1764823A.wem</CachePath>
+				</File>
 				<File Id="11586564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-06.wav</ShortName>
 					<CachePath>SFX/SFX-Step-06_818F3B66.wem</CachePath>
@@ -218,10 +222,6 @@
 					<ShortName>SFX-Schublade-zu-103.wav</ShortName>
 					<CachePath>SFX/SFX-Schublade-zu-103_7089B273.wem</CachePath>
 				</File>
-				<File Id="191634209" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX-schloss-auf.wav</ShortName>
-					<CachePath>SFX/SFX-schloss-auf_818F3B66.wem</CachePath>
-				</File>
 				<File Id="234765194" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Schublade-zu-102.wav</ShortName>
 					<CachePath>SFX/SFX-Schublade-zu-102_92D47F0C.wem</CachePath>
@@ -229,6 +229,10 @@
 				<File Id="280295012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-15.wav</ShortName>
 					<CachePath>SFX/SFX-Step-15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="288003249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_aufheben_dn.wav</ShortName>
+					<CachePath>SFX/SFX_aufheben_dn_818F3B66.wem</CachePath>
 				</File>
 				<File Id="316300769" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Türklinke.wav</ShortName>
@@ -269,6 +273,10 @@
 				<File Id="577585697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tiles_Schieben\SFX-Schieben-02.wav</ShortName>
 					<CachePath>SFX/Tiles_Schieben/SFX-Schieben-02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="607221555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_nokey_dnpcpd.wav</ShortName>
+					<CachePath>SFX/SFX_nokey_dnpcpd_818F3B66.wem</CachePath>
 				</File>
 				<File Id="611095017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX-Step-04.wav</ShortName>
@@ -354,6 +362,11 @@
 						<MediaRef Id="653364092"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1391002663" Name="Play_SFX_aufheben_dn" DurationType="OneShot" DurationMin="0.3612925" DurationMax="0.3612925">
+					<MediaRefs>
+						<MediaRef Id="288003249"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2852810046" Name="Play_SFX_Cloth_up" DurationType="OneShot" DurationMin="0.22435416" DurationMax="0.22435416">
 					<MediaRefs>
 						<MediaRef Id="61914961"/>
@@ -369,15 +382,19 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3510297426" Name="Play_SFX_puzzle_top_move" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3510297426" Name="Play_SFX_puzzle_top_move" DurationType="OneShot" DurationMin="1.5013039" DurationMax="1.5013039">
+					<MediaRefs>
+						<MediaRef Id="1408366"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1880054156" Name="Play_SFX_schloss_auf" DurationType="OneShot" DurationMin="0.50579166" DurationMax="0.50579166">
 					<MediaRefs>
 						<MediaRef Id="482374556"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="324383601" Name="Play_SFX_schloss_kein_Schluessel" DurationType="OneShot" DurationMin="0.47366667" DurationMax="0.47366667">
+				<Event Id="324383601" Name="Play_SFX_schloss_kein_Schluessel" DurationType="OneShot" DurationMin="0.74777776" DurationMax="0.74777776">
 					<MediaRefs>
-						<MediaRef Id="191634209"/>
+						<MediaRef Id="607221555"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3237937395" Name="Play_SFX_Schranktuer_auf" DurationType="OneShot" DurationMin="2.002556" DurationMax="2.002556">
@@ -463,5 +480,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D369B0E3-7CB6-97A6-4408-A8E4E8B821E9}</FileHash>
+	<FileHash>{710E7ACB-B47A-C4A1-617F-F258F1B57F47}</FileHash>
 </SoundBanksInfo>

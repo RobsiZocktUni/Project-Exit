@@ -2240,6 +2240,77 @@
 						<ActiveSource Name="SFX_Cloth_up" ID="{91227BA1-0B5A-407F-B019-AC4D8B0E8B67}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_aufheben_dn" ID="{B774B259-7C37-4D60-8473-F78AF598BA60}" ShortID="61513459">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_aufheben_dn" ID="{2EA1191A-8325-4116-BE21-E53DA0F7F2C5}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_aufheben_dn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="288003249"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_aufheben_dn" ID="{2EA1191A-8325-4116-BE21-E53DA0F7F2C5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_nokey_dnpcpd" ID="{9457C4AA-8A21-49D7-982A-663CA1057214}" ShortID="698422467">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_nokey_dnpcpd" ID="{CB641DF1-ABD4-4FE0-B57B-C3C10CD90787}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_nokey_dnpcpd.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="607221555"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_nokey_dnpcpd" ID="{CB641DF1-ABD4-4FE0-B57B-C3C10CD90787}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_schiebe_puzzle_auf" ID="{6E652C3B-444C-4FC9-84E1-58D4893C14FD}" ShortID="4141517">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DCB8BBC-7A50-4420-BD73-1E347C9BCEC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{146E58B9-1CE6-4D1D-A691-5231756FAFA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_schiebe_puzzle_auf" ID="{407ECE5B-700A-48AE-9019-C9CD58C2CB5A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.194613471314452"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.50130392156862"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_schiebe_puzzle_auf.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1408366"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_schiebe_puzzle_auf" ID="{407ECE5B-700A-48AE-9019-C9CD58C2CB5A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

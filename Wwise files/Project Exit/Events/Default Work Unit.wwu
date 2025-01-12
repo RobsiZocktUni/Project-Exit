@@ -101,7 +101,7 @@
 						<Action Name="" ID="{C314DBCB-AEAA-485E-B542-44F53A8AE581}" ShortID="1007237063">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX-schloss-auf" ID="{F9F578F0-96BB-4B48-A568-BDF46DFFB8E8}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+									<ObjectRef Name="SFX_nokey_dnpcpd" ID="{9457C4AA-8A21-49D7-982A-663CA1057214}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -186,7 +186,24 @@
 				</Event>
 				<Event Name="Play_SFX_puzzle_top_move" ID="{CFFFD6D0-D8FE-4F55-BD2C-ED9B0F69859A}">
 					<ChildrenList>
-						<Action Name="" ID="{7A620F17-E29E-4A88-9189-68AB5AC22A1F}" ShortID="320314082"/>
+						<Action Name="" ID="{7A620F17-E29E-4A88-9189-68AB5AC22A1F}" ShortID="320314082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_schiebe_puzzle_auf" ID="{6E652C3B-444C-4FC9-84E1-58D4893C14FD}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_aufheben_dn" ID="{B98AC2B0-6E02-4E70-B6B9-3DB7F97EECC7}">
+					<ChildrenList>
+						<Action Name="" ID="{31375D39-320B-4A29-9A96-22A9FF7CA386}" ShortID="209292913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_aufheben_dn" ID="{B774B259-7C37-4D60-8473-F78AF598BA60}" WorkUnitID="{5847A3F8-2DE3-419B-AB39-E6358B96DD74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

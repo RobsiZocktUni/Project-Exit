@@ -1043,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3616084441647854542, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
+      propertyPath: triggerMoveTop.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 96d4f056adecd5a48a9be23eddcf42c9, type: 2}
     - target: {fileID: 3710458602693839088, guid: 851667ea2521dc344848c21fd7dcbad1, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -37530,6 +37534,10 @@ PrefabInstance:
       propertyPath: ItemName
       value: bedroom key
       objectReference: {fileID: 0}
+    - target: {fileID: 5600558379391119040, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ce79f860439e4c8428efa84004a97694, type: 2}
     - target: {fileID: 6266144470981924201, guid: 6bf9fb8a958e22e459c67c9aa8f605ee, type: 3}
       propertyPath: m_Name
       value: BedroomDoorKey
@@ -49173,6 +49181,10 @@ PrefabInstance:
       propertyPath: ItemName
       value: dollhouse key
       objectReference: {fileID: 0}
+    - target: {fileID: -6749860217496948740, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ce79f860439e4c8428efa84004a97694, type: 2}
     - target: {fileID: 1724184844558558507, guid: 0b9342a9e088dff40bebff65af56fd66, type: 3}
       propertyPath: m_Name
       value: DollhouseKey
