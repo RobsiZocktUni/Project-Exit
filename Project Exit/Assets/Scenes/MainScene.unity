@@ -61716,6 +61716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7758107740793815383, guid: 597cc1e4ea379964989017636b98077a, type: 3}
+      propertyPath: triggerpickup.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 69e199fab35544944b29714d3fb842e4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
