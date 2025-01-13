@@ -28190,6 +28190,7 @@ GameObject:
   - component: {fileID: 1292114968}
   - component: {fileID: 1292114967}
   - component: {fileID: 1292114966}
+  - component: {fileID: 1292114969}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -28285,6 +28286,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1292114969}
+        m_TargetAssemblyTypeName: CloseInventory_Script, Assembly-CSharp
+        m_MethodName: CloseInvetory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1292114967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28323,6 +28336,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292114964}
   m_CullTransparentMesh: 1
+--- !u!114 &1292114969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292114964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f921344430efde049a941b084423e9f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1304939496
 PrefabInstance:
   m_ObjectHideFlags: 0
