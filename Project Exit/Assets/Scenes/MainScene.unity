@@ -54094,7 +54094,7 @@ MonoBehaviour:
   triggerLocknoKey:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: cc0250836b31a5145b705c339d5f5be6, type: 2}
   triggerdoor:
     idInternal: 0
     valueGuidInternal: 
