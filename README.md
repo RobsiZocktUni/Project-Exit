@@ -4,7 +4,7 @@ Name nicht final, **alle** Dateien sind aktuell nur Platzhalter und Templates.
 
 ## Installing the game
 
-1. Get the latest version of this project at [Releases](https://github.com/RobsiZocktUni/Project-Exit/releases). Donwload the "build" .zip-file and extract it. 
+1. Get the latest version of this project at [Releases](https://github.com/RobsiZocktUni/Project-Exit/releases/latest). Donwload the "build" .zip-file and extract it. 
 2. Find the 'Project Exit.exe' and start it
 
 #### common mistakes
