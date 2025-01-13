@@ -4375,6 +4375,17 @@ Transform:
   - {fileID: 1366509302}
   m_Father: {fileID: 1843345667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &400087463 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4620134612984894716, guid: 9f7477084964ac44499120fad3457471, type: 3}
+  m_PrefabInstance: {fileID: 1269969142831182155}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &417919469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3996001955324183369, guid: a465c5100a5906640938ccbccc16c7f7, type: 3}
@@ -49108,7 +49119,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1940059663}
-        m_TargetAssemblyTypeName: BackToStart_Script, Assembly-CSharp
+        m_TargetAssemblyTypeName: PauseMenu_Script, Assembly-CSharp
         m_MethodName: BackToStart
         m_Mode: 1
         m_Arguments:
@@ -49166,9 +49177,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940059658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2013f3afc5b07694f9286542e47cf657, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bb8ef66a6ecb8f469c0ea73a2ac7eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetCanvas: {fileID: 0}
+  characterController: {fileID: 0}
+  continueButton: {fileID: 400087463}
 --- !u!1001 &1941049048
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -28,6 +29,9 @@ public class PauseMenu_Script : MonoBehaviour
 
     private void Start()
     {
+        IsPaused = false;
+        pauseMenuActive = false;
+
         // Add the ClickedContinue method to the continueButton's onClick event
         continueButton.onClick.AddListener(ClickedContinue);
     }
@@ -119,5 +123,19 @@ public class PauseMenu_Script : MonoBehaviour
 
         // Re-enable player controls so the player can continue interacting
         characterController.EnableControls();
+    }
+
+    /// <summary>
+    /// Method is used to load the Homescreen Scene
+    /// </summary>
+    public void BackToStart()
+    {
+        // Load the previous scene based on the current scene's build index - 1
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+        IsPaused = false;
+        pauseMenuActive = false;
+
+        Character_Controller.SetInventoryActive(false);
     }
 }
