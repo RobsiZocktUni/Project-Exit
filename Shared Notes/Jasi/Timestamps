@@ -27,10 +27,84 @@ till 09.10.2024: Collecting Ideas for a House (Haus in keiner beliebigen reihenf
 
 04.11.2024: Meeting + Transcript, writting down story ideas, creating Keys and a matchbox, trying to make a candle
 06.11.2024: giving up on melted candle look for now and creating a candle with a candleholdeer, trying to clean up the bed deciding it needs a redo
-08.11.2024: making the bed again this time with the better scale and joining the parts at the correct places, working on the keys + taking notes for both and uploading the first few assets to github
-10.11.2024: finishing the keys and matches
+08.11.2024: making the bed again this time with the better scale and joining the parts at the correct places, working on the keys + taking notes for both and uploading the first few assets to BlenderJasi (Officetable, Bed, Candle)
+09.11.2024: Added Officetable, Bed and Candle to Unity
+10.11.2024: finishing the keys and matches, Riddlebox
+
+//Reconstruction2.0
+
+//11.11-17.11.2024
+
+11.11.2024: Meeting + Transcript, finished RiddleBox, Bookshelf, Chair
+15.11.2024: Added Bookshelf, Chair, Keys, Matches, Riddlebox to BlenderJasi, Searched for Pictures that can be Added into Frames
+17.11.2024: Added Bookshelf, Chair, Keys, Matches to Unity, did some research for Backstory (exampe searching for comon names in the Vektorian era)
+
+//18.11-24.11.2024
+
+18.11.2024: Meeting + Transcript, Backstory written down better, Made Pillow (BedwithSheet), first Manniquin try
+20.11.2024: First Skirt versions, Mannequin
+21.11.2024: Updated rotationpoints of Doors -> Unity
+22.11.2024: Trying to make first Outfit
+
+//25.11.2024-01.12.2024
+
+25.11.2024: First Complete outfit version (Greeving dress), starting second outfit (Summerdress)
+26.11.2024: Story finished, Summerdress finished
+27.11.2024: Meeting + Transcript, Finished Dresses (Rain and Winter outfits)
+28.11.2024: Added dresses, mannequin and new Bed, Bookshelf2.0 (rotationpoints for Door fixed) into Blender
+30.11.2024: Searched for more Picture for the Frames
+01.12.2024: Added Dressesto Unity, made Curtains (for Bedwithsheets)
+
+//02.12-08.12.2024
+
+06.12.2024: winteroutfit, bedwithsheets2.0, dresses2.0 (fixed Backface culling)
+07.12.2024: wanted to add BedwithSheets, decided it needed a bit of fixing so didnt merge
+
+//09.12-15.12.2024
+
+09.12.2024: Meeting + Transcript, added Clothingrack (+ Clothinghangers), Books (4 Versions), Pictureframes (4 Versions), Bedwithsheets2.0 to Unity
+10.12.2024: Vases (many variants), Clothingrack2.0, Material
+11.12.2024: Vases (Backfaceculling fixed), added Clothingrack2.0, fixed Hirarchy for Clothingrack and Frames
+12.12.2024: Taxidermy Frog (reused my Frog from Animation project, 1. Semester), Paper (not used)
+13.12.2024: Added Vase, Frog in glass dome, Bedwithsheets2.0 to Unity
+15.12.2024: first versions for Inventory pngs (matches + 4 dresses), made the lower box (Riddlebox) seperate objects
+
+//16.12-22.12.2024
+
+16.12.2024: Meeting + Transcript, Tearcatcher
+17.12.2024: Tearcatcher finished and added to Unity, fixed things in the Garden (changed Material of Grass and put the Plane higher, fixed a few Values for the Fog and added more Particles, rotated Trees because of shadow)
+18.12.2024: Started on Doll (heads, first Torso version, Belly, upper and under arms, thighs)
+
+//23.12-29.12.2024
+
+Break because of Chrismas + Playtesting 
+
+//30.12.2024-05.01.2025
+
+30.12.2024: Working on Pictures for Frames (merge problem accured so i redid it), working on Doll (Torso redone, lower leg, "hair")
+03.01.2024: Doll + hair, Outfit, added wip Doll into Darkroom, added Pictures to Frames, Issues (Git) -> Poster Idea
+04.01.2024: made the Mirrored Objects from the Doll seperate, hair as Mesh, added neck parts so there isnt a huge gap when rotating
+05.01.2024: Doll (outfit fixed, feet with shoes, handblobs), finished Doll (hiarchy, neckrotations)
+
+//06.01-12.01.2025
+
+06.01.2025: first quick version for the Poster to showcase Idea
+07.01.2025: pngs for Keys
+08.01.2025: finished Inventory pngs of Keys and Improved scalling on all the other pngs
+09.01.2025: Worked on Poster for Presintation
+10.01.2025: did the last minimal changes for Poster, Issues (Git) -> Vergleichsbilder Licht
+11.01.2025: Video cut
+12.01.2025: Changed things for the mourning dress and changed the Manniquin for one thats used for the Winterdress as well so the translation points would be the same -> fixed how the dress looks when setting it down in the dollhouse, made the Table for the Documentary, Powerpoint Pictures
+
+//13.01-19.01.2024
+
 
 //Other stuff
 18.10.2024: Learning the first few things in unity with Tim
 25.10.2024: Q&A with Tim
-08.11.2024: meeting with Tim getting input for the game
+08.11.2024: meeting with Tim, getting input for the game
+17.11.2024: Research, while Henni is working with Tim
+22.11.2024: working with fabric (Physiks) in Blender, while Henni works with Tim
+12.01.2025: Tim
+
+//add sources here
