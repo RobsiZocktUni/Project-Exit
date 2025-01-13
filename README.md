@@ -86,7 +86,7 @@ who participated in this project.
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
 details
 

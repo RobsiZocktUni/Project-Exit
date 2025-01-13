@@ -15,15 +15,16 @@ public abstract class KeyItem : MonoBehaviour
     public GameObject InventoryTile;
     [Header ("Dont Touch")]
     public InventoryManager InventoryManager;
+    public UiInfoText uiText;
     public virtual void Start()
     {
+
         InventoryManager = GameObject.Find("GameManager").GetComponent<InventoryManager>();
+        uiText = GameObject.Find("InfoText").GetComponent<UiInfoText>();
     }
     public virtual void Pickup(Transform parent) // Do not use this function directly. Use InventoryManager.AddItem instead.
     {
-
         DisableComponents(parent);
-
     }
 
     public virtual void DisableComponents(Transform parent) // Disables all components of the object

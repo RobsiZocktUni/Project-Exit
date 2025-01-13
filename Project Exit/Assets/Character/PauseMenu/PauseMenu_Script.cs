@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -19,13 +20,18 @@ public class PauseMenu_Script : MonoBehaviour
     public Button continueButton;
 
     // Boolean flag to track whether the game is paused or not
-    private bool isPaused = false;
+    // private bool isPaused = false;
 
     // Static pause state accessible to other scripts
     public static bool IsPaused { get; private set; } = false;
 
+    public static bool pauseMenuActive { get; private set; } = false;
+
     private void Start()
     {
+        IsPaused = false;
+        pauseMenuActive = false;
+
         // Add the ClickedContinue method to the continueButton's onClick event
         continueButton.onClick.AddListener(ClickedContinue);
     }
@@ -36,16 +42,23 @@ public class PauseMenu_Script : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // Toggle the pause menu when the Tab key is pressed
-        if (Input.GetKeyDown(KeyCode.Tab))
+        // Open the pause menu is possible when the start animation is finished
+        if (StartAnimation_Script.animationsDone)
         {
-            TogglePauseMenu();
-        }
+            if (!Character_Controller.inventoryActive)
+            {
+                // Toggle the pause menu when the Tab key is pressed
+                if (Input.GetKeyDown(KeyCode.Tab))
+                {
+                    TogglePauseMenu();
+                }
 
-        // Exit the pause menu when the Escape key is pressed, but only if the game is paused
-        if (Input.GetKeyDown(KeyCode.Escape) && isPaused)
-        {
-            ExitPauseMenu();
+                // Exit the pause menu when the Escape key is pressed, but only if the game is paused
+                if (Input.GetKeyDown(KeyCode.Escape) && IsPaused)
+                {
+                    ExitPauseMenu();
+                }
+            }
         }
     }
 
@@ -56,8 +69,10 @@ public class PauseMenu_Script : MonoBehaviour
     {
         IsPaused = !IsPaused;  // Toggle pause status
 
+        pauseMenuActive = !pauseMenuActive;
+
         // Toggle the pause state between paused and unpaused
-        isPaused = !isPaused;
+        //isPaused = !isPaused;
 
         // Ensure the targetCanvas is assigned before attempting to toggle it
         if (targetCanvas != null)
@@ -67,7 +82,7 @@ public class PauseMenu_Script : MonoBehaviour
             targetCanvas.gameObject.SetActive(!isActive);
 
             // Disable or enable player controls based on whether the game is paused
-            if (isPaused)
+            if (IsPaused)
             {
                 characterController.DisableControls();  // Disable movement and actions
             }
@@ -98,13 +113,29 @@ public class PauseMenu_Script : MonoBehaviour
     {
         IsPaused = false;
 
+        pauseMenuActive = false;
+
         // Set the isPaused flag to false to indicate the game is no longer paused
-        isPaused = false;
+        //isPaused = false;
 
         // Hide the pause menu by disabling the targetCanvas
         targetCanvas.gameObject.SetActive(false);
 
         // Re-enable player controls so the player can continue interacting
         characterController.EnableControls();
+    }
+
+    /// <summary>
+    /// Method is used to load the Homescreen Scene
+    /// </summary>
+    public void BackToStart()
+    {
+        // Load the previous scene based on the current scene's build index - 1
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+        IsPaused = false;
+        pauseMenuActive = false;
+
+        Character_Controller.SetInventoryActive(false);
     }
 }

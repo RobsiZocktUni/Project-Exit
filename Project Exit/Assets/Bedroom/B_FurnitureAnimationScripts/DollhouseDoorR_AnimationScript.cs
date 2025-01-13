@@ -50,12 +50,12 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         bool itemInInventory = false;
         foreach (var item in InventoryManager.Instance.InventoryItems)
         {
-            if (item.ItemName == "DollhouseKey")
+            if (item.ItemName == "dollhouse key")
             {
-                Debug.Log("You used the DollhouseKey Key to open the door");
+                Debug.Log("You used the dollhouse key to open the door");
                 if (firstTimeOpening)
                 {
-                    uiText.SetText("You use the Dollhouse Key to open the door");
+                    uiText.SetText("You used the dollhouse key to open the door");
                     firstTimeOpening = false;
                 }
                 itemInInventory = true;
@@ -68,8 +68,11 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
                     triggerdooropen.Post(gameObject);//plays the lock opening sound
                     #endregion
 
-                    // Start the animation to move the drawer to the open or closed position
-                    StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+                    if (!isOpen)
+                    {
+                        // Start the animation to move the drawer to the open or closed position
+                        StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
+                    }
 
                     // Toggle the isOpen flag to reflect the new state
                     isOpen = !isOpen;
@@ -90,7 +93,7 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
         }
         if (itemInInventory == false)
         {
-            Debug.Log("You need to find a Key");
+            Debug.Log("You need to find a key");
             uiText.SetText("You need to find a Key");
         }
         #endregion

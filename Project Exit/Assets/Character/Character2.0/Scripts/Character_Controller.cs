@@ -59,6 +59,8 @@ public class Character_Controller : MonoBehaviour
 
     private bool controlsEnabled = true; // Status of the controller
 
+    public static bool inventoryActive { get; private set; } = false;
+
     #region CodeFrom BeckJonas
     //PickUp --------------
     InventoryManager InvManager;
@@ -86,6 +88,8 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     void Start()
     {
+        inventoryActive = false;
+
         playerCamera = GetComponentInChildren<Camera>();  // Get the Camera component in children
         characterController = GetComponent<CharacterController>();  // Get the CharacterController component
         Cursor.lockState = CursorLockMode.Locked;  // Locks cursor to the center of the screen
@@ -114,8 +118,44 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     void Update()
     {
+        // Waits until the start animation is over
+        if (StartAnimation_Script.animationsDone)
+        {
+            // Only activates the inventory when the pause menu is not active
+            if (!PauseMenu_Script.pauseMenuActive)
+            {
+
+                #region CodeFrom BeckJonas
+                //ToggleInventory-----------------------
+                if (Input.GetKeyDown(KeyCode.I))
+                {
+                    if (InventoryUi.activeSelf)
+                    {
+                        EnableControls();
+                        InventoryUi.SetActive(false);
+
+                        #region CodeFrom: Hendrik Wendt
+                        inventoryActive = false;
+                        #endregion
+                    }
+                    else
+                    {
+                        DisableControls();
+                        InventoryUi.SetActive(true);
+
+                        #region CodeFrom: Hendrik Wendt
+                        inventoryActive = true;
+                        #endregion
+                    }
+                }
+                #endregion
+
+            }
+        }
+
+
         // Do not process input or movements when the game is paused or inventory is activated
-        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
+        if (PauseMenu_Script.IsPaused || inventoryActive || EndAnimation_Script.gameEnded)
         {
             return;
         }
@@ -151,21 +191,6 @@ public class Character_Controller : MonoBehaviour
 
             }
         }
-
-        //ToggleInventory-----------------------
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            if (InventoryUi.activeSelf)
-            {
-                EnableControls();
-                InventoryUi.SetActive(false);
-            }
-            else
-            {
-                DisableControls();
-                InventoryUi.SetActive(true);
-            }
-        }
         #endregion
     }
 
@@ -178,7 +203,7 @@ public class Character_Controller : MonoBehaviour
         float currentSpeed;
 
         // Determine movement speed based on player state
-        if (isSprinting)
+        if (isSprinting && !isCrouching)
         {
             currentSpeed = sprintSpeed;  // Set speed to sprint speed if the player is sprinting
         }
@@ -311,6 +336,17 @@ public class Character_Controller : MonoBehaviour
         controlsEnabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    /// <summary>
+    /// Sets the inventory active status for the player.
+    /// This method allows external scripts to enable or disable the inventory UI 
+    /// and update its associated state in the Character_Controller.
+    /// </summary>
+    /// <param name="value">A boolean value indicating whether the inventory should be active (true) or inactive (false).</param>
+    public static void SetInventoryActive(bool value)
+    {
+        inventoryActive = value;
     }
 
     #region CodeFrom HartmannLennart

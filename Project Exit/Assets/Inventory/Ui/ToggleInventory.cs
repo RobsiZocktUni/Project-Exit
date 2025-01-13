@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#region CodeFrom: Beck Jonas
 
 // Class to Toggle the inventory between visible and invisible with a Button
 public class ToggleInventory : MonoBehaviour
@@ -22,3 +23,4 @@ public class ToggleInventory : MonoBehaviour
         Inventory = GameObject.Find("Ui").transform.Find("Inventory").gameObject;
     }
 }
+#endregion
