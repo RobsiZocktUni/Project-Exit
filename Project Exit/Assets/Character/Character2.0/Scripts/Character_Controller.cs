@@ -88,6 +88,8 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     void Start()
     {
+        inventoryActive = false;
+
         playerCamera = GetComponentInChildren<Camera>();  // Get the Camera component in children
         characterController = GetComponent<CharacterController>();  // Get the CharacterController component
         Cursor.lockState = CursorLockMode.Locked;  // Locks cursor to the center of the screen
@@ -153,7 +155,7 @@ public class Character_Controller : MonoBehaviour
 
 
         // Do not process input or movements when the game is paused or inventory is activated
-        if (PauseMenu_Script.IsPaused || InventoryUi.activeSelf || EndAnimation_Script.gameEnded)
+        if (PauseMenu_Script.IsPaused || inventoryActive || EndAnimation_Script.gameEnded)
         {
             return;
         }
@@ -334,6 +336,17 @@ public class Character_Controller : MonoBehaviour
         controlsEnabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    /// <summary>
+    /// Sets the inventory active status for the player.
+    /// This method allows external scripts to enable or disable the inventory UI 
+    /// and update its associated state in the Character_Controller.
+    /// </summary>
+    /// <param name="value">A boolean value indicating whether the inventory should be active (true) or inactive (false).</param>
+    public static void SetInventoryActive(bool value)
+    {
+        inventoryActive = value;
     }
 
     #region CodeFrom HartmannLennart
