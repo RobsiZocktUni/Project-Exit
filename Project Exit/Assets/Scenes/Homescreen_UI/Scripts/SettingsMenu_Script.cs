@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Main Code of the SettingsMenu_Script was written by Wendt Hendrik
+/// The Code of the SettingsMenu_Script was written by Wendt Hendrik
 /// </summary>
 public class SettingsMenu_Script : MonoBehaviour
 {

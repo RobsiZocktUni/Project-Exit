@@ -9,7 +9,7 @@ using System.Diagnostics;
 /// </summary>
 public class Character_Controller : MonoBehaviour
 {
-    // Proberty to control if the player can move; can be set externally if needed
+    // Property to control if the player can move; can be set externally if needed
     public bool CanMove { get; private set; } = true;
 
     // Determines if the player is sprinting based on sprint capability and input key
@@ -59,6 +59,7 @@ public class Character_Controller : MonoBehaviour
 
     private bool controlsEnabled = true; // Status of the controller
 
+    // Tracks whether the inventory is active
     public static bool inventoryActive { get; private set; } = false;
 
     #region CodeFrom BeckJonas
@@ -135,7 +136,7 @@ public class Character_Controller : MonoBehaviour
                         InventoryUi.SetActive(false);
 
                         #region CodeFrom: Hendrik Wendt
-                        inventoryActive = false;
+                        inventoryActive = false;  // Sets the inventory state to inactive
                         #endregion
                     }
                     else
@@ -144,7 +145,7 @@ public class Character_Controller : MonoBehaviour
                         InventoryUi.SetActive(true);
 
                         #region CodeFrom: Hendrik Wendt
-                        inventoryActive = true;
+                        inventoryActive = true;  // Sets the inventory state to active
                         #endregion
                     }
                 }
@@ -321,10 +322,10 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     public void DisableControls()
     {
-        CanMove = false;
-        controlsEnabled = false;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;   
+        CanMove = false;  // Prevents player from moving
+        controlsEnabled = false;  // Disables the player's ability to interact with controls
+        Cursor.lockState = CursorLockMode.None;  // Unlocks the mouse cursor; allows it to move freely
+        Cursor.visible = true;  // makes the mouse cursor visible on the screen
     }
 
     /// <summary>
@@ -332,10 +333,10 @@ public class Character_Controller : MonoBehaviour
     /// </summary>
     public void EnableControls()
     {
-        CanMove = true;
-        controlsEnabled = true;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        CanMove = true;  // Allows the player to move
+        controlsEnabled = true;  // Enables the player's ability to interact with controls
+        Cursor.lockState = CursorLockMode.Locked;  // Locks the mouse cursor to the center of the screen
+        Cursor.visible = false;  // Hides the mouse cursor from view
     }
 
     /// <summary>
@@ -346,6 +347,7 @@ public class Character_Controller : MonoBehaviour
     /// <param name="value">A boolean value indicating whether the inventory should be active (true) or inactive (false).</param>
     public static void SetInventoryActive(bool value)
     {
+        // Updates the inventory state to the specified value (active or inactive)
         inventoryActive = value;
     }
 

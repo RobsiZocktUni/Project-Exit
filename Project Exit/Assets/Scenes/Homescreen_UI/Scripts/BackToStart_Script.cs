@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Main Code of the BackToStart_Script was written by: Wendt Hendrik
+/// The Code of the BackToStart_Script was written by: Wendt Hendrik
 /// </summary>
 public class BackToStart_Script : MonoBehaviour
 {

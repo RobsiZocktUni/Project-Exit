@@ -21,7 +21,7 @@ public class BookshelfUR_AnimationScript : InteractableObject
 
     private Quaternion openRotation;  // Initial rotation of the door (open)
 
-    private bool isOpen = false;  // Flag indicating whether the drawer is currently open
+    private bool isOpen = false;  // Flag indicating whether the door is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
 

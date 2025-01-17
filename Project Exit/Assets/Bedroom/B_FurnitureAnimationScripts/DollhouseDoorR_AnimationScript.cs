@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// The Code of this script was written by: Wendt Hendrik, Hartmann Lennart and Beck Jonas
+/// Part of every person are marked as regions
+/// </summary>
 public class DollhouseDoorR_AnimationScript : InteractableObject
 {
     #region CodeFromLennart
@@ -18,17 +22,22 @@ public class DollhouseDoorR_AnimationScript : InteractableObject
 
     private Quaternion openRotation;  // Initial rotation of the door (open)
 
-    private bool isOpen = false;  // Flag indicating whether the drawer is currently open
+    private bool isOpen = false;  // Flag indicating whether the door is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
+
     #region CodeFrom: Beck Jonas
     private bool firstTimeOpening = true;
+    #endregion
+
     // Start is called before the first frame update
     public override void Start()
     {
+        #region CodeFrom: BeckJonas
         base.Start();
         #endregion
-        // Initialize the closed position to the current local position of the drawer
+
+        // Initialize the closed position to the current local position of the door
         closedRotation = transform.rotation;
 
         // Calculate the open rotation by rotating around the Y-axis (assuming the door swings around the Y-axis)

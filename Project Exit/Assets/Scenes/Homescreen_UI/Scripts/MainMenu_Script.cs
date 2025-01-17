@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Main Code of the MainMenu_Script was written by: Wendt Hendrik
+/// The Code of the MainMenu_Script was written by: Wendt Hendrik
 /// </summary>
 public class MainMenu_Script : MonoBehaviour
 {

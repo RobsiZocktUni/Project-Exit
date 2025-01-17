@@ -24,14 +24,19 @@ public class MainDoor_AnimationScript : InteractableObject
     private bool isOpen = false;  // Flag indicating whether the drawer is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
+
     #region CodeFrom: Beck Jonas
     private bool firstTimeOpening = true;
-    // Start is called before the first frame update
+    #endregion
 
+    // Start is called before the first frame update
     public override void Start()
     {
+        #region CodeFrom: BeckJonas
         base.Start();
-        #endregion  // Initialize the closed position to the current local position of the drawer
+        #endregion 
+        
+        // Initialize the closed position to the current local position of the drawer
         closedRotation = transform.rotation;
 
         // Calculate the open rotation by rotating around the Y-axis (assuming the door swings around the Y-axis)
