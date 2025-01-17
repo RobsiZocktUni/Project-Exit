@@ -21,14 +21,14 @@ public class BookshelfUL_AnimationScript : InteractableObject
 
     private Quaternion openRotation;  // Initial rotation of the door (open)
 
-    private bool isOpen = false;  // Flag indicating whether the drawer is currently open
+    private bool isOpen = false;  // Flag indicating whether the door is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
 
     // Start is called before the first frame update
     void Start()
     {
-        // Initialize the closed position to the current local position of the drawer
+        // Initialize the closed position to the current local position of the door
         closedRotation = transform.rotation;
 
         // Calculate the open rotation by rotating around the Y-axis (assuming the door swings around the Y-axis)
@@ -47,7 +47,7 @@ public class BookshelfUL_AnimationScript : InteractableObject
         // If an animation is already running, do nothing
         if (!isAnimating)
         {
-            // Start the animation to move the drawer to the open or closed position
+            // Start the animation to move the door to the open or closed position
             StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
 
             // Toggle the isOpen flag to reflect the new state

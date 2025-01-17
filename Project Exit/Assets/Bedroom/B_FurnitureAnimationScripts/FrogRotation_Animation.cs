@@ -8,13 +8,13 @@ using UnityEngine;
 public class FrogRotation_Animation : MonoBehaviour
 {
     public Transform playerCamera;  // Reference to the player camera
-    public Transform frogBody;      // Reference to the frog body
+    public Transform frogBody;  // Reference to the frog body
 
     public float rotationSpeed = 9.0f;  // Rotation speed
-    public float verLimit = 0.0f;      // aximum vertical rotation limit in degrees (up/down movement)
-    public float horLimit = 70.0f;      // Maximum horizontal rotation limit in degrees (left/right movement)
+    public float verLimit = 0.0f;  // Maximum vertical rotation limit in degrees (up/down movement)
+    public float horLimit = 70.0f;  // Maximum horizontal rotation limit in degrees (left/right movement)
 
-    private Quaternion initialRotation; // Stores the initial rotation of the doll's head
+    private Quaternion initialRotation;  // Stores the initial rotation of the doll's head
 
     private void Start()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Main Code of the FadeToBlack_Script was written by: Wendt Hendrik
+/// The Code of the FadeToBlack_Script was written by: Wendt Hendrik
 /// </summary>
 public class FadeToBlack_Script : MonoBehaviour
 {

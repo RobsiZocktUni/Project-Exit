@@ -25,11 +25,15 @@ public class PauseMenu_Script : MonoBehaviour
     // Static pause state accessible to other scripts
     public static bool IsPaused { get; private set; } = false;
 
+    // Static pause state for the pause menu; accessible to other scripts
     public static bool pauseMenuActive { get; private set; } = false;
 
     private void Start()
     {
-        IsPaused = false;
+        // Sets the game state to unpaused, resuming gameplay
+        IsPaused = false;  
+
+        // Sets the pause menu state
         pauseMenuActive = false;
 
         // Add the ClickedContinue method to the continueButton's onClick event
@@ -69,7 +73,7 @@ public class PauseMenu_Script : MonoBehaviour
     {
         IsPaused = !IsPaused;  // Toggle pause status
 
-        pauseMenuActive = !pauseMenuActive;
+        pauseMenuActive = !pauseMenuActive;  // Toggle pause Menu status
 
         // Toggle the pause state between paused and unpaused
         //isPaused = !isPaused;
@@ -103,6 +107,7 @@ public class PauseMenu_Script : MonoBehaviour
     /// </summary>
     private void ClickedContinue()
     {
+        // Exits the pause menu
         ExitPauseMenu();
     }
 
@@ -111,8 +116,10 @@ public class PauseMenu_Script : MonoBehaviour
     /// </summary>
     private void ExitPauseMenu()
     {
-        IsPaused = false;
+        // Sets the game state to unpaused, resuming gameplay
+        IsPaused = false;  
 
+        // Sets the pause menu state
         pauseMenuActive = false;
 
         // Set the isPaused flag to false to indicate the game is no longer paused
@@ -133,9 +140,13 @@ public class PauseMenu_Script : MonoBehaviour
         // Load the previous scene based on the current scene's build index - 1
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
+        // Sets the game state to unpaused, resuming gameplay
         IsPaused = false;
+
+        // Deactivates the pause menu UI
         pauseMenuActive = false;
 
+        // Deactivates the inventory in the character controller
         Character_Controller.SetInventoryActive(false);
     }
 }

@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
+/// <summary>
+/// The Code of the Credits_Script was written by: Wendt Hendrik
+/// </summary>
 public class Credits_Script : MonoBehaviour
 {
     public float scrollSpeed = 70f;       // Speed of scrolling

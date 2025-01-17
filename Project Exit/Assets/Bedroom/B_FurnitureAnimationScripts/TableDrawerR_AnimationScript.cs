@@ -55,11 +55,11 @@ public class TableDrawerR_AnimationScript : InteractableObject
             isOpen = !isOpen;
 
             // Provide feedback for the interaction
-            Debug.Log($"The drawer is now {(isOpen ? "open" : "closed")}.");
+            //Debug.Log($"The drawer is now {(isOpen ? "open" : "closed")}.");
         }
         else
         {
-            Debug.Log("The drawer is already moving.");
+            //Debug.Log("The drawer is already moving.");
         }
 
     }

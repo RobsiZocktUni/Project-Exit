@@ -4,6 +4,7 @@ using UnityEngine;
 
 /// <summary>
 /// Main Code of the DollhouseHD_AnimationScript was written by: Wendt Hendrik
+/// parts from Hartmann Lennart are marked as regions
 /// </summary>
 public class DollhouseHD_AnimationScript : MonoBehaviour
 {
@@ -57,8 +58,8 @@ public class DollhouseHD_AnimationScript : MonoBehaviour
             triggerdoor.Post(gameObject);
             #endregion
 
-    //Toggle the isOpen flag to reflect the new state
-    isOpen = !isOpen;
+            //Toggle the isOpen flag to reflect the new state
+            isOpen = !isOpen;
 
              //Provide feedback for the interaction
             Debug.Log($"The door is now {(isOpen ? "open" : "closed")}.");

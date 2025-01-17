@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Main Code of the TileSkript2_0 was written by: Wendt Hendrik
+/// The Code of the TileSkript2_0 was written by: Wendt Hendrik
 /// </summary>
 public class TileSkript2_0 : MonoBehaviour
 {

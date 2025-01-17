@@ -4,12 +4,14 @@ using UnityEngine;
 
 /// <summary>
 /// Main Code of the BoxAnimationSkript was written by: Wendt Hendrik
+/// Parts of Hartmann Lennart are marked as regions
 /// </summary>
 public class BoxAnimationSkript : MonoBehaviour
 {
     #region CodeFromLennart
     public AK.Wwise.Event triggerMoveTop;
     #endregion
+
     private Vector3 from = new Vector3(-68.0f, 2.105f, 29.363f);  // The initial position of the box before animation starts
     private Vector3 to = new Vector3(-67.45f, 2.105f, 29.363f);  // The target position of the box after the animation finishes
 
@@ -25,7 +27,10 @@ public class BoxAnimationSkript : MonoBehaviour
         // If the box is already animating, exit the function to avoid starting a new animation
         if (isAnimating) return;
 
+        #region CodeFrom: Hartmann Lennart
         triggerMoveTop.Post(gameObject);
+        #endregion
+
         // Start the animation coroutine to move the box to the target position
         StartCoroutine(MoveToPos(to, timeInSec));
     }

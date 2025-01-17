@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// The Code of this script was written by: Wendt Hendrik, Hartmann Lennart and Beck Jonas
+/// Part of every person are marked as regions
+/// </summary>
 public class DollhouseDoorL_AnimationScript : InteractableObject
 {
     #region CodeFromLennart
@@ -21,7 +25,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
 
     private Quaternion openRotation;  // Initial rotation of the door (open)
 
-    private bool isOpen = false;  // Flag indicating whether the drawer is currently open
+    private bool isOpen = false;  // Flag indicating whether the door is currently open
 
     private bool isAnimating = false;  // Flag indicating whether the animation is currently playing
 
@@ -77,7 +81,7 @@ public class DollhouseDoorL_AnimationScript : InteractableObject
                 {
                     if (!isOpen)
                     {
-                        // Start the animation to move the drawer to the open or closed position
+                        // Start the animation to move the door to the open or closed position
                         StartCoroutine(RotateDoor(isOpen ? closedRotation : openRotation));
                     }
 

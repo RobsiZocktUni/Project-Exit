@@ -38,7 +38,10 @@ public class EndAnimation_Script : InteractableObject
             characterController.DisableControls();
             Debug.Log("Animation wurde ausgelöst");
 
+            // Locks the mouse cursor to the center of the screen, preventing it from moving freely
             Cursor.lockState = CursorLockMode.Locked;
+
+            // Hides the mouse cursor, making it invisible during the end scene
             Cursor.visible = false;
 
             // Start the coroutine to delay the scene change
@@ -62,13 +65,16 @@ public class EndAnimation_Script : InteractableObject
         // Load the Homescreen Scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
+        // Enables the mouse cursor 
         Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
 
+        // Makes the mouse cursor visible on the screen
+        Cursor.visible = true;
+        
         gameEnded = false;
 
-        // Alternatively: Load the scene named "Homescreen"
-        // Ensure "Homescreen" is added to the Build Settings in Unity for this to work
+        // Alternatively: Load the scene named "Credits"
+        // Ensure "Credits" is added to the Build Settings in Unity for this to work
         // SceneManager.LoadScene("Credits");
     }
 

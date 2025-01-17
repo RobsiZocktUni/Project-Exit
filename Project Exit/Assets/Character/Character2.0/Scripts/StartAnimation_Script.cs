@@ -14,6 +14,7 @@ public class StartAnimation_Script : MonoBehaviour
     public Fade_Script fade;
     public GameObject FadeManager;
 
+    // Tracks whether all animations have completed
     public static bool animationsDone { get; private set; } = false;
 
     /// <summary>
