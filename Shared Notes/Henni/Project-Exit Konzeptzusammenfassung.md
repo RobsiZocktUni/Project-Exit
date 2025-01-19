@@ -1,4 +1,4 @@
-# Project Exit GDD
+# Project Exit Konzeptzusammenfassung
 
 ## Inhaltsverzeichnis
 1. Inhalt  
