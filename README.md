@@ -77,8 +77,12 @@ repository](https://github.com/RobsizocktUni/Project-Exit).
 
 ## Authors
 
-  - **[Lennart Hartmann](https://www.github.com/RobsizocktUni)** - *initial Setup* 
-  - **[Hendrik Wendt](https://www.github.com/thisishenni)** - *content will be added in future*
+  - **[Lennart Hartmann](https://www.github.com/RobsizocktUni)** 
+  - **[Hendrik Wendt](https://www.github.com/thisishenni)** 
+  - **[Lena Weiland](https://github.com/Neya87)** 
+  - **[Jonas Beck](https://github.com/JBeckSolutions)** 
+  - **[Jasmin Smyczek](https://github.com/MonteMuffin)** 
+  - **[Franziska Meinzl](https://github.com/FMelzl)** 
 
 See also the list of
 [contributors](https://github.com/RobsizocktUni/Project-Exit/contributors)
