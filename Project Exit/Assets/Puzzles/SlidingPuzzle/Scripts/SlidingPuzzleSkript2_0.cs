@@ -19,7 +19,7 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
     public TextMeshProUGUI skipPuzzleText;  // UI element that shows the skip message
     public GameObject puzzleCanvas;  // Canvas containing Ui-Elements of the puzzle
     public Collider textCollider;  // Collider that is used to trigger the skip text
-    public TextMeshProUGUI skipInfoText;  // UI Info for the skip info message
+    //public TextMeshProUGUI skipInfoText;  // UI Info for the skip info message
 
     #region CodeFrom HartmannLennart
     public AK.Wwise.Event triggerTileSlide; //Object that needs to be triggerd in order to play steps
@@ -57,11 +57,11 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         }
 
         // Initialize the skip info text
-        if (skipInfoText != null)
-        {
-            skipInfoText.text = "";  // Hide the text initially
-            skipInfoText.gameObject.SetActive(false);  // Ensure the text is not visible ate the start
-        }
+        //if (skipInfoText != null)
+        //{
+        //    skipInfoText.text = "";  // Hide the text initially
+        //    skipInfoText.gameObject.SetActive(false);  // Ensure the text is not visible ate the start
+        //}
 
     }
 
@@ -108,21 +108,21 @@ public class SlidingPuzzleSkript2_0 : MonoBehaviour
         }
 
         // Handles the text for the first 25 moves (only if the player is in the trigger zone)
-        if (playerNearby && moveCounter <= skipInfoCounter) // 
-        {
-            if (skipInfoText != null)
-            {
-                skipInfoText.gameObject.SetActive(true);  // Show the text
-                skipInfoText.text = "The puzzle will be skippable";
-            }
-        }
-        else
-        {
-            if (skipInfoText != null)
-            {
-                skipInfoText.gameObject.SetActive(false);  // Hide the text
-            }
-        }
+        //if (playerNearby && moveCounter <= skipInfoCounter) // 
+        //{
+        //    if (skipInfoText != null)
+        //    {
+        //        skipInfoText.gameObject.SetActive(true);  // Show the text
+        //        skipInfoText.text = "The puzzle will be skippable";
+        //    }
+        //}
+        //else
+        //{
+        //    if (skipInfoText != null)
+        //    {
+        //        skipInfoText.gameObject.SetActive(false);  // Hide the text
+        //    }
+        //}
 
         // Allows the player to skip the puzzle only if they are in the trigger zone and have made enough moves
         if (playerNearby)
